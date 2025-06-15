@@ -13,7 +13,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockAttractions } from "@/data/attractions";
+import { getMockAttractions } from "@/data/attractions";
 import { formatToSlug } from "@/lib/utils/format";
 import { Label } from "@radix-ui/react-label";
 import {
@@ -50,29 +50,38 @@ export default function AttractionDetailsPage() {
   const params = useParams();
   const { formatPrice } = useCurrency();
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
+  const [attractions, setAttractions] = useState<any[]>([]);
+  const [currentAttraction, setCurrentAttraction] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
   // Find attraction by URL param
   const attractionSlug = params.attraction as string;
-  const initialAttraction = mockAttractions.find(
-    (attraction) => formatToSlug(attraction.name) === attractionSlug
-  );
 
-  const [currentAttraction, setCurrentAttraction] = useState(initialAttraction);
-
-  // Update current attraction when URL param changes
   useEffect(() => {
-    const foundAttraction = mockAttractions.find(
-      (attraction) => formatToSlug(attraction.name) === attractionSlug
-    );
-    console.log("Found attraction:", foundAttraction);
-    setCurrentAttraction(foundAttraction);
-    setSelectedImageIndex(0); // Reset image index when attraction changes
+    const fetchData = async () => {
+      try {
+        const attractionsData = await getMockAttractions();
+        setAttractions(attractionsData);
+
+        // Find the attraction by slug
+        const foundAttraction = attractionsData.find(
+          (attraction: any) => formatToSlug(attraction.name) === attractionSlug
+        );
+        setCurrentAttraction(foundAttraction);
+      } catch (error) {
+        console.error("Error fetching attraction data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
   }, [attractionSlug]);
 
   // Handle attraction change from selector
   const handleAttractionChange = (newAttractionId: string) => {
-    const newAttraction = mockAttractions.find(
-      (attraction) => attraction.id === newAttractionId
+    const newAttraction = attractions.find(
+      (attraction: any) => attraction.id === newAttractionId
     );
     if (newAttraction) {
       const newSlug = formatToSlug(newAttraction.name);
@@ -80,6 +89,19 @@ export default function AttractionDetailsPage() {
       router.replace(`/attractions/${newSlug}`, { scroll: false });
     }
   };
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">
+            Loading attraction details...
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!currentAttraction) {
     return (
@@ -117,7 +139,7 @@ export default function AttractionDetailsPage() {
                 <SelectValue placeholder="Select an attraction" />
               </SelectTrigger>
               <SelectContent>
-                {mockAttractions.map((attraction) => (
+                {attractions.map((attraction: any) => (
                   <SelectItem
                     key={attraction.id}
                     value={attraction.id}
@@ -240,7 +262,7 @@ export default function AttractionDetailsPage() {
                         <h4 className="font-semibold">Best Time to Visit</h4>
                         <div className="flex flex-wrap gap-2">
                           {currentAttraction.bestTimeToVisit.map(
-                            (time, index) => (
+                            (time: string, index: number) => (
                               <Badge key={index} variant="outline">
                                 {time}
                               </Badge>
@@ -268,7 +290,7 @@ export default function AttractionDetailsPage() {
                         <h4 className="mb-3 font-semibold">Transportation</h4>
                         <ul className="space-y-2 text-sm">
                           {currentAttraction.transportation.publicTransport.map(
-                            (transport, index) => (
+                            (transport: any, index: number) => (
                               <li
                                 key={index}
                                 className="flex items-center gap-2"
@@ -291,7 +313,7 @@ export default function AttractionDetailsPage() {
                         <h4 className="mb-3 font-semibold">Walking Distance</h4>
                         <div className="space-y-2 text-sm">
                           {currentAttraction.transportation.walkingDistance.map(
-                            (distance, index) => (
+                            (distance: string, index: number) => (
                               <div key={index}>{distance}</div>
                             )
                           )}
@@ -467,7 +489,7 @@ export default function AttractionDetailsPage() {
                       </div>
                       <ul className="space-y-2 text-sm">
                         {currentAttraction.restrictions.map(
-                          (restriction, index) => (
+                          (restriction: string, index: number) => (
                             <li key={index} className="flex items-start gap-2">
                               <IoClose className="w-5 h-5 text-red-500" />
                               {restriction}
@@ -487,15 +509,17 @@ export default function AttractionDetailsPage() {
                       Features & Highlights
                     </div>
                     <div className="gap-2 grid grid-cols-1 md:grid-cols-2">
-                      {currentAttraction.features.map((feature, index) => (
-                        <div
-                          key={index}
-                          className="flex items-center gap-2 bg-muted p-2 rounded-lg"
-                        >
-                          <Camera className="w-4 h-4 text-blue-500" />
-                          <span className="text-sm">{feature}</span>
-                        </div>
-                      ))}
+                      {currentAttraction.features.map(
+                        (feature: string, index: number) => (
+                          <div
+                            key={index}
+                            className="flex items-center gap-2 bg-muted p-2 rounded-lg"
+                          >
+                            <Camera className="w-4 h-4 text-blue-500" />
+                            <span className="text-sm">{feature}</span>
+                          </div>
+                        )
+                      )}
                     </div>
                   </div>
                 </Card>
@@ -504,37 +528,39 @@ export default function AttractionDetailsPage() {
                   <div className="px-6">
                     <div className="mb-4 font-semibold text-lg">Amenities</div>
                     <div className="gap-2 grid grid-cols-1 md:grid-cols-2">
-                      {currentAttraction.amenities.map((amenity, index) => (
-                        <div key={index} className="flex items-center gap-2">
-                          {amenity.toLowerCase().includes("wifi") && (
-                            <Wifi className="w-4 h-4 text-primary" />
-                          )}
-                          {amenity.toLowerCase().includes("shop") && (
-                            <ShoppingBag className="w-4 h-4 text-primary" />
-                          )}
-                          {amenity.toLowerCase().includes("cafe") && (
-                            <Coffee className="w-4 h-4 text-primary" />
-                          )}
-                          {amenity.toLowerCase().includes("food") && (
-                            <FaUtensils className="w-4 h-4 text-tertiary" />
-                          )}
-                          {amenity.toLowerCase().includes("restroom") && (
-                            <FaRestroom className="w-4 h-4 text-primary" />
-                          )}
-                          {amenity.toLowerCase().includes("bike") && (
-                            <FaBiking className="w-4 h-4 text-secondary" />
-                          )}
-                          {!amenity.toLowerCase().includes("wifi") &&
-                            !amenity.toLowerCase().includes("shop") &&
-                            !amenity.toLowerCase().includes("cafe") &&
-                            !amenity.toLowerCase().includes("food") &&
-                            !amenity.toLowerCase().includes("restroom") &&
-                            !amenity.toLowerCase().includes("bike") && (
-                              <FaCheck className="w-4 h-4 text-tertiary"></FaCheck>
+                      {currentAttraction.amenities.map(
+                        (amenity: string, index: number) => (
+                          <div key={index} className="flex items-center gap-2">
+                            {amenity.toLowerCase().includes("wifi") && (
+                              <Wifi className="w-4 h-4 text-primary" />
                             )}
-                          <span className="text-sm">{amenity}</span>
-                        </div>
-                      ))}
+                            {amenity.toLowerCase().includes("shop") && (
+                              <ShoppingBag className="w-4 h-4 text-primary" />
+                            )}
+                            {amenity.toLowerCase().includes("cafe") && (
+                              <Coffee className="w-4 h-4 text-primary" />
+                            )}
+                            {amenity.toLowerCase().includes("food") && (
+                              <FaUtensils className="w-4 h-4 text-tertiary" />
+                            )}
+                            {amenity.toLowerCase().includes("restroom") && (
+                              <FaRestroom className="w-4 h-4 text-primary" />
+                            )}
+                            {amenity.toLowerCase().includes("bike") && (
+                              <FaBiking className="w-4 h-4 text-secondary" />
+                            )}
+                            {!amenity.toLowerCase().includes("wifi") &&
+                              !amenity.toLowerCase().includes("shop") &&
+                              !amenity.toLowerCase().includes("cafe") &&
+                              !amenity.toLowerCase().includes("food") &&
+                              !amenity.toLowerCase().includes("restroom") &&
+                              !amenity.toLowerCase().includes("bike") && (
+                                <FaCheck className="w-4 h-4 text-tertiary"></FaCheck>
+                              )}
+                            <span className="text-sm">{amenity}</span>
+                          </div>
+                        )
+                      )}
                     </div>
                   </div>
                 </Card>
@@ -621,7 +647,7 @@ export default function AttractionDetailsPage() {
                       <h4 className="font-semibold">Review Highlights</h4>
                       <div className="space-y-2">
                         {currentAttraction.reviews.highlights.map(
-                          (highlight, index) => (
+                          (highlight: string, index: number) => (
                             <div key={index} className="flex items-start gap-2">
                               <FaStar className="w-5 h-5"></FaStar>
                               <span className="text-sm">{highlight}</span>
@@ -723,7 +749,7 @@ export default function AttractionDetailsPage() {
               <div className="px-6">
                 <div className="mb-4 font-semibold text-lg">Tags</div>
                 <div className="flex flex-wrap gap-2">
-                  {currentAttraction.tags.map((tag, index) => (
+                  {currentAttraction.tags.map((tag: string, index: number) => (
                     <Badge key={index} variant="outline" className="text-xs">
                       {tag}
                     </Badge>
