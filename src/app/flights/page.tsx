@@ -603,7 +603,7 @@ export default function FlightsPage() {
                             defaultMonth={departureDate}
                             selected={departureDate}
                             onSelect={setDepartureDate}
-                            captionLayout={dropdown}
+                            captionLayout={"dropdown"}
                             disabled={(date) => {
                               const today = new Date();
                               today.setHours(0, 0, 0, 0);
