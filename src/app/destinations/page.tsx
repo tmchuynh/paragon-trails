@@ -1,965 +1,275 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Skeleton } from "@/components/ui/skeleton";
 import {
-  Pagination,
-  PaginationContent,
-  PaginationEllipsis,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Slider } from "@/components/ui/slider";
-import { useCurrency } from "@/context/CurrencyContext";
-import { getMockDestinations } from "@/data/destinations";
-import { Destination } from "@/lib/interfaces/services/destinations";
-import {
-  Calendar,
-  Filter,
-  MapPin,
-  RotateCcw,
-  Search,
-  Thermometer,
-  Users,
-} from "lucide-react";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+  getDestinationCountriesByRegion,
+  searchDestinations,
+  type Country,
+} from "@/lib/api/destinations";
+import { Globe, MapPin, Search, Star, Users } from "lucide-react";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 export default function DestinationsPage() {
-  const router = useRouter();
-  const { formatPrice } = useCurrency();
-  const [destinations, setDestinations] = useState<Destination[]>([]);
+  const [countriesByRegion, setCountriesByRegion] = useState<
+    Record<string, Country[]>
+  >({});
   const [loading, setLoading] = useState(true);
+  const [searchQuery, setSearchQuery] = useState("");
+  const [searchResults, setSearchResults] = useState<{
+    countries: Country[];
+    cities: Array<{ city: any; country: Country }>;
+  }>({ countries: [], cities: [] });
+  const [searching, setSearching] = useState(false);
 
   useEffect(() => {
-    const fetchData = async () => {
+    async function loadDestinations() {
       try {
-        const [destinationsData] = await Promise.all([getMockDestinations()]);
-        setDestinations(destinationsData);
+        const data = await getDestinationCountriesByRegion();
+        setCountriesByRegion(data);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error loading destinations:", error);
       } finally {
         setLoading(false);
       }
-    };
+    }
 
-    fetchData();
+    loadDestinations();
   }, []);
 
-  const [filteredDestinations, setFilteredDestinations] =
-    useState<Destination[]>(destinations);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCountry, setSelectedCountry] = useState<string>("all");
-  const [selectedContinent, setSelectedContinent] = useState<string>("all");
-  const [selectedRegion, setSelectedRegion] = useState<string>("all");
-  const [selectedLanguage, setSelectedLanguage] = useState<string>("all");
-  const [selectedCuisine, setSelectedCuisine] = useState<string>("all");
-  const [selectedSafetyLevel, setSelectedSafetyLevel] = useState<string>("all");
-  const [selectedTag, setSelectedTag] = useState<string>("all");
-  const [visaRequired, setVisaRequired] = useState<string>("all");
-  const [selectedTimezone, setSelectedTimezone] = useState<string>("all");
-
-  // Calculate min and max prices from destinations data
-  const minPrice = Math.min(
-    ...destinations.map(
-      (destination) => destination.pricing?.averageDailyBudget || 50
-    )
-  );
-  const maxPrice = Math.max(
-    ...destinations.map(
-      (destination) => destination.pricing?.averageDailyBudget || 500
-    )
-  );
-
-  const [budgetRange, setBudgetRange] = useState([minPrice, maxPrice]);
-  const [sortBy, setSortBy] = useState<string>("name");
-  const [showFilters, setShowFilters] = useState(false);
-
-  // Pagination state
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(8);
-
-  // Get unique values for filters
-  const countries = [
-    { value: "all", label: "All Countries" },
-    ...Array.from(new Set(destinations.map((dest) => dest.country)))
-      .sort()
-      .map((country) => ({ value: country, label: country })),
-  ];
-
-  const continents = [
-    { value: "all", label: "All Continents" },
-    ...Array.from(
-      new Set(destinations.map((dest) => dest.continent).filter(Boolean))
-    )
-      .sort()
-      .map((continent) => ({ value: continent!, label: continent! })),
-  ];
-
-  const regions = [
-    { value: "all", label: "All Regions" },
-    ...Array.from(
-      new Set(destinations.map((dest) => dest.region).filter(Boolean))
-    )
-      .sort()
-      .map((region) => ({ value: region, label: region })),
-  ];
-
-  const languages = [
-    { value: "all", label: "All Languages" },
-    ...Array.from(new Set(destinations.flatMap((dest) => dest.language || [])))
-      .sort()
-      .map((language) => ({ value: language, label: language })),
-  ];
-
-  const cuisines = [
-    { value: "all", label: "All Cuisines" },
-    ...Array.from(new Set(destinations.flatMap((dest) => dest.cuisine || [])))
-      .sort()
-      .map((cuisine) => ({ value: cuisine, label: cuisine })),
-  ];
-
-  const safetyLevels = [
-    { value: "all", label: "All Safety Levels" },
-    ...Array.from(
-      new Set(destinations.map((dest) => dest.safety?.level).filter(Boolean))
-    )
-      .sort()
-      .map((level) => ({ value: level, label: level })),
-  ];
-
-  const tags = [
-    { value: "all", label: "All Tags" },
-    ...Array.from(new Set(destinations.flatMap((dest) => dest.tags || [])))
-      .sort()
-      .map((tag) => ({ value: tag, label: tag })),
-  ];
-
-  const timezones = [
-    { value: "all", label: "All Timezones" },
-    ...Array.from(
-      new Set(destinations.map((dest) => dest.timezone).filter(Boolean))
-    )
-      .sort()
-      .map((timezone) => ({ value: timezone, label: timezone })),
-  ];
-
-  const handleSearch = () => {
-    let filtered = destinations;
-
-    // Filter by search query
-    if (searchQuery) {
-      filtered = filtered.filter(
-        (destination) =>
-          destination.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          destination.country
-            .toLowerCase()
-            .includes(searchQuery.toLowerCase()) ||
-          destination.description
-            .toLowerCase()
-            .includes(searchQuery.toLowerCase())
-      );
-    }
-
-    // Filter by country
-    if (selectedCountry !== "all") {
-      filtered = filtered.filter((dest) => dest.country === selectedCountry);
-    }
-
-    // Filter by continent
-    if (selectedContinent !== "all") {
-      filtered = filtered.filter(
-        (dest) => dest.continent === selectedContinent
-      );
-    }
-
-    // Filter by region
-    if (selectedRegion !== "all") {
-      filtered = filtered.filter((dest) => dest.region === selectedRegion);
-    }
-
-    // Filter by language
-    if (selectedLanguage !== "all") {
-      filtered = filtered.filter((dest) =>
-        dest.language?.includes(selectedLanguage)
-      );
-    }
-
-    // Filter by cuisine
-    if (selectedCuisine !== "all") {
-      filtered = filtered.filter((dest) =>
-        dest.cuisine?.includes(selectedCuisine)
-      );
-    }
-
-    // Filter by safety level
-    if (selectedSafetyLevel !== "all") {
-      filtered = filtered.filter(
-        (dest) => dest.safety?.level === selectedSafetyLevel
-      );
-    }
-
-    // Filter by tag
-    if (selectedTag !== "all") {
-      filtered = filtered.filter((dest) => dest.tags?.includes(selectedTag));
-    }
-
-    // Filter by visa requirement
-    if (visaRequired !== "all") {
-      const isRequired = visaRequired === "true";
-      filtered = filtered.filter((dest) => dest.visa?.required === isRequired);
-    }
-
-    // Filter by timezone
-    if (selectedTimezone !== "all") {
-      filtered = filtered.filter((dest) => dest.timezone === selectedTimezone);
-    }
-
-    // Filter by budget range
-    filtered = filtered.filter(
-      (dest) =>
-        (dest.pricing?.averageDailyBudget || 100) >= budgetRange[0] &&
-        (dest.pricing?.averageDailyBudget || 100) <= budgetRange[1]
-    );
-
-    // Sort results
-    filtered = filtered.sort((a, b) => {
-      switch (sortBy) {
-        case "name":
-          return a.name.localeCompare(b.name);
-        case "price-low":
-          return (
-            (a.pricing?.averageDailyBudget || 100) -
-            (b.pricing?.averageDailyBudget || 100)
-          );
-        case "price-high":
-          return (
-            (b.pricing?.averageDailyBudget || 100) -
-            (a.pricing?.averageDailyBudget || 100)
-          );
-        case "rating":
-          // Use a default rating if not available
-          const ratingA = (a as any).rating || 0;
-          const ratingB = (b as any).rating || 0;
-          return ratingB - ratingA;
-        default:
-          return a.name.localeCompare(b.name);
+  useEffect(() => {
+    async function performSearch() {
+      if (!searchQuery.trim()) {
+        setSearchResults({ countries: [], cities: [] });
+        return;
       }
-    });
 
-    setFilteredDestinations(filtered);
-  };
-
-  const resetFilters = () => {
-    setSearchQuery("");
-    setSelectedCountry("all");
-    setSelectedContinent("all");
-    setSelectedRegion("all");
-    setSelectedLanguage("all");
-    setSelectedCuisine("all");
-    setSelectedSafetyLevel("all");
-    setSelectedTag("all");
-    setVisaRequired("all");
-    setSelectedTimezone("all");
-    setBudgetRange([minPrice, maxPrice]);
-  };
-
-  // Auto-filter when any filter changes
-  useEffect(() => {
-    handleSearch();
-    // Reset to page 1 when filters change
-    setCurrentPage(1);
-  }, [
-    searchQuery,
-    selectedCountry,
-    selectedContinent,
-    selectedRegion,
-    selectedLanguage,
-    selectedCuisine,
-    selectedSafetyLevel,
-    selectedTag,
-    visaRequired,
-    selectedTimezone,
-    budgetRange,
-    sortBy,
-  ]);
-
-  // Reset to page 1 when items per page changes
-  useEffect(() => {
-    setCurrentPage(1);
-  }, [itemsPerPage]);
-
-  // Set responsive filter visibility
-  useEffect(() => {
-    const handleResize = () => {
-      // Show filters by default on large screens (lg breakpoint is 1024px)
-      if (window.innerWidth >= 1024) {
-        setShowFilters(true);
-      } else {
-        setShowFilters(false);
+      setSearching(true);
+      try {
+        const results = await searchDestinations({
+          query: searchQuery,
+          type: "both",
+          limit: 10,
+        });
+        setSearchResults(results);
+      } catch (error) {
+        console.error("Error searching destinations:", error);
+        setSearchResults({ countries: [], cities: [] });
+      } finally {
+        setSearching(false);
       }
-    };
+    }
 
-    // Set initial state
-    handleResize();
+    const debounceTimer = setTimeout(performSearch, 300);
+    return () => clearTimeout(debounceTimer);
+  }, [searchQuery]);
 
-    // Add event listener
-    window.addEventListener("resize", handleResize);
+  const hasSearchResults =
+    searchResults.countries.length > 0 || searchResults.cities.length > 0;
 
-    // Cleanup
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
-
-  // Calculate pagination
-  const totalPages = Math.ceil(filteredDestinations.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedDestinations = filteredDestinations.slice(
-    startIndex,
-    endIndex
-  );
-
-  const handlePageChange = (page: number) => {
-    setCurrentPage(page);
-    // Scroll to top of results
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
+  if (loading) {
+    return <Loading />;
+  }
 
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
         {/* Header */}
-        <div className="mb-12 text-center">
-          <h1 className="mb-4 font-bold text-4xl text-slate-900 dark:text-white">
-            Discover Amazing Destinations
+        <div className="mb-8 text-center">
+          <h1 className="flex justify-center items-center gap-2 mb-4 font-bold text-4xl">
+            <Globe className="w-8 h-8" />
+            Explore Destinations
           </h1>
-          <p className="mx-auto max-w-3xl text-lg text-slate-600 dark:text-slate-400">
-            Explore handpicked destinations around the world. From vibrant
-            cities to peaceful retreats, find your perfect travel experience.
+          <p className="text-muted-foreground text-xl">
+            Discover amazing places around the world and plan your next
+            adventure
           </p>
         </div>
-
-        {/* Top Filters */}
-        <Card className="mb-8">
-          <div className="p-6">
-            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
-              {/* Country */}
-              <div className="space-y-2">
-                <Label htmlFor="country">Country</Label>
-                <div className="relative">
-                  <MapPin className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                  <Select
-                    value={selectedCountry}
-                    onValueChange={setSelectedCountry}
-                  >
-                    <SelectTrigger
-                      className="pl-10 border border-border w-full"
-                      variant="professional"
-                    >
-                      <SelectValue placeholder="Select country" />
-                    </SelectTrigger>
-                    <SelectContent
-                      className="w-full max-h-60"
-                      variant="professional"
-                    >
-                      {countries.map((country) => (
-                        <SelectItem
-                          key={country.value}
-                          value={country.value}
-                          variant="classic"
-                        >
-                          {country.label}
-                        </SelectItem>
-                      ))}
-                    </SelectContent>
-                  </Select>
-                </div>
-              </div>
-
-              {/* Continent */}
-              <div className="space-y-2">
-                <Label htmlFor="continent">Continent</Label>
-                <Select
-                  value={selectedContinent}
-                  onValueChange={setSelectedContinent}
-                >
-                  <SelectTrigger className="border border-border w-full">
-                    <SelectValue placeholder="Select continent" />
-                  </SelectTrigger>
-                  <SelectContent
-                    className="w-full max-h-60"
-                    variant="professional"
-                  >
-                    {continents.map((continent) => (
-                      <SelectItem
-                        key={continent.value}
-                        value={continent.value}
-                        variant="classic"
-                      >
-                        {continent.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Region */}
-              <div className="space-y-2">
-                <Label htmlFor="region">Region</Label>
-                <Select
-                  value={selectedRegion}
-                  onValueChange={setSelectedRegion}
-                >
-                  <SelectTrigger className="border border-border w-full">
-                    <SelectValue placeholder="Select region" />
-                  </SelectTrigger>
-                  <SelectContent
-                    className="w-full max-h-60"
-                    variant="professional"
-                  >
-                    {regions.map((region) => (
-                      <SelectItem
-                        key={region.value}
-                        value={region.value}
-                        variant="classic"
-                      >
-                        {region.label}
-                      </SelectItem>
-                    ))}
-                  </SelectContent>
-                </Select>
-              </div>
-
-              {/* Reset Filters Button */}
-              <div className="flex items-end">
-                <Button
-                  onClick={resetFilters}
-                  variant="outline"
-                  className="m-0 p-0 w-full"
-                >
-                  <RotateCcw className="mr-2 w-4 h-4" />
-                  Reset Filters
-                </Button>
-              </div>
-            </div>
-          </div>
-        </Card>
-
-        <div
-          className={`gap-8 grid grid-cols-1 ${showFilters ? "lg:grid-cols-4" : "lg:grid-cols-1"}`}
-        >
-          {/* Filters Sidebar */}
-          {showFilters && (
-            <div className="space-y-6 lg:col-span-1">
-              <Card className="p-0">
-                <div className="p-6">
-                  <div className="flex items-center gap-2 mb-4">
-                    <Filter className="w-5 h-5" />
-                    <h3 className="font-semibold text-lg">Filters</h3>
-                  </div>
-
-                  <div className="space-y-6">
-                    {/* Search by Name */}
-                    <div className="space-y-2">
-                      <Label>Search Destinations</Label>
-                      <div className="relative">
-                        <Search className="top-1/2 left-3 absolute w-4 h-4 text-gray-400 transform -translate-y-1/2" />
-                        <Input
-                          placeholder="Paris, Tokyo, New York..."
-                          value={searchQuery}
-                          onChange={(e) => setSearchQuery(e.target.value)}
-                          className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
-                        />
-                      </div>
-                    </div>
-
-                    {/* Language */}
-                    <div className="space-y-2">
-                      <Label>Language</Label>
-                      <Select
-                        value={selectedLanguage}
-                        onValueChange={setSelectedLanguage}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select language" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          {languages.map((language) => (
-                            <SelectItem
-                              key={language.value}
-                              value={language.value}
-                              variant="classic"
-                            >
-                              {language.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Cuisine */}
-                    <div className="space-y-2">
-                      <Label>Cuisine</Label>
-                      <Select
-                        value={selectedCuisine}
-                        onValueChange={setSelectedCuisine}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select cuisine" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          {cuisines.map((cuisine) => (
-                            <SelectItem
-                              key={cuisine.value}
-                              value={cuisine.value}
-                              variant="classic"
-                            >
-                              {cuisine.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Safety Level */}
-                    <div className="space-y-2">
-                      <Label>Safety Level</Label>
-                      <Select
-                        value={selectedSafetyLevel}
-                        onValueChange={setSelectedSafetyLevel}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select safety level" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          {safetyLevels.map((level) => (
-                            <SelectItem
-                              key={level.value}
-                              value={level.value}
-                              variant="classic"
-                            >
-                              {level.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Tags */}
-                    <div className="space-y-2">
-                      <Label>Tags</Label>
-                      <Select
-                        value={selectedTag}
-                        onValueChange={setSelectedTag}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select tag" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          {tags.map((tag) => (
-                            <SelectItem
-                              key={tag.value}
-                              value={tag.value}
-                              variant="classic"
-                            >
-                              {tag.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Visa Required */}
-                    <div className="space-y-2">
-                      <Label>Visa Required</Label>
-                      <Select
-                        value={visaRequired}
-                        onValueChange={setVisaRequired}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Visa requirement" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          <SelectItem value="all" variant="classic">
-                            Any
-                          </SelectItem>
-                          <SelectItem value="true" variant="classic">
-                            Visa Required
-                          </SelectItem>
-                          <SelectItem value="false" variant="classic">
-                            No Visa Required
-                          </SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Timezone */}
-                    <div className="space-y-2">
-                      <Label>Timezone</Label>
-                      <Select
-                        value={selectedTimezone}
-                        onValueChange={setSelectedTimezone}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select timezone" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          {timezones.map((timezone) => (
-                            <SelectItem
-                              key={timezone.value}
-                              value={timezone.value}
-                              variant="classic"
-                            >
-                              {timezone.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
-
-                    {/* Budget Range */}
-                    <div className="space-y-2">
-                      <Label>Daily Budget Range</Label>
-                      <div className="px-2 py-4">
-                        <Slider
-                          value={budgetRange}
-                          onValueChange={setBudgetRange}
-                          max={maxPrice}
-                          min={minPrice}
-                          step={25}
-                          className="w-full"
-                        />
-                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                          <span>{formatPrice(budgetRange[0])}</span>
-                          <span>{formatPrice(budgetRange[1])}</span>
-                        </div>
-                      </div>
-                    </div>
-
-                    {/* Reset Filters Button */}
-                    <Button
-                      onClick={resetFilters}
-                      className="w-full"
-                      variant="outline"
-                    >
-                      <RotateCcw className="mr-2 w-4 h-4" />
-                      Reset Filters
-                    </Button>
-                  </div>
-                </div>
-              </Card>
-            </div>
-          )}
-
-          {/* Destinations Grid */}
-          <div className={showFilters ? "lg:col-span-3" : "lg:col-span-1"}>
-            <div className="flex md:flex-row flex-col justify-between items-center mb-6">
-              <div className="md:w-1/4 text-center text-slate-600 text-wrap md:text-start dark:text-slate-400">
-                {filteredDestinations.length} destination
-                {filteredDestinations.length !== 1 ? "s" : ""} found
-                {filteredDestinations.length > 0 && (
-                  <p>
-                    (Showing {startIndex + 1}-{" "}
-                    {Math.min(endIndex, filteredDestinations.length)} of{" "}
-                    {filteredDestinations.length})
-                  </p>
-                )}
-              </div>
-
-              <div className="flex md:flex-row flex-col items-center md:items-end gap-4 mt-2 md:mt-0 w-full md:w-auto">
-                {/* Items per page dropdown */}
-                <div className="flex flex-col items-center w-4/5 md:w-auto">
-                  <Label className="text-sm whitespace-nowrap">Show:</Label>
-                  <Select
-                    value={itemsPerPage.toString()}
-                    onValueChange={(value) => setItemsPerPage(Number(value))}
-                  >
-                    <SelectTrigger className="border border-border w-full md:w-20">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent
-                      className="w-full max-h-60"
-                      variant="professional"
-                    >
-                      <SelectItem value="4" variant="classic">
-                        4
-                      </SelectItem>
-                      <SelectItem value="8" variant="classic">
-                        8
-                      </SelectItem>
-                      <SelectItem value="12" variant="classic">
-                        12
-                      </SelectItem>
-                      <SelectItem value="16" variant="classic">
-                        16
-                      </SelectItem>
-                      <SelectItem value="24" variant="classic">
-                        24
-                      </SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                {/* Sort dropdown */}
-                <div className="flex flex-col items-center w-4/5 md:w-auto">
-                  <Label className="text-sm whitespace-nowrap">Sort By:</Label>
-                  <Select value={sortBy} onValueChange={setSortBy}>
-                    <SelectTrigger className="border border-border w-full md:w-48">
-                      <SelectValue />
-                    </SelectTrigger>
-                    <SelectContent
-                      className="w-full max-h-60"
-                      variant="professional"
-                    >
-                      <SelectItem value="name" variant="classic">
-                        Name (A-Z)
-                      </SelectItem>
-                      <SelectItem value="price-low" variant="classic">
-                        Budget: Low to High
-                      </SelectItem>
-                      <SelectItem value="price-high" variant="classic">
-                        Budget: High to Low
-                      </SelectItem>
-                    </SelectContent>
-                  </Select>
-                </div>
-
-                {/* Toggle Filters Button */}
-                <Button
-                  variant="outline"
-                  size="sm"
-                  onClick={() => setShowFilters(!showFilters)}
-                  className="flex items-center gap-2 m-0.5 w-4/5 md:w-auto"
-                >
-                  <Filter className="w-4 h-4" />
-                  {showFilters ? "Hide Filters" : "Show Filters"}
-                </Button>
-              </div>
-            </div>
-
-            {filteredDestinations.length === 0 ? (
-              <Card className="p-12 text-center">
-                <MapPin className="mx-auto mb-4 w-12 h-12 text-slate-400" />
-                <h3 className="mb-2 font-semibold text-slate-900 text-xl dark:text-white">
-                  No destinations found
-                </h3>
-                <p className="text-slate-600 dark:text-slate-400">
-                  Try adjusting your search criteria or filters to find
-                  available destinations.
-                </p>
-              </Card>
-            ) : (
-              <>
-                <div className="gap-6 grid grid-cols-1 xl:grid-cols-2">
-                  {paginatedDestinations.map((destination) => (
-                    <Card
-                      key={destination.id}
-                      className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
-                      onClick={() =>
-                        router.push(
-                          `/destinations/${destination.name.toLowerCase().replace(/\s+/g, "-")}`
-                        )
-                      }
-                    >
-                      <div className="relative h-64">
-                        <Image
-                          src={destination.images[0]}
-                          alt={destination.name}
-                          fill
-                          className="transition-transform group-hover:scale-105 object-cover"
-                        />
-                        <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
-                          {formatPrice(
-                            destination.pricing?.averageDailyBudget || 100
-                          )}
-                        </div>
-                        <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full font-medium text-sm text-white">
-                          <MapPin className="inline mr-1 w-3 h-3" />
-                          {destination.country}
-                        </div>
-                      </div>
-
-                      <div className="p-6">
-                        <h3 className="font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
-                          {destination.name}
-                        </h3>
-
-                        <p className="mb-4 text-slate-600 dark:text-slate-400 line-clamp-3">
-                          {destination.description}
-                        </p>
-
-                        <div className="flex flex-wrap gap-2 mb-4">
-                          <Badge variant="softPrimary" className="text-xs">
-                            <Thermometer className="mr-1 w-3 h-3" />
-                            {destination.climate.averageTemperature}°C
-                          </Badge>
-                          <Badge variant="softSuccess" className="text-xs">
-                            <Calendar className="mr-1 w-3 h-3" />
-                            {destination.bestTimeToVisit[0]}
-                          </Badge>
-                          <Badge variant="softSecondary" className="text-xs">
-                            <Users className="mr-1 w-3 h-3" />
-                            {destination.popularWith[0]}
-                          </Badge>
-                        </div>
-
-                        <div className="flex justify-between items-center">
-                          <div className="space-y-1">
-                            <p className="font-semibold text-slate-600 text-sm">
-                              From{" "}
-                              {formatPrice(
-                                destination.pricing?.averageDailyBudget || 100
-                              )}
-                              /day
-                            </p>
-                            <p className="text-slate-500 text-xs">
-                              Best season: {destination.bestTimeToVisit[0]}
-                            </p>
-                          </div>
-                        </div>
-                      </div>
-                    </Card>
-                  ))}
-                </div>
-
-                {/* Pagination Controls */}
-                {totalPages > 1 && (
-                  <div className="flex sm:flex-row flex-col justify-between items-center gap-4 mt-8">
-                    <Pagination>
-                      <PaginationContent>
-                        <PaginationItem>
-                          <PaginationPrevious
-                            onClick={() =>
-                              handlePageChange(Math.max(1, currentPage - 1))
-                            }
-                            className={
-                              currentPage === 1
-                                ? "pointer-events-none opacity-50"
-                                : "cursor-pointer"
-                            }
-                          />
-                        </PaginationItem>
-
-                        {/* First page */}
-                        {currentPage > 3 && (
-                          <>
-                            <PaginationItem>
-                              <PaginationLink
-                                onClick={() => handlePageChange(1)}
-                                className="cursor-pointer"
-                              >
-                                1
-                              </PaginationLink>
-                            </PaginationItem>
-                            {currentPage > 4 && (
-                              <PaginationItem>
-                                <PaginationEllipsis />
-                              </PaginationItem>
-                            )}
-                          </>
-                        )}
-
-                        {/* Current page and neighbors */}
-                        {Array.from({ length: totalPages }, (_, i) => i + 1)
-                          .filter(
-                            (page) =>
-                              page >= Math.max(1, currentPage - 2) &&
-                              page <= Math.min(totalPages, currentPage + 2)
-                          )
-                          .map((page) => (
-                            <PaginationItem key={page}>
-                              <PaginationLink
-                                onClick={() => handlePageChange(page)}
-                                isActive={currentPage === page}
-                                className="cursor-pointer"
-                              >
-                                {page}
-                              </PaginationLink>
-                            </PaginationItem>
-                          ))}
-
-                        {/* Last page */}
-                        {currentPage < totalPages - 2 && (
-                          <>
-                            {currentPage < totalPages - 3 && (
-                              <PaginationItem>
-                                <PaginationEllipsis />
-                              </PaginationItem>
-                            )}
-                            <PaginationItem>
-                              <PaginationLink
-                                onClick={() => handlePageChange(totalPages)}
-                                className="cursor-pointer"
-                              >
-                                {totalPages}
-                              </PaginationLink>
-                            </PaginationItem>
-                          </>
-                        )}
-
-                        <PaginationItem>
-                          <PaginationNext
-                            onClick={() =>
-                              handlePageChange(
-                                Math.min(totalPages, currentPage + 1)
-                              )
-                            }
-                            className={
-                              currentPage === totalPages
-                                ? "pointer-events-none opacity-50"
-                                : "cursor-pointer"
-                            }
-                          />
-                        </PaginationItem>
-                      </PaginationContent>
-                    </Pagination>
-
-                    {/* Page info and quick jump (only show if more than 5 pages) */}
-                    {totalPages > 5 && (
-                      <div className="flex items-center gap-3 text-slate-600 text-sm dark:text-slate-400">
-                        <span>
-                          Page {currentPage} of {totalPages}
-                        </span>
-                      </div>
-                    )}
-                  </div>
-                )}
-              </>
-            )}
+        {/* Search */}
+        <div className="mb-8">
+          <div className="relative mx-auto max-w-md">
+            <Search className="top-1/2 left-3 absolute w-4 h-4 text-muted-foreground transform -translate-y-1/2" />
+            <Input
+              placeholder="Search countries or cities..."
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
+            />
           </div>
         </div>
+        {/* Search Results */}
+        {searchQuery.trim() && (
+          <div className="mb-8">
+            <h2 className="mb-4 font-semibold text-2xl">Search Results</h2>
+            {searching ? (
+              <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                {[1, 2, 3, 4].map((i) => (
+                  <Skeleton key={i} className="h-32" />
+                ))}
+              </div>
+            ) : hasSearchResults ? (
+              <div className="space-y-6">
+                {/* Countries */}
+                {searchResults.countries.length > 0 && (
+                  <div>
+                    <h3 className="flex items-center gap-2 mb-2 font-medium text-lg">
+                      <Globe className="w-4 h-4" />
+                      Countries ({searchResults.countries.length})
+                    </h3>
+                    <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                      {searchResults.countries.map((country) => (
+                        <CountryCard key={country.iso2} country={country} />
+                      ))}
+                    </div>
+                  </div>
+                )}
+
+                {/* Cities */}
+                {searchResults.cities.length > 0 && (
+                  <div>
+                    <h3 className="flex items-center gap-2 mb-2 font-medium text-lg">
+                      <MapPin className="w-4 h-4" />
+                      Cities ({searchResults.cities.length})
+                    </h3>
+                    <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                      {searchResults.cities.map(({ city, country }) => (
+                        <CityCard
+                          key={`${city.id}-${country.iso2}`}
+                          city={city}
+                          country={country}
+                        />
+                      ))}
+                    </div>
+                  </div>
+                )}
+              </div>
+            ) : (
+              <div className="py-8 text-center">
+                <MapPin className="mx-auto mb-2 w-12 h-12 text-muted-foreground" />
+                <p className="text-muted-foreground">
+                  No destinations found matching "{searchQuery}"
+                </p>
+              </div>
+            )}
+          </div>
+        )}
+        {/* Destinations by Region */}
+        {!searchQuery.trim() && (
+          <div className="space-y-8">
+            {Object.entries(countriesByRegion)
+              .sort(([a], [b]) => a.localeCompare(b))
+              .map(([region, countries]) => (
+                <div key={region}>
+                  <div className="flex justify-between items-center mb-4">
+                    <h2 className="flex items-center gap-2 font-semibold text-2xl">
+                      <Globe className="w-6 h-6" />
+                      {region}
+                    </h2>
+                    <Badge variant="soft">{countries.length} countries</Badge>
+                  </div>
+                  <div className="gap-4 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                    {countries
+                      .sort((a, b) => a.name.localeCompare(b.name))
+                      .map((country) => (
+                        <CountryCard key={country.iso2} country={country} />
+                      ))}
+                  </div>
+                </div>
+              ))}
+          </div>
+        )}
+        {/* Empty State */}
+        {!loading && Object.keys(countriesByRegion).length === 0 && (
+          <div className="py-16 text-center">
+            <Globe className="mx-auto mb-4 w-16 h-16 text-muted-foreground" />
+            <h2 className="mb-2 font-semibold text-2xl">
+              No Destinations Available
+            </h2>
+            <p className="text-muted-foreground">
+              We're working on adding more destinations. Please check back
+              later.
+            </p>
+          </div>
+        )}
       </div>
     </div>
+  );
+}
+
+function CountryCard({ country }: { country: Country }) {
+  return (
+    <Link href={`/destinations/${country.iso2}`}>
+      <Card className="hover:shadow-md transition-all duration-200 cursor-pointer">
+        <CardHeader className="pb-2">
+          <div className="flex justify-between items-center">
+            <span className="text-3xl">{country.emoji}</span>
+            <Badge variant="outline" className="text-xs">
+              {country.iso2}
+            </Badge>
+          </div>
+          <CardTitle className="text-lg">{country.name}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-2 text-muted-foreground text-sm">
+            <div className="flex items-center gap-1">
+              <MapPin className="w-3 h-3" />
+              <span>Capital: {country.capital}</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <Globe className="w-3 h-3" />
+              <span>{country.subregion}</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <Star className="w-3 h-3" />
+              <span>Currency: {country.currency}</span>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
+  );
+}
+
+function CityCard({ city, country }: { city: any; country: Country }) {
+  return (
+    <Link
+      href={`/destinations/${country.iso2}/${encodeURIComponent(city.name)}`}
+    >
+      <Card className="hover:shadow-lg transition-all duration-200 cursor-pointer hover:scale-105">
+        <CardHeader className="pb-2">
+          <div className="flex justify-between items-center">
+            <span className="text-2xl">{country.emoji}</span>
+            <Badge variant="outline" className="text-xs">
+              {city.state_code || country.iso2}
+            </Badge>
+          </div>
+          <CardTitle className="text-lg">{city.name}</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-2 text-muted-foreground text-sm">
+            <div className="flex items-center gap-1">
+              <MapPin className="w-3 h-3" />
+              <span>{country.name}</span>
+            </div>
+            <div className="flex items-center gap-1">
+              <Users className="w-3 h-3" />
+              <span>Explore attractions</span>
+            </div>
+            {city.latitude && city.longitude && (
+              <div className="flex items-center gap-1">
+                <Globe className="w-3 h-3" />
+                <span>
+                  {city.latitude.toFixed(2)}, {city.longitude.toFixed(2)}
+                </span>
+              </div>
+            )}
+          </div>
+        </CardContent>
+      </Card>
+    </Link>
   );
 }
