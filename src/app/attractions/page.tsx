@@ -23,15 +23,33 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockAttractions } from "@/data/attractions";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function AttractionsPage() {
   const { formatPrice } = useCurrency();
+  const [attractions, setAttractions] = useState<Attraction[]>([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [attractionsData] = await Promise.all([getMockAttractions()]);
+
+        setAttractions(attractionsData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
 
   const [filteredAttractions, setFilteredAttractions] =
-    useState<Attraction[]>(mockAttractions);
+    useState<Attraction[]>(attractions);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
   const [selectedType, setSelectedType] = useState<string>("all");
@@ -43,10 +61,10 @@ export default function AttractionsPage() {
 
   // Calculate min and max prices from attractions data
   const minPrice = Math.min(
-    ...mockAttractions.map((attraction) => attraction.pricing.adult)
+    ...attractions.map((attraction) => attraction.pricing.adult)
   );
   const maxPrice = Math.max(
-    ...mockAttractions.map((attraction) => attraction.pricing.adult)
+    ...attractions.map((attraction) => attraction.pricing.adult)
   );
 
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
@@ -62,7 +80,7 @@ export default function AttractionsPage() {
   const countries = [
     { value: "all", label: "All Countries" },
     ...Array.from(
-      new Set(mockAttractions.map((attraction) => attraction.location.country))
+      new Set(attractions.map((attraction) => attraction.location.country))
     )
       .sort()
       .map((country) => ({ value: country, label: country })),
@@ -70,16 +88,14 @@ export default function AttractionsPage() {
 
   const types = [
     { value: "all", label: "All Types" },
-    ...Array.from(new Set(mockAttractions.map((attraction) => attraction.type)))
+    ...Array.from(new Set(attractions.map((attraction) => attraction.type)))
       .sort()
       .map((type) => ({ value: type, label: type })),
   ];
 
   const categories = [
     { value: "all", label: "All Categories" },
-    ...Array.from(
-      new Set(mockAttractions.map((attraction) => attraction.category))
-    )
+    ...Array.from(new Set(attractions.map((attraction) => attraction.category)))
       .sort()
       .map((category) => ({ value: category, label: category })),
   ];
@@ -87,16 +103,14 @@ export default function AttractionsPage() {
   const timesToVisit = [
     { value: "all", label: "All Times" },
     ...Array.from(
-      new Set(
-        mockAttractions.flatMap((attraction) => attraction.bestTimeToVisit)
-      )
+      new Set(attractions.flatMap((attraction) => attraction.bestTimeToVisit))
     )
       .sort()
       .map((time) => ({ value: time, label: time })),
   ];
 
   const handleSearch = () => {
-    let filtered = mockAttractions;
+    let filtered = attractions;
 
     // Filter by search query
     if (searchQuery) {
