@@ -1,16 +1,20 @@
 # Context Documentation Overview
 
-This directory contains React Context providers for the Paragon Trails application, providing centralized state management for various application concerns.
+*Last Updated: June 15, 2025*
 
-## Available Contexts
+This directory contains React Context providers for the Paragon Trails application, providing centralized state management and business logic for core application functionality.
+
+## 🏗️ Available Contexts
 
 ### 🔐 [AuthContext](./AuthContext.md)
 **Purpose:** User authentication and session management  
 **Key Features:**
-- User login/logout functionality
+- Secure user login/logout functionality
 - Session persistence with localStorage
-- API authentication with demo fallback
+- DummyJSON API authentication with demo fallback
 - Loading states and session validation
+- Role-based access control
+- Automatic token refresh handling
 
 ### 🛒 [CartContext](./CartContext.md)
 **Purpose:** Shopping cart management for travel bookings  
@@ -19,14 +23,19 @@ This directory contains React Context providers for the Paragon Trails applicati
 - Intelligent duplicate handling per service type
 - Automatic price calculations (taxes, fees, discounts)
 - Quantity and guest management
+- Date selection and validation
+- Checkout process integration
+- Booking confirmation generation
 
 ### 💱 [CurrencyContext](./CurrencyContext.md)
 **Purpose:** Multi-currency support and exchange rate management  
 **Key Features:**
 - Real-time exchange rate fetching
-- 9 supported currencies with automatic fallback
+- 9+ supported currencies with automatic fallback
 - Price conversion and locale-aware formatting
 - Currency preference persistence
+- Rate caching and offline support
+- Automatic currency detection by region
 
 ### 🔍 [NotFoundContext](./NotFoundContext.md)
 **Purpose:** 404 error handling and navigation management  
@@ -34,17 +43,23 @@ This directory contains React Context providers for the Paragon Trails applicati
 - Not-found state management
 - Custom error page rendering
 - Navigation suggestions and analytics tracking
+- Breadcrumb restoration
+- Search suggestions for mistyped URLs
 
 ## Context Architecture
 
+## 🏛️ Context Architecture
+
 ### Provider Hierarchy
+The contexts are structured in a specific hierarchy to ensure proper data flow and dependency management:
+
 ```tsx
 function App() {
   return (
-    <AuthProvider>
-      <CurrencyProvider>
-        <CartProvider>
-          <NotFoundProvider>
+    <AuthProvider>           {/* 1st: Authentication foundation */}
+      <CurrencyProvider>     {/* 2nd: Currency before pricing */}
+        <CartProvider>       {/* 3rd: Cart needs currency context */}
+          <NotFoundProvider> {/* 4th: Error handling overlay */}
             <AppContent />
           </NotFoundProvider>
         </CartProvider>
@@ -59,34 +74,89 @@ function App() {
 import { useAuth } from '@/context/AuthContext';
 import { useCart } from '@/context/CartContext';
 import { useCurrency } from '@/context/CurrencyContext';
+import { useNotFound } from '@/context/NotFoundContext';
 
 function MyComponent() {
-  const { user, isAuthenticated } = useAuth();
+  const { user, isAuthenticated, login, logout } = useAuth();
   const { state: cartState, dispatch } = useCart();
-  const { formatPrice, currentCurrency } = useCurrency();
+  const { formatPrice, currentCurrency, convertPrice } = useCurrency();
+  const { setNotFound, isNotFound } = useNotFound();
   
-  // Component logic...
+  // Component logic with full context access...
 }
 ```
 
-## Common Integration Patterns
+## 🔄 Common Integration Patterns
 
-### Authentication-Protected Cart
+### Authentication-Protected Features
 ```tsx
 function BookingComponent() {
   const { isAuthenticated, user } = useAuth();
-  const { state: cartState } = useCart();
+  const { state: cartState, dispatch } = useCart();
   
   if (!isAuthenticated) {
-    return <LoginPrompt />;
+    return <LoginPrompt message="Please log in to make bookings" />;
   }
   
   return (
     <div>
-      <h2>Welcome {user?.firstName}</h2>
+      <h2>Welcome back, {user?.firstName}!</h2>
       <CartSummary items={cartState.items} />
+      <BookingForm userId={user.id} />
     </div>
   );
+}
+```
+
+### Multi-Currency Cart Items
+```tsx
+function CartItem({ item }) {
+  const { formatPrice, convertPrice } = useCurrency();
+  const { dispatch } = useCart();
+  
+  const displayPrice = formatPrice(item.price);
+  const totalPrice = formatPrice(item.price * item.quantity);
+  
+  return (
+    <div className="cart-item">
+      <h3>{item.name}</h3>
+      <p>Price per item: {displayPrice}</p>
+      <p>Quantity: {item.quantity}</p>
+      <p className="font-bold">Total: {totalPrice}</p>
+      <button onClick={() => dispatch({ type: 'REMOVE_ITEM', id: item.id })}>
+        Remove
+      </button>
+    </div>
+  );
+}
+```
+
+### Error Boundary Integration
+```tsx
+function DestinationPage({ params }) {
+  const { setNotFound } = useNotFound();
+  const [destination, setDestination] = useState(null);
+  
+  useEffect(() => {
+    async function loadDestination() {
+      try {
+        const data = await getDestination(params.id);
+        if (!data) {
+          setNotFound(true);
+          return;
+        }
+        setDestination(data);
+      } catch (error) {
+        setNotFound(true);
+      }
+    }
+    
+    loadDestination();
+  }, [params.id, setNotFound]);
+  
+  if (!destination) return <LoadingSkeleton />;
+  
+  return <DestinationDetails destination={destination} />;
 }
 ```
 
