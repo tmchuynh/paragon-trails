@@ -17,12 +17,39 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockDestinations } from "@/data/destinations";
+import { getMockFlights } from "@/data/flights";
+import { Destination } from "@/lib/interfaces/services/destinations";
+import { Flight } from "@/lib/interfaces/services/flights";
 import { ArrowRight, PlayCircle, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 import { FaBed, FaShower } from "react-icons/fa";
 
 export default function HomePage() {
+  const [destinations, setDestinations] = useState<Destination[]>([]);
+  const [flights, setFlights] = useState<Flight[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [destinationsData, flightsData] = await Promise.all([
+          getMockDestinations(),
+          getMockFlights(),
+        ]);
+
+        setDestinations(destinationsData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
   const { formatPrice } = useCurrency();
   const router = useRouter();
   return (
@@ -119,7 +146,7 @@ export default function HomePage() {
 
               {/* Destination Cards */}
               <div className="gap-4 grid grid-cols-2 mb-8">
-                {mockDestinations.slice(0, 4).map((destination, index) => (
+                {destinations.slice(0, 4).map((destination, index) => (
                   <Card
                     key={destination.id}
                     className="hover:shadow-lg p-0 transition-all cursor-pointer"
@@ -289,7 +316,7 @@ export default function HomePage() {
           </div>
 
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            {mockFlights.slice(0, 4).map((flight, index) => (
+            {flights.slice(0, 4).map((flight, index) => (
               <Card
                 key={flight.id}
                 className="group hover:shadow-xl p-0 transition-all cursor-pointer"
@@ -297,7 +324,7 @@ export default function HomePage() {
                 <div className={`relative h-64 rounded-t-lg overflow-hidden`}>
                   <Image
                     src={
-                      mockDestinations.find((dest) =>
+                      destinations.find((dest) =>
                         dest.name
                           .toLowerCase()
                           .includes(flight.destination.city.toLowerCase())
