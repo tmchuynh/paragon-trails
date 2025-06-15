@@ -11,15 +11,38 @@ export { getMockTours as mockTours_async };
 const transformProductToTour = (product: any): any => ({
   id: `TOUR-${product.id.toString().padStart(3, "0")}`,
   name: `${product.title} Experience`,
+  title: `${product.title} Experience`,
   type: ["Cultural", "Adventure", "Historical", "Nature", "City"][
     Math.floor(Math.random() * 5)
   ],
-  duration: {
-    days: Math.floor(Math.random() * 14) + 1,
-    nights: Math.floor(Math.random() * 13) + 1,
-  },
+  category: ["Cultural", "Adventure", "Historical", "Nature", "City"][
+    Math.floor(Math.random() * 5)
+  ],
+  duration: `${Math.floor(Math.random() * 14) + 1} days`,
   description: `${product.description} Join us for an unforgettable journey that combines culture, adventure, and relaxation in perfect harmony.`,
   images: [product.thumbnail, ...(product.images || [])],
+  location: {
+    city: [
+      "Paris",
+      "Tokyo",
+      "New York",
+      "Barcelona",
+      "Rome",
+      "London",
+      "Sydney",
+      "Dubai",
+    ][Math.floor(Math.random() * 8)],
+    country: [
+      "France",
+      "Japan",
+      "USA",
+      "Spain",
+      "Italy",
+      "UK",
+      "Australia",
+      "UAE",
+    ][Math.floor(Math.random() * 8)],
+  },
   pricing: {
     adult: Math.floor(product.price * 50),
     child: Math.floor(product.price * 35),
@@ -31,6 +54,10 @@ const transformProductToTour = (product: any): any => ({
       "Personal expenses",
       "Travel insurance",
     ],
+  },
+  reviews: {
+    rating: product.rating || Math.floor(Math.random() * 2) + 4,
+    totalReviews: Math.floor(Math.random() * 500) + 50,
   },
   itinerary: [
     {
@@ -85,7 +112,6 @@ const transformProductToTour = (product: any): any => ({
     age: "Suitable for all ages",
   },
   rating: product.rating || Math.floor(Math.random() * 2) + 4,
-  reviews: Math.floor(Math.random() * 500) + 50,
   tags: [product.brand, "Popular", "Cultural", "Adventure"],
   destinations: [
     {
