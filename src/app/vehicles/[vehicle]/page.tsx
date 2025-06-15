@@ -431,7 +431,7 @@ export default function VehicleDetailPage() {
 
               <TabsContent value="overview" className="space-y-6">
                 <Card className="p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Info className="w-5 h-5" />
                       About This Vehicle
@@ -498,15 +498,15 @@ export default function VehicleDetailPage() {
                 </Card>
 
                 <Card className="p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="space-y-2 text-sm">
                       <div className="flex justify-between items-center mb-4 font-semibold text-lg">
                         Quick Facts
                         <Badge
                           variant={
                             vehicle.availability.isAvailable
-                              ? "success"
-                              : "error"
+                              ? "softSuccess"
+                              : "softWarning"
                           }
                           size="sm"
                         >
@@ -554,7 +554,7 @@ export default function VehicleDetailPage() {
                 </Card>
 
                 <Card className="p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <MapPin className="w-5 h-5" />
                       Availability & Locations
@@ -607,7 +607,7 @@ export default function VehicleDetailPage() {
 
               <TabsContent value="specifications" className="space-y-6">
                 <Card className="p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Settings className="w-5 h-5" />
                       Technical Specifications
@@ -691,7 +691,7 @@ export default function VehicleDetailPage() {
 
               <TabsContent value="features" className="space-y-6">
                 <Card className="p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <CheckCircle className="w-5 h-5" />
                       Vehicle Features & Amenities
@@ -709,7 +709,7 @@ export default function VehicleDetailPage() {
 
               <TabsContent value="policies" className="space-y-6">
                 <Card className="p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                       <Shield className="w-5 h-5" />
                       Rental Policies & Insurance
@@ -783,7 +783,7 @@ export default function VehicleDetailPage() {
                 </Card>
                 {/* Contact Information */}
                 <Card className="mt-8 p-0">
-                  <CardContent className="p-6">
+                  <CardContent className="-mt-5 p-6">
                     <div className="flex justify-around items-center gap-6 text-center">
                       <div className="flex flex-col items-center gap-2">
                         <Phone className="w-5 h-5 text-primary" />
@@ -812,7 +812,7 @@ export default function VehicleDetailPage() {
           {/* Sidebar */}
           <div className="space-y-6">
             <Card className="p-0">
-              <CardContent className="p-6">
+              <CardContent className="-mt-5 p-6">
                 <div className="flex items-center gap-2 mb-4 font-semibold text-lg">
                   <DollarSign className="w-5 h-5" />
                   Pricing
