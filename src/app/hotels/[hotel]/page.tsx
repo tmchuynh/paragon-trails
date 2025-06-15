@@ -16,7 +16,6 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockHotels } from "@/data/hotels";
 import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,

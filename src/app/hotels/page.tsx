@@ -24,7 +24,6 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockHotels } from "@/data/hotels";
 import { Hotel } from "@/lib/interfaces/services/hotels";
 import {
   Bath,

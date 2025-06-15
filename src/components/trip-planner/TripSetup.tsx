@@ -21,8 +21,7 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { mockDestinations } from "@/data/destinations";
-import { mockHotels } from "@/data/hotels";
+
 import { TripPlan } from "@/lib/interfaces/trip-planner";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";

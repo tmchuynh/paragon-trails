@@ -11,6 +11,7 @@ import {
 import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
+
 import { mockActivities } from "@/data/activities";
 import { mockAttractions } from "@/data/attractions";
 import { mockDestinations } from "@/data/destinations";

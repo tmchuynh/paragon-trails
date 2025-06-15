@@ -24,7 +24,6 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockTours } from "@/data/tours";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useRouter } from "next/navigation";

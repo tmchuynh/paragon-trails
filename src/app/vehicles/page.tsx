@@ -23,8 +23,6 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
-import { mockDestinations } from "@/data/destinations";
-import { mockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
