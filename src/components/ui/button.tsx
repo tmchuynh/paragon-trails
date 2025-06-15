@@ -28,7 +28,7 @@ const buttonVariants = cva(
         ghost:
           "bg-transparent text-muted-foreground hover:bg-muted/30 hover:text-foreground transition-colors focus-visible:ring-muted/40",
         link: "text-primary underline-offset-4 hover:underline bg-transparent shadow-none focus-visible:ring-primary/20",
-        icon: "bg-transparent text-muted-foreground hover:bg-accent hover:text-accent-foreground shadow-none focus-visible:ring-accent/20",
+        icon: "bg-transparent text-muted-foreground hover:text-accent shadow-none focus-visible:ring-accent/20",
       },
       size: {
         sm: "h-8 px-3 text-xs gap-1.5 has-[>svg]:px-2.5",
