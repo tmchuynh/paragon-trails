@@ -247,8 +247,8 @@ export default function ActivityPanel({
 
           <TabsContent value="tours" className="mt-4">
             <div className="space-y-3 max-h-[600px] overflow-y-auto">
-              {filterItems(tours).length > 0 ? (
-                filterItems(tours).map((tour) => (
+              {filterItems(filteredTours).length > 0 ? (
+                filterItems(filteredTours).map((tour) => (
                   <ItemCard key={tour.id} item={tour} />
                 ))
               ) : (
