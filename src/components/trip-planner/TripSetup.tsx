@@ -22,11 +22,11 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
+import { Destination, mockDestinations } from "@/data/destinations";
+import { Hotel, mockHotels } from "@/data/hotels";
 import { TripPlan } from "@/lib/interfaces/trip-planner";
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
-import { mockHotels, Hotel } from "@/data/hotels";
-import { mockDestinations, Destination } from "@/data/destinations";
 import {
   Building,
   CalendarIcon,

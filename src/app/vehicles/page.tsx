@@ -261,13 +261,13 @@ export default function VehiclesPage() {
     filtered = filtered.sort((a, b) => {
       switch (sortBy) {
         case "price-low":
-          return a.pricing.daily - b.pricing.daily;
+          return (a.pricing?.daily || 100) - (b.pricing?.daily || 100);
         case "price-high":
-          return b.pricing.daily - a.pricing.daily;
+          return (b.pricing?.daily || 100) - (a.pricing?.daily || 100);
         case "rating":
           return b.rating - a.rating;
         default:
-          return a.pricing.daily - b.pricing.daily;
+          return (a.pricing?.daily || 100) - (b.pricing?.daily || 100);
       }
     });
 
