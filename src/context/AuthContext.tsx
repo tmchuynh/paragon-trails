@@ -1,6 +1,7 @@
 "use client";
 
 import Loading from "@/components/Loading";
+import { UserService } from "@/lib/api/services";
 import { storage } from "@/lib/utils/storage";
 import {
   createContext,
@@ -29,16 +30,6 @@ export interface AuthContextType {
 }
 
 const AuthContext = createContext<AuthContextType | null>(null);
-
-// Mock user data for simulation
-const mockUser: User = {
-  id: "1",
-  email: "user@example.com",
-  firstName: "Jane",
-  lastName: "Doe",
-  avatar:
-    "https://images.unsplash.com/photo-1688888745596-da40843a8d45?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjZ8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww",
-};
 
 export function AuthProvider({ children }: { children: ReactNode }) {
   const [user, setUser] = useState<User | null>(null);
@@ -74,25 +65,64 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     setIsLoading(true);
 
     try {
-      // Simulate API call delay
-      await new Promise((resolve) => setTimeout(resolve, 1000));
+      // Try to authenticate with the API first
+      try {
+        const apiUser = await UserService.authenticateUser(email, password);
+        if (apiUser) {
+          const loggedInUser = {
+            id: apiUser.id,
+            email: apiUser.email,
+            firstName: apiUser.firstName,
+            lastName: apiUser.lastName,
+            avatar: `https://ui-avatars.com/api/?name=${apiUser.firstName}+${apiUser.lastName}&background=random`,
+            loginTimestamp: Date.now(),
+          };
 
-      // Simple validation - check if email and password are provided
+          setUser(loggedInUser);
+          storage.setItem("auth_user", loggedInUser);
+          setIsLoading(false);
+          return true;
+        }
+      } catch (apiError) {
+        console.log("API authentication failed, falling back to demo mode");
+      }
+
+      // Fallback to simple validation for demo purposes
       if (email && password) {
-        // Set the mock user with the actual email provided
-        const loggedInUser = {
-          ...mockUser,
-          email: email,
-          loginTimestamp: Date.now(),
-        };
+        // Try to get a user from the API for demo
+        try {
+          const demoUsers = await UserService.getAllUsers(5);
+          const demoUser = demoUsers[0]; // Use first user as demo
 
-        setUser(loggedInUser);
+          const loggedInUser = {
+            id: demoUser?.id || "demo-1",
+            email: email,
+            firstName: demoUser?.firstName || "Demo",
+            lastName: demoUser?.lastName || "User",
+            avatar: `https://ui-avatars.com/api/?name=${demoUser?.firstName || "Demo"}+${demoUser?.lastName || "User"}&background=random`,
+            loginTimestamp: Date.now(),
+          };
 
-        // Store user in localStorage for persistence
-        storage.setItem("auth_user", loggedInUser);
+          setUser(loggedInUser);
+          storage.setItem("auth_user", loggedInUser);
+          setIsLoading(false);
+          return true;
+        } catch (error) {
+          // Final fallback to static demo user
+          const loggedInUser = {
+            id: "demo-1",
+            email: email,
+            firstName: "Demo",
+            lastName: "User",
+            avatar: `https://ui-avatars.com/api/?name=Demo+User&background=random`,
+            loginTimestamp: Date.now(),
+          };
 
-        setIsLoading(false);
-        return true;
+          setUser(loggedInUser);
+          storage.setItem("auth_user", loggedInUser);
+          setIsLoading(false);
+          return true;
+        }
       }
 
       setIsLoading(false);
