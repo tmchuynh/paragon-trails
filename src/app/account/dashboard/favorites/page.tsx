@@ -6,6 +6,14 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockActivities } from "@/data/activities";
+import { getMockAttractions } from "@/data/attractions";
+import { getMockDestinations } from "@/data/destinations";
+import { getMockFlights } from "@/data/flights";
+import { getMockHotels } from "@/data/hotels";
+import { getMockTours } from "@/data/tours";
+import { getMockUserData } from "@/data/users";
+import { getMockVehicles } from "@/data/vehicles";
 import {
   ArrowLeft,
   Building,
@@ -30,10 +38,61 @@ export default function FavoritesPage() {
   const router = useRouter();
   const [activeTab, setActiveTab] = useState("hotels");
 
+  // State for API data
+  const [users, setUsers] = useState<any[]>([]);
+  const [hotels, setHotels] = useState<any[]>([]);
+  const [flights, setFlights] = useState<any[]>([]);
+  const [tours, setTours] = useState<any[]>([]);
+  const [destinations, setDestinations] = useState<any[]>([]);
+  const [attractions, setAttractions] = useState<any[]>([]);
+  const [activities, setActivities] = useState<any[]>([]);
+  const [vehicles, setVehicles] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [
+          usersData,
+          hotelsData,
+          flightsData,
+          toursData,
+          destinationsData,
+          attractionsData,
+          activitiesData,
+          vehiclesData,
+        ] = await Promise.all([
+          getMockUserData(),
+          getMockHotels(),
+          getMockFlights(),
+          getMockTours(),
+          getMockDestinations(),
+          getMockAttractions(),
+          getMockActivities(),
+          getMockVehicles(),
+        ]);
+
+        setUsers(usersData);
+        setHotels(hotelsData);
+        setFlights(flightsData);
+        setTours(toursData);
+        setDestinations(destinationsData);
+        setAttractions(attractionsData);
+        setActivities(activitiesData);
+        setVehicles(vehiclesData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
   // Get current user data
-  const currentUser =
-    mockUserData.find((u) => u.email === user?.email) || mockUserData[0];
-  const favorites = currentUser.favorites || {};
+  const currentUser = users.find((u) => u.email === user?.email) || users[0];
+  const favorites = currentUser?.favorites || {};
 
   useEffect(() => {
     if (!isAuthenticated) {
