@@ -91,6 +91,6 @@ export interface Destination {
     advisories: string[];
     crimeRate: string;
     healthRisks: string[];
-    emergencyNumber: string;
+    emergencyNumber?: string;
   };
 }
