@@ -78,11 +78,11 @@ export default function FlightsPage() {
       .map((flight) => {
         switch (classType) {
           case "business":
-            return flight.pricing.business;
+            return flight.pricing?.business || 0;
           case "first":
-            return flight.pricing.first;
+            return flight.pricing?.first || 0;
           default:
-            return flight.pricing.economy;
+            return flight.pricing?.economy || 0;
         }
       })
       .filter((price) => price > 0); // Filter out 0 prices (unavailable classes)
@@ -154,7 +154,9 @@ export default function FlightsPage() {
         [
           ...flights.map((flight) => flight.origin),
           ...flights.map((flight) => flight.destination),
-        ].map((location) => `${location.code}|${location.city}`)
+        ]
+          .filter((location) => location && location.code && location.city)
+          .map((location) => `${location.code}|${location.city}`)
       )
     )
       .map((locationStr) => {
@@ -196,11 +198,11 @@ export default function FlightsPage() {
           flight.flightNumber
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          flight.destination.city
-            .toLowerCase()
+          flight.destination?.city
+            ?.toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          flight.origin.city
-            .toLowerCase()
+          flight.origin?.city
+            ?.toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
           flight.aircraft.toLowerCase().includes(searchQuery.toLowerCase())
       );
@@ -209,12 +211,12 @@ export default function FlightsPage() {
     // Filter by origin and destination
     if (fromLocation !== "all") {
       filtered = filtered.filter(
-        (flight) => flight.origin.code === fromLocation
+        (flight) => flight.origin?.code === fromLocation
       );
     }
     if (toLocation !== "all") {
       filtered = filtered.filter(
-        (flight) => flight.destination.code === toLocation
+        (flight) => flight.destination?.code === toLocation
       );
     }
 
@@ -416,11 +418,11 @@ export default function FlightsPage() {
   const getFlightPrice = (flight: any) => {
     switch (classType) {
       case "business":
-        return flight.pricing.business;
+        return flight.pricing?.business || 0;
       case "first":
-        return flight.pricing.first;
+        return flight.pricing?.first || 0;
       default:
-        return flight.pricing.economy;
+        return flight.pricing?.economy || 0;
     }
   };
 
@@ -433,7 +435,7 @@ export default function FlightsPage() {
       id: `flight-${formatToSlug(flight.flightNumber)}-${departureBaseDate}-${classType}`,
       type: "flight" as const,
       name: `${flight.airline} ${flight.flightNumber}`,
-      description: `${flight.origin.city} to ${flight.destination.city} - ${classType} class`,
+      description: `${flight.origin?.city || "Unknown"} to ${flight.destination?.city || "Unknown"} - ${classType} class`,
       image:
         "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=600&auto=format&fit=crop&q=60",
       price: getFlightPrice(flight),
@@ -442,7 +444,7 @@ export default function FlightsPage() {
         endDate: departureBaseDate,
       },
       guests: parseInt(passengers),
-      location: `${flight.origin.city} → ${flight.destination.city}`,
+      location: `${flight.origin?.city || "Unknown"} → ${flight.destination?.city || "Unknown"}`,
       features: flight.amenities,
       cancellationPolicy: "Standard airline cancellation policy applies",
     };
