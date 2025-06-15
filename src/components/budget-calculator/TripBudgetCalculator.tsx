@@ -30,11 +30,11 @@ import { MdFlightTakeoff } from "react-icons/md";
 import { RiHotelFill } from "react-icons/ri";
 
 // Import mock data
-import { mockActivities, Activity } from "@/data/activities";
-import { mockAttractions, Attraction } from "@/data/attractions";
-import { mockDestinations, Destination } from "@/data/destinations";
-import { mockFlights, Flight } from "@/data/flights";
-import { mockHotels, Hotel } from "@/data/hotels";
+import { Activity, mockActivities } from "@/data/activities";
+import { Attraction, mockAttractions } from "@/data/attractions";
+import { Destination, mockDestinations } from "@/data/destinations";
+import { Flight, mockFlights } from "@/data/flights";
+import { Hotel, mockHotels } from "@/data/hotels";
 import { mockTours, Tour } from "@/data/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 
