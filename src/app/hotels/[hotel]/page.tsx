@@ -1,5 +1,6 @@
 "use client";
 
+import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -79,13 +80,13 @@ export default function HotelDetailPage() {
         setLoading(true);
         const hotelsData = await getMockHotels();
         setHotels(hotelsData);
-        
+
         // Find the hotel based on the slug
         const hotelSlug = params.hotel as string;
         const foundHotel = hotelsData.find(
           (h: Hotel) => formatToSlug(h.name) === hotelSlug
         );
-        
+
         if (foundHotel) {
           setCurrentHotel(foundHotel);
           setSelectedRoom(foundHotel.rooms.types[0]);
@@ -232,14 +233,7 @@ export default function HotelDetailPage() {
   };
 
   if (loading) {
-    return (
-      <div className="flex justify-center items-center min-h-screen">
-        <div className="text-center">
-          <div className="border-primary border-b-2 rounded-full w-32 h-32 animate-spin"></div>
-          <p className="mt-4 text-lg">Loading hotel details...</p>
-        </div>
-      </div>
-    );
+    return <Loading />;
   }
 
   if (!currentHotel) {
@@ -252,9 +246,7 @@ export default function HotelDetailPage() {
           <p className="mb-4 text-gray-600 dark:text-gray-400">
             The hotel you're looking for doesn't exist.
           </p>
-          <Button onClick={() => router.push('/hotels')}>
-            Browse Hotels
-          </Button>
+          <Button onClick={() => router.push("/hotels")}>Browse Hotels</Button>
         </div>
       </div>
     );
