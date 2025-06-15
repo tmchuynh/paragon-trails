@@ -6,14 +6,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockActivities } from "@/data/activities";
-import { mockAttractions } from "@/data/attractions";
-import { mockDestinations } from "@/data/destinations";
-import { mockFlights } from "@/data/flights";
-import { mockHotels } from "@/data/hotels";
-import { mockTours } from "@/data/tours";
-import { mockUserData } from "@/data/users";
-import { mockVehicles } from "@/data/vehicles";
 import {
   ArrowLeft,
   Building,

@@ -4,8 +4,6 @@ import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockTours } from "@/data/tours";
-import { mockUserData } from "@/data/users";
 import { Clock, MapPin, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";

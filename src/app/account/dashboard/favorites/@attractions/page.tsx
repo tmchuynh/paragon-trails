@@ -3,8 +3,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockAttractions } from "@/data/attractions";
-import { mockUserData } from "@/data/users";
 import { Camera, MapPin, Star } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
