@@ -20,5 +20,20 @@ export const getMockUser = async (id: string) => {
   return await UserService.getUserById(id);
 };
 
+export const getBudgetsByUser = async (userId: string) => {
+  const { UserService } = await import("@/lib/api/services");
+  return await UserService.getBudgetsByUser(userId);
+};
+
+export const getTripsByUser = async (userId: string) => {
+  const { UserService } = await import("@/lib/api/services");
+  return await UserService.getTripsByUser(userId);
+};
+
+export const getUserFavorites = async (userId: string) => {
+  const { UserService } = await import("@/lib/api/services");
+  return await UserService.getUserFavorites(userId);
+};
+
 // Backward compatibility exports
 export const mockUserData = [];
