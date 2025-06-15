@@ -1,16 +1,21 @@
+import {
+  City,
+  Country,
+  fetchAllCitiesByCountry,
+  fetchCountryByISO2,
+} from "./geography";
 import { apiCache, fetchAPI } from "./services";
-import { fetchAllCitiesByCountry, fetchCountryByISO2, City, Country } from "./geography";
 
 /**
  * Geoapify Attractions API Integration
- * 
+ *
  * This module integrates with Geoapify's Places API and Place Details API
- * to fetch attraction data. 
- * 
+ * to fetch attraction data.
+ *
  * API Documentation:
  * - Places API: https://apidocs.geoapify.com/docs/places/#api
  * - Place Details API: https://apidocs.geoapify.com/docs/place-details/
- * 
+ *
  * The attractions page has been moved to the destinations route since
  * fetching attractions requires a city first. Cities are fetched from
  * countries using the GeographQL API.
@@ -413,7 +418,10 @@ export async function fetchAttractionsByCountry({
   attractionsPerCity?: number;
   conditions?: string;
   lang?: string;
-}): Promise<{ country: Country; cities: Array<{ city: City; attractions: Attraction[] }> }> {
+}): Promise<{
+  country: Country;
+  cities: Array<{ city: City; attractions: Attraction[] }>;
+}> {
   // First, get the country information
   const country = await fetchCountryByISO2(countryISO2);
   if (!country) {
@@ -446,7 +454,10 @@ export async function fetchAttractionsByCountry({
         });
         return { city, attractions };
       } catch (error) {
-        console.error(`Error fetching attractions for city ${city.name}:`, error);
+        console.error(
+          `Error fetching attractions for city ${city.name}:`,
+          error
+        );
         return { city, attractions: [] };
       }
     })
@@ -479,8 +490,8 @@ export async function fetchAttractionsByCity({
     limit: 100, // Get more cities to search through
   });
 
-  const city = cities.find(c => 
-    c.name.toLowerCase() === cityName.toLowerCase()
+  const city = cities.find(
+    (c) => c.name.toLowerCase() === cityName.toLowerCase()
   );
 
   if (!city) {
@@ -516,11 +527,13 @@ export async function fetchPopularDestinations({
   citiesPerRegion?: number;
   attractionsPerCity?: number;
   categories?: string[] | string;
-} = {}): Promise<Array<{
-  country: Country;
-  city: City;
-  attractions: Attraction[];
-}>> {
+} = {}): Promise<
+  Array<{
+    country: Country;
+    city: City;
+    attractions: Attraction[];
+  }>
+> {
   const destinations: Array<{
     country: Country;
     city: City;
@@ -529,12 +542,12 @@ export async function fetchPopularDestinations({
 
   // Define popular countries for each region
   const popularCountries: Record<string, string[]> = {
-    "Europe": ["FR", "IT", "ES", "GB", "DE", "NL", "CH", "AT"],
-    "Asia": ["JP", "TH", "SG", "CN", "KR", "IN", "MY", "VN"],
+    Europe: ["FR", "IT", "ES", "GB", "DE", "NL", "CH", "AT"],
+    Asia: ["JP", "TH", "SG", "CN", "KR", "IN", "MY", "VN"],
     "North America": ["US", "CA", "MX"],
     "South America": ["BR", "AR", "PE", "CL"],
-    "Africa": ["ZA", "MA", "EG", "KE"],
-    "Oceania": ["AU", "NZ"],
+    Africa: ["ZA", "MA", "EG", "KE"],
+    Oceania: ["AU", "NZ"],
   };
 
   for (const region of regions) {
@@ -578,7 +591,10 @@ export async function fetchPopularDestinations({
               citiesAdded++;
             }
           } catch (error) {
-            console.error(`Error fetching attractions for ${city.name}, ${country.name}:`, error);
+            console.error(
+              `Error fetching attractions for ${city.name}, ${country.name}:`,
+              error
+            );
           }
         }
       } catch (error) {
