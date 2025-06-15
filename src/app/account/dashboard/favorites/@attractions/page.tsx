@@ -3,20 +3,60 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockAttractions } from "@/data/attractions";
+import { getMockUserData } from "@/data/users";
 import { Camera, MapPin, Star } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function MySavedAttractionsPage() {
   const { user } = useAuth();
   const { formatPrice } = useCurrency();
   const router = useRouter();
 
+  const [attractions, setAttractions] = useState<any[]>([]);
+  const [users, setUsers] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [attractionsData, usersData] = await Promise.all([
+          getMockAttractions(),
+          getMockUserData()
+        ]);
+        setAttractions(attractionsData);
+        setUsers(usersData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>Saved Attractions</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="py-8 text-center text-muted-foreground">
+            Loading saved attractions...
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
+
   // Get current user data
-  const currentUser =
-    mockUserData.find((u) => u.email === user?.email) || mockUserData[0];
-  const favoriteAttractions = currentUser.favorites?.attractions
-    ? mockAttractions.filter((attraction) =>
+  const currentUser = users.find((u) => u.email === user?.email) || users[0];
+  const favoriteAttractions = currentUser?.favorites?.attractions
+    ? attractions.filter((attraction) =>
         currentUser.favorites?.attractions?.includes(attraction.id)
       )
     : [];
