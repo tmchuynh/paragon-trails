@@ -24,6 +24,32 @@ import {
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
+const travelDiscounts = [
+  // Hotels
+  { code: "htl_gen_4", discount: 0.04 },
+  { code: "htl_last_8", discount: 0.08 },
+  { code: "htl_summer_10", discount: 0.1 },
+  { code: "htl_early_30", discount: 0.3 },
+  { code: "htl_special_40", discount: 0.4 },
+  { code: "htl_vip_50", discount: 0.5 },
+
+  // Car Rentals
+  { code: "car_budget_35", discount: 0.35 },
+  { code: "car_avis_15_175", discount: 0.056 },
+
+  // Flights
+  { code: "flt_app_15", discount: 0.03 },
+  { code: "flt_fd_30", discount: 0.05 },
+  { code: "flt_last_10", discount: 0.1 },
+  { code: "flt_vip_50", discount: 0.5 },
+  { code: "flt_special_25", discount: 0.25 },
+
+  // Bundles / Tours
+  { code: "bndl_prc_15", discount: 0.15 },
+  { code: "bndl_pkg_50", discount: 0.1 },
+  { code: "bndl_bkg_20", discount: 0.2 },
+];
+
 export default function CartSummaryPage() {
   const { state, dispatch } = useCart();
   const { formatPrice } = useCurrency();
@@ -33,6 +59,29 @@ export default function CartSummaryPage() {
   const [termsAccepted, setTermsAccepted] = useState(false);
   const [bookingComplete, setBookingComplete] = useState(false);
   const [confirmationNumber, setConfirmationNumber] = useState("");
+  const [discountCode, setDiscountCode] = useState("");
+  const [isApplyingDiscount, setIsApplyingDiscount] = useState(false);
+
+  const handleApplyDiscount = async () => {
+    if (!discountCode.trim()) return;
+
+    setIsApplyingDiscount(true);
+    // Simulate API call
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
+    // Mock discount logic
+    const discountAmount =
+      discountCode.toLowerCase() === "welcome10" ? state.subtotal * 0.1 : 0;
+    if (discountAmount > 0) {
+      dispatch({
+        type: "APPLY_DISCOUNT",
+        payload: { code: discountCode, amount: discountAmount },
+      });
+      setDiscountCode("");
+    }
+
+    setIsApplyingDiscount(false);
+  };
 
   // Redirect if cart is empty
   useEffect(() => {
