@@ -9,7 +9,7 @@ A modern travel booking platform built with Next.js, featuring real-time data fr
   - [JSONPlaceholder](https://jsonplaceholder.typicode.com/) for posts and reviews
   - [FakerAPI](https://fakerapi.it/) for destinations and contact information
 
-- **Travel Services**: Book flights, hotels, tours, activities, and vehicles
+- **Travel Services**: Book flights, hotels,  activities, and vehicles
 - **User Authentication**: Demo authentication with API integration
 - **Responsive Design**: Beautiful UI that works on all devices
 - **Modern Tech Stack**: Next.js 15, React 18, TypeScript, Tailwind CSS
@@ -20,7 +20,7 @@ The application integrates with the following external APIs:
 
 ### DummyJSON API (https://dummyjson.com)
 - **Users**: Fetch user profiles and authentication
-- **Products**: Used to generate hotels, activities, tours, and vehicles
+- **Products**: Used to generate hotels, activities,  and vehicles
 - **Categories**: Product categorization for different travel services
 
 ### JSONPlaceholder API (https://jsonplaceholder.typicode.com)
@@ -57,7 +57,6 @@ The application has been updated to use real API data instead of static mock dat
 - **Destinations**: Generated from FakerAPI address data
 - **Hotels**: Transformed from DummyJSON products
 - **Flights**: Generated using multiple API sources
-- **Tours**: Created from DummyJSON product data
 - **Activities**: Mapped from DummyJSON product categories
 - **Vehicles**: Rental cars generated from product data
 
