@@ -1,4 +1,11 @@
 import { IconType } from "react-icons/lib";
+import { Activity } from "./activities";
+import { Attraction } from "./attractions";
+import { Destination } from "./destinations";
+import { Flight } from "./flights";
+import { Hotel } from "./hotels";
+import { Tour } from "./tours";
+import { Vehicle } from "./vehicles";
 
 export interface User {
   id: string;
@@ -15,6 +22,15 @@ export interface User {
   membershipStatus: string;
   membershipTier: string;
   membershipExpiry: string;
+  favorites?: {
+    hotels?: Hotel["id"][];
+    flights?: Flight["id"][];
+    tours?: Tour["id"][];
+    destinations?: Destination["id"][];
+    attractions?: Attraction["id"][];
+    activities?: Activity["id"][];
+    vehicles?: Vehicle["id"][];
+  };
   rewards: {
     rewardId: number;
     points: number;
