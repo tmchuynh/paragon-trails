@@ -37,17 +37,17 @@ export default function TourCard({ tour }: { tour: Tour }) {
   return (
     <Card
       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
-      onClick={() => router.push(`/tours/${formatToSlug(tour.title)}`)}
+      onClick={() => router.push(`/tours/${formatToSlug(tour.name)}`)}
     >
       <div className="relative h-64">
         <Image
           src={tour.images[0]}
-          alt={tour.title}
+          alt={tour.name}
           fill
           className="transition-transform group-hover:scale-105 object-cover"
         />
         <div className="top-4 left-4 absolute">
-          <Badge variant={`${getTypeColor(tour.category)}`} className="text-xs">
+          <Badge variant={`${getTypeColor(tour.type)}`} className="text-xs">
             {tour.category}
           </Badge>
         </div>
