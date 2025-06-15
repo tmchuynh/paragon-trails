@@ -16,8 +16,8 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { formatToSlug } from "@/lib/utils/format";
 import { getMockHotels, Hotel } from "@/data/hotels";
+import { formatToSlug } from "@/lib/utils/format";
 import {
   ArrowLeft,
   Bed,
@@ -233,9 +233,9 @@ export default function HotelDetailPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+          <div className="border-primary border-b-2 rounded-full w-32 h-32 animate-spin"></div>
           <p className="mt-4 text-lg">Loading hotel details...</p>
         </div>
       </div>
@@ -244,12 +244,12 @@ export default function HotelDetailPage() {
 
   if (!currentHotel) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="mb-4 font-bold text-2xl text-gray-900 dark:text-white">
             Hotel Not Found
           </h1>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">
+          <p className="mb-4 text-gray-600 dark:text-gray-400">
             The hotel you're looking for doesn't exist.
           </p>
           <Button onClick={() => router.push('/hotels')}>
