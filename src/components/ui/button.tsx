@@ -31,6 +31,7 @@ const buttonVariants = cva(
         icon: "bg-transparent text-muted-foreground hover:text-accent shadow-none focus-visible:ring-accent/20",
       },
       size: {
+        xs: "h-6 px-2 text-xs gap-1 has-[>svg]:px-1.5",
         sm: "h-8 px-3 text-xs gap-1.5 has-[>svg]:px-2.5",
         default: "h-9 px-4 py-2 has-[>svg]:px-3",
         lg: "h-11 px-6 text-base has-[>svg]:px-5",
