@@ -22,6 +22,7 @@ import { mockFlights } from "@/data/flights";
 import { ArrowRight, PlayCircle, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { FaBed, FaShower } from "react-icons/fa";
 
 export default function HomePage() {
   const { formatPrice } = useCurrency();
@@ -29,10 +30,9 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Hero Section */}
-      <section className="relative flex items-center min-h-screen overflow-hidden">
+      <section className="relative flex items-center -mt-25 min-h-screen overflow-hidden">
         {/* Background Image */}
         <div className="z-0 absolute inset-0">
-          {/* <div className="bg-gradient-to-r from-blue-600 via-teal-500 to-green-400 opacity-90 w-full h-full"></div> */}
           <Image
             src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
             alt="Hero background image"
@@ -134,13 +134,13 @@ export default function HomePage() {
                         width={400}
                         height={300}
                       />
-                      <div className="top-2 right-2 absolute bg-black px-2 py-1 rounded text-sm">
+                      <div className="top-2 right-2 absolute bg-white px-2 py-1 rounded-lg font-bold text-sm">
                         {formatPrice(
                           destination.pricing.accommodationRange.midRange
                         )}
                       </div>
                     </div>
-                    <CardContent className="p-4">
+                    <CardContent className="-mt-5 p-4">
                       <div className="flex items-center gap-1 mb-2">
                         {[1, 2, 3, 4, 5].map((star) => (
                           <Star
@@ -159,7 +159,6 @@ export default function HomePage() {
 
             <div className="space-y-6">
               <Card className="shadow-md p-0 rounded-lg">
-                {/* <div className="bg-gradient-to-br from-purple-400 via-pink-500 to-red-500 rounded-t-lg w-full h-48"></div> */}
                 <Image
                   src="https://images.unsplash.com/photo-1707343848552-893e05dba6ac?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDF8MHxzZWFyY2h8OHx8dHJhdmVsfGVufDB8fDB8fHww"
                   alt="Curated travel experience 1"
@@ -167,7 +166,7 @@ export default function HomePage() {
                   width={600}
                   height={400}
                 />
-                <CardContent className="p-4">
+                <CardContent className="-mt-6 p-4">
                   <p className="text-sm">
                     At ParagonTrails, we believe in curating exceptional
                     experiences that turn every journey into an adventure worth
@@ -185,7 +184,7 @@ export default function HomePage() {
                   width={600}
                   height={300}
                 />
-                <CardContent className="p-4">
+                <CardContent className="-mt-6 p-4">
                   <p className="text-sm">
                     Cultural immersion, culinary discovery, natural beauty,
                     thrilling adventure, cultural and artistic experiences.
@@ -202,7 +201,7 @@ export default function HomePage() {
                   width={600}
                   height={300}
                 />
-                <CardContent className="p-4">
+                <CardContent className="-mt-6 p-4">
                   <p className="text-sm">
                     History and culture, unique perspectives and remarkable
                     experiences available.
@@ -351,7 +350,7 @@ export default function HomePage() {
           <div className="items-center gap-12 grid grid-cols-1 lg:grid-cols-2">
             <div>
               <h2 className="mb-6 font-bold text-3xl md:text-4xl">
-                <span className="text-yellow-300">✱</span> Book Perfect Stay
+                <span className="text-tertiary">✱</span> Book Perfect Stay
                 <br />
                 For Your Vacation
               </h2>
@@ -363,13 +362,13 @@ export default function HomePage() {
               {/* Booking Stats */}
               <div className="gap-8 grid grid-cols-2 mb-8">
                 <div>
-                  <div className="mb-2 font-bold text-2xl text-yellow-300">
+                  <div className="mb-2 font-bold text-2xl text-accent">
                     100% + happy guests
                   </div>
                   <div className="text-sm">Customer satisfaction</div>
                 </div>
                 <div>
-                  <div className="mb-2 font-bold text-2xl text-yellow-300">
+                  <div className="mb-2 font-bold text-2xl text-accent">
                     4.9 ★
                   </div>
                   <div className="text-sm">Guest's Reviews</div>
@@ -384,7 +383,7 @@ export default function HomePage() {
 
             {/* Booking Confirmation Mockup */}
             <div className="relative">
-              <div className="bg-muted/50 shadow-2xl p-6 rounded-2xl">
+              <div className="bg-muted/50 shadow-lg p-6 border border-border rounded-2xl">
                 <div className="flex justify-between items-center mb-4">
                   <h3 className="font-semibold text-2xl uppercase">
                     Booking is confirmed!
@@ -530,11 +529,11 @@ export default function HomePage() {
                       <span>4 Guests</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span>🏠</span>
+                      <FaBed className="w-4 h-4" />
                       <span>2 Bedrooms</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <span>🚿</span>
+                      <FaShower className="w-4 h-4" />
                       <span>1 Bathroom</span>
                     </div>
                   </div>
