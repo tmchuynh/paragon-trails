@@ -2,7 +2,7 @@
 export interface Vehicle {
   id: string;
   name: string;
-  type: "car" | "motorcycle" | "luxury-car" | "suv" | "sports-car";
+  type: "car" | "motorcycle" | "luxury-car" | "suv" | "sports-car" | "truck";
   brand: string;
   model: string;
   year: number;
@@ -14,6 +14,8 @@ export interface Vehicle {
     transmission?: string;
     fuelType?: string;
     seatingCapacity?: number;
+    doors?: number;
+    luggage?: number;
     topSpeed?: string;
     acceleration?: string;
     fuelEconomy?: string;
@@ -23,6 +25,8 @@ export interface Vehicle {
     weekly: number;
     monthly: number;
     currency: string;
+    deposit?: number;
+    insurance?: number;
   };
   availability: {
     locations: string[];
