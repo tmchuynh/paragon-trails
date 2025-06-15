@@ -4,42 +4,19 @@ import Loading from "@/components/Loading";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { getCityAttractions, type City } from "@/lib/api/destinations";
 import {
-  Pagination,
-  PaginationContent,
-  PaginationItem,
-  PaginationLink,
-  PaginationNext,
-  PaginationPrevious,
-} from "@/components/ui/pagination";
-import {
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from "@/components/ui/select";
-import { Separator } from "@/components/ui/separator";
-import { Switch } from "@/components/ui/switch";
-import {
-  getCityAttractions,
-  type Attraction,
-  type City,
-} from "@/lib/api/destinations";
-import { toTitleCase } from "@/lib/utils/format";
-import {
+  Activity,
   ArrowLeft,
-  ArrowUpDown,
-  ExternalLink,
-  Filter,
+  Calendar,
+  Car,
+  Globe,
   MapPin,
   Navigation,
-  Phone,
-  Search,
-  SlidersHorizontal,
+  ShoppingBag,
   Star,
+  Users,
+  UtensilsCrossed,
 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
@@ -54,24 +31,8 @@ interface CityPageProps {
 export default function CityPage({ params }: CityPageProps) {
   const [data, setData] = useState<{
     city: City | null;
-    attractions: Attraction[];
   } | null>(null);
   const [loading, setLoading] = useState(true);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filteredAttractions, setFilteredAttractions] = useState<Attraction[]>(
-    []
-  );
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [sortBy, setSortBy] = useState<string>("name");
-  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(12);
-
-  // Advanced filters
-  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
-  const [hasWebsite, setHasWebsite] = useState(false);
-  const [hasPhone, setHasPhone] = useState(false);
-  const [hasCoordinates, setHasCoordinates] = useState(false);
 
   const [resolvedParams, setResolvedParams] = useState<{
     countryISO2: string;
@@ -93,137 +54,23 @@ export default function CityPage({ params }: CityPageProps) {
   useEffect(() => {
     if (!resolvedParams) return;
 
-    async function loadCityAttractions() {
+    async function loadCityData() {
       try {
         const result = await getCityAttractions({
           cityName: decodeURIComponent(resolvedParams!.cityName),
           countryISO2: resolvedParams!.countryISO2.toUpperCase(),
-          limit: 50,
+          limit: 1, // We only need the city data
         });
-        setData(result);
-        setFilteredAttractions(result.attractions);
+        setData({ city: result.city });
       } catch (error) {
-        console.error("Error loading city attractions:", error);
+        console.error("Error loading city data:", error);
       } finally {
         setLoading(false);
       }
     }
 
-    loadCityAttractions();
+    loadCityData();
   }, [resolvedParams]);
-
-  useEffect(() => {
-    if (!data) return;
-
-    let filtered = data.attractions;
-
-    // Filter by search query
-    if (searchQuery.trim()) {
-      const query = searchQuery.toLowerCase();
-      filtered = filtered.filter(
-        (attraction) =>
-          attraction.name.toLowerCase().includes(query) ||
-          (attraction.description &&
-            attraction.description.toLowerCase().includes(query)) ||
-          attraction.categories.some((cat) => cat.toLowerCase().includes(query))
-      );
-    }
-
-    // Filter by category
-    if (selectedCategory !== "all") {
-      filtered = filtered.filter((attraction) =>
-        attraction.categories.some((cat) => cat.includes(selectedCategory))
-      );
-    }
-
-    // Advanced filters
-    if (hasWebsite) {
-      filtered = filtered.filter((attraction) => attraction.website);
-    }
-    if (hasPhone) {
-      filtered = filtered.filter((attraction) => attraction.phone);
-    }
-    if (hasCoordinates) {
-      filtered = filtered.filter(
-        (attraction) => attraction.latitude && attraction.longitude
-      );
-    }
-
-    // Sort the filtered results
-    filtered.sort((a, b) => {
-      let comparison = 0;
-
-      switch (sortBy) {
-        case "name":
-          comparison = a.name.localeCompare(b.name);
-          break;
-        case "category":
-          comparison = (a.categories[0] || "").localeCompare(
-            b.categories[0] || ""
-          );
-          break;
-        case "address":
-          comparison = (a.address || "").localeCompare(b.address || "");
-          break;
-        default:
-          comparison = a.name.localeCompare(b.name);
-      }
-
-      return sortOrder === "asc" ? comparison : -comparison;
-    });
-
-    setFilteredAttractions(filtered);
-    setCurrentPage(1); // Reset to first page when filters change
-  }, [
-    searchQuery,
-    selectedCategory,
-    hasWebsite,
-    hasPhone,
-    hasCoordinates,
-    sortBy,
-    sortOrder,
-    data,
-  ]);
-
-  // Get unique categories for filtering
-  const categories = data
-    ? Array.from(
-        new Set(
-          data.attractions.flatMap((attr) =>
-            attr.categories.map((category) => category.split(".")[0])
-          )
-        )
-      ).sort()
-    : [];
-
-  // Pagination calculations
-  const totalPages = Math.ceil(filteredAttractions.length / itemsPerPage);
-  const startIndex = (currentPage - 1) * itemsPerPage;
-  const endIndex = startIndex + itemsPerPage;
-  const paginatedAttractions = filteredAttractions.slice(startIndex, endIndex);
-
-  // Helper functions
-  const resetFilters = () => {
-    setSearchQuery("");
-    setSelectedCategory("all");
-    setHasWebsite(false);
-    setHasPhone(false);
-    setHasCoordinates(false);
-    setSortBy("name");
-    setSortOrder("asc");
-    setCurrentPage(1);
-  };
-
-  const hasActiveFilters =
-    searchQuery.trim() ||
-    selectedCategory !== "all" ||
-    hasWebsite ||
-    hasPhone ||
-    hasCoordinates ||
-    sortBy !== "name" ||
-    sortOrder !== "asc";
-
-  console.log("categories:", categories);
 
   if (loading) {
     return <Loading />;
@@ -231,11 +78,11 @@ export default function CityPage({ params }: CityPageProps) {
 
   if (!data || !data.city) {
     return (
-      <div className="mx-auto px-4 py-8 container">
-        <div className="py-16 text-center">
-          <MapPin className="mx-auto mb-4 w-16 h-16 text-muted-foreground" />
+      <div className="min-h-screen">
+        <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
+          <MapPin className="mx-auto mb-4 w-16 h-16" />
           <h1 className="mb-2 font-semibold text-2xl">City Not Found</h1>
-          <p className="mb-4 text-muted-foreground">
+          <p className="mb-4">
             The city "{cityName}" could not be found
             {resolvedParams ? ` in ${resolvedParams.countryISO2}` : ""}.
           </p>
@@ -257,7 +104,7 @@ export default function CityPage({ params }: CityPageProps) {
     );
   }
 
-  const { city, attractions } = data;
+  const { city } = data;
 
   return (
     <div className="min-h-screen">
@@ -277,430 +124,217 @@ export default function CityPage({ params }: CityPageProps) {
           </Link>
         </Button>
 
-        {/* City Header */}
-        <div className="mb-8">
-          <h1 className="mb-2 font-bold text-4xl">
-            Attractions in {city.name}
+        {/* City Hero Section */}
+        <div className="mb-12 text-center">
+          <h1 className="flex justify-center items-center gap-2 mb-4 font-bold text-4xl lg:text-5xl">
+            Welcome to {city.name}
           </h1>
-          <div className="flex items-center gap-2 text-muted-foreground">
-            <MapPin className="w-4 h-4" />
-            <span>{city.country_code}</span>
-            {city.state_code && (
-              <>
-                <span>•</span>
-                <span>{city.state_code}</span>
-              </>
-            )}
+          <p className="mx-auto mb-6 max-w-2xl text-lg">
+            Discover the best attractions, activities, dining, and shopping
+            experiences in this beautiful destination.
+          </p>
+
+          {/* City Info Cards */}
+          <div className="gap-4 grid grid-cols-1 md:grid-cols-3 mx-auto mb-8 max-w-4xl">
+            <Card>
+              <CardContent>
+                <div className="flex items-center gap-2 text-sm">
+                  <MapPin className="w-4 h-4 text-blue-600" />
+                  <span className="font-medium">Location</span>
+                </div>
+                <p className="mt-1">
+                  {city.country_code}
+                  {city.state_code && `, ${city.state_code}`}
+                </p>
+              </CardContent>
+            </Card>
+
             {city.latitude && city.longitude && (
-              <>
-                <span>•</span>
-                <span>
-                  {city.latitude.toFixed(4)}, {city.longitude.toFixed(4)}
-                </span>
-              </>
+              <Card>
+                <CardContent>
+                  <div className="flex items-center gap-2 text-sm">
+                    <Navigation className="w-4 h-4 text-green-600" />
+                    <span className="font-medium">Coordinates</span>
+                  </div>
+                  <p className="mt-1">
+                    {city.latitude.toFixed(4)}, {city.longitude.toFixed(4)}
+                  </p>
+                </CardContent>
+              </Card>
             )}
+
+            <Card>
+              <CardContent>
+                <div className="flex items-center gap-2 text-sm">
+                  <Users className="w-4 h-4 text-purple-600" />
+                  <span className="font-medium">Explore</span>
+                </div>
+                <p className="mt-1">Multiple categories available</p>
+              </CardContent>
+            </Card>
           </div>
         </div>
 
-        {/* Search, Filters, and Sorting */}
-        <div className="space-y-4 mb-6">
-          {/* Search and Primary Filters */}
-          <div className="flex sm:flex-row flex-col items-center gap-4">
-            <div className="relative flex-1 min-w-3/7">
-              <Search className="top-1/2 left-3 absolute w-4 h-4 text-muted-foreground transform -translate-y-1/2" />
-              <Input
-                placeholder="Search attractions..."
-                value={searchQuery}
-                onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
-              />
-            </div>
-
-            {/* Category Select */}
-            {categories.length > 0 && (
-              <Select
-                value={selectedCategory}
-                onValueChange={setSelectedCategory}
-              >
-                <SelectTrigger className="border border-border w-full md:w-1/2">
-                  <SelectValue />
-                </SelectTrigger>
-                <SelectContent
-                  className="w-full max-h-60"
-                  variant="professional"
-                >
-                  <SelectItem value="all" variant="classic">
-                    All Categories
-                  </SelectItem>
-                  {categories.map((category) => (
-                    <SelectItem
-                      key={category}
-                      value={category}
-                      variant="classic"
-                    >
-                      {toTitleCase(category.replace(/_/g, " "))}
-                    </SelectItem>
-                  ))}
-                </SelectContent>
-              </Select>
-            )}
-
-            {/* Sort Select */}
-            <Select
-              value={`${sortBy}-${sortOrder}`}
-              onValueChange={(value) => {
-                const [newSortBy, newSortOrder] = value.split("-") as [
-                  string,
-                  "asc" | "desc",
-                ];
-                setSortBy(newSortBy);
-                setSortOrder(newSortOrder);
-              }}
+        {/* Main Navigation Grid */}
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-12">
+          {/* Attractions Card */}
+          <Card className="group bg-gradient-to-br from-yellow-50 to-orange-100 hover:shadow-md border-yellow-200 transition-all duration-300 cursor-pointer">
+            <Link
+              href={
+                resolvedParams
+                  ? `/destinations/${resolvedParams.countryISO2}/${resolvedParams.cityName}/attractions`
+                  : "#"
+              }
             >
-              <SelectTrigger className="border border-border w-full md:w-48">
-                <ArrowUpDown className="mr-2 w-4 h-4" />
-                <SelectValue placeholder="Sort" />
-              </SelectTrigger>
-              <SelectContent className="w-full max-h-60" variant="professional">
-                <SelectItem value="name-asc" variant="classic">
-                  Name A-Z
-                </SelectItem>
-                <SelectItem value="name-desc" variant="classic">
-                  Name Z-A
-                </SelectItem>
-                <SelectItem value="category-asc" variant="classic">
-                  Category A-Z
-                </SelectItem>
-                <SelectItem value="address-asc" variant="classic">
-                  Address A-Z
-                </SelectItem>
-              </SelectContent>
-            </Select>
+              <CardHeader className="pb-2 text-center">
+                <div className="flex justify-center items-center bg-yellow-500 mx-auto mb-4 p-4 rounded-full w-16 h-16 transition-colors">
+                  <Star className="w-8 h-8 text-white" />
+                </div>
+                <CardTitle className="text-xl text-yellow-800">
+                  Attractions
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="mb-4 text-sm text-yellow-700">
+                  Discover must-see sights, landmarks, and tourist attractions
+                </p>
+                <Badge variant="gradient">Explore Now</Badge>
+              </CardContent>
+            </Link>
+          </Card>
 
-            {/* Items per page Select */}
-            <Select
-              value={itemsPerPage.toString()}
-              onValueChange={(value) => setItemsPerPage(parseInt(value))}
+          {/* Activities Card */}
+          <Card className="group bg-gradient-to-br from-green-50 to-emerald-100 hover:shadow-md border-green-200 transition-all duration-300 cursor-pointer">
+            <Link
+              href={
+                resolvedParams
+                  ? `/destinations/${resolvedParams.countryISO2}/${resolvedParams.cityName}/activities`
+                  : "#"
+              }
             >
-              <SelectTrigger className="border border-border w-full md:w-32">
-                <SelectValue />
-              </SelectTrigger>
-              <SelectContent className="w-full max-h-60" variant="professional">
-                <SelectItem value="4" variant="classic">
-                  4 per page
-                </SelectItem>
-                <SelectItem value="8" variant="classic">
-                  8 per page
-                </SelectItem>
-                <SelectItem value="12" variant="classic">
-                  12 per page
-                </SelectItem>
-                <SelectItem value="16" variant="classic">
-                  16 per page
-                </SelectItem>
-                <SelectItem value="24" variant="classic">
-                  24 per page
-                </SelectItem>
-              </SelectContent>
-            </Select>
+              <CardHeader className="pb-2 text-center">
+                <div className="flex justify-center items-center bg-green-500 mx-auto mb-4 p-4 rounded-full w-16 h-16 transition-colors">
+                  <Activity className="w-8 h-8 text-white" />
+                </div>
+                <CardTitle className="text-green-800 text-xl">
+                  Activities
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="mb-4 text-green-700 text-sm">
+                  Entertainment, sports, leisure activities and fun experiences
+                </p>
+                <Badge variant="gradient">Find Activities</Badge>
+              </CardContent>
+            </Link>
+          </Card>
 
-            {/* Advanced Filters Toggle */}
-            <Button
-              variant="outline"
-              onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
-              className={showAdvancedFilters ? "bg-accent" : ""}
+          {/* Food Card */}
+          <Card className="group bg-gradient-to-br from-red-50 to-pink-100 hover:shadow-md border-red-200 transition-all duration-300 cursor-pointer">
+            <Link
+              href={
+                resolvedParams
+                  ? `/destinations/${resolvedParams.countryISO2}/${resolvedParams.cityName}/food`
+                  : "#"
+              }
             >
-              <SlidersHorizontal className="mr-2 w-4 h-4" />
-              Advanced
-            </Button>
-          </div>
+              <CardHeader className="pb-2 text-center">
+                <div className="flex justify-center items-center bg-red-500 mx-auto mb-4 p-4 rounded-full w-16 h-16 transition-colors">
+                  <UtensilsCrossed className="w-8 h-8 text-white" />
+                </div>
+                <CardTitle className="text-red-800 text-xl">
+                  Food & Dining
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="mb-4 text-red-700 text-sm">
+                  Restaurants, cafes, bars and local culinary experiences
+                </p>
+                <Badge variant="gradient">Discover Food</Badge>
+              </CardContent>
+            </Link>
+          </Card>
 
-          {/* Advanced Filters Panel */}
-          {showAdvancedFilters && (
-            <div className="bg-muted/30 p-4 border rounded-lg">
-              <h3 className="mb-3 font-medium text-sm">Advanced Filters</h3>
-              <div className="gap-4 grid grid-cols-1 sm:grid-cols-3">
-                <div className="flex items-center space-x-2">
-                  <Switch
-                    id="has-website"
-                    checked={hasWebsite}
-                    onCheckedChange={setHasWebsite}
-                  />
-                  <Label htmlFor="has-website" className="text-sm">
-                    Has Website
-                  </Label>
+          {/* Shopping Card */}
+          <Card className="group bg-gradient-to-br from-blue-50 to-indigo-100 hover:shadow-md border-blue-200 transition-all duration-300 cursor-pointer">
+            <Link
+              href={
+                resolvedParams
+                  ? `/destinations/${resolvedParams.countryISO2}/${resolvedParams.cityName}/shopping`
+                  : "#"
+              }
+            >
+              <CardHeader className="pb-2 text-center">
+                <div className="flex justify-center items-center bg-blue-500 mx-auto mb-4 p-4 rounded-full w-16 h-16 transition-colors">
+                  <ShoppingBag className="w-8 h-8 text-white" />
                 </div>
-                <div className="flex items-center space-x-2">
-                  <Switch
-                    id="has-phone"
-                    checked={hasPhone}
-                    onCheckedChange={setHasPhone}
-                  />
-                  <Label htmlFor="has-phone" className="text-sm">
-                    Has Phone
-                  </Label>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Switch
-                    id="has-coordinates"
-                    checked={hasCoordinates}
-                    onCheckedChange={setHasCoordinates}
-                  />
-                  <Label htmlFor="has-coordinates" className="text-sm">
-                    Has Map Location
-                  </Label>
-                </div>
-              </div>
-            </div>
-          )}
+                <CardTitle className="text-blue-800 text-xl">
+                  Shopping
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="mb-4 text-blue-700 text-sm">
+                  Shops, markets, services and commercial establishments
+                </p>
+                <Badge variant="gradient">Go Shopping</Badge>
+              </CardContent>
+            </Link>
+          </Card>
 
-          {/* Results Summary and Clear Filters */}
-          <div className="flex justify-between items-center">
-            <div className="flex items-center gap-2">
-              <Badge variant="secondary">
-                {filteredAttractions.length} of {data?.attractions.length || 0}{" "}
-                attractions
-              </Badge>
-              {currentPage > 1 && (
-                <Badge variant="outline">
-                  Page {currentPage} of {totalPages}
-                </Badge>
-              )}
-            </div>
-            {hasActiveFilters && (
-              <Button variant="outline" size="sm" onClick={resetFilters}>
-                <Filter className="mr-2 w-4 h-4" />
-                Clear All Filters
-              </Button>
-            )}
-          </div>
+          {/* Rentals Card */}
+          <Card className="group bg-gradient-to-br from-purple-50 to-violet-100 hover:shadow-md border-purple-200 transition-all duration-300 cursor-pointer">
+            <Link
+              href={
+                resolvedParams
+                  ? `/destinations/${resolvedParams.countryISO2}/${resolvedParams.cityName}/rentals`
+                  : "#"
+              }
+            >
+              <CardHeader className="pb-2 text-center">
+                <div className="flex justify-center items-center bg-purple-500 mx-auto mb-4 p-4 rounded-full w-16 h-16 transition-colors">
+                  <Car className="w-8 h-8 text-white" />
+                </div>
+                <CardTitle className="text-purple-800 text-xl">
+                  Rentals
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="mb-4 text-purple-700 text-sm">
+                  Car rentals, equipment and vehicle rental services
+                </p>
+                <Badge variant="gradient">Find Rentals</Badge>
+              </CardContent>
+            </Link>
+          </Card>
         </div>
 
-        {/* Attractions Grid */}
-        {filteredAttractions.length > 0 ? (
-          <>
-            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
-              {paginatedAttractions.map((attraction) => (
-                <AttractionCard
-                  key={attraction.id}
-                  attraction={attraction}
-                  categoryList={categories}
-                />
-              ))}
+        {/* Quick Stats */}
+        <div className="pt-10">
+          <div className="gap-6 grid grid-cols-1 md:grid-cols-3 text-center">
+            <div>
+              <MapPin className="mx-auto mb-2 w-8 h-8 text-blue-600" />
+              <h3 className="font-medium">Location</h3>
+              <p className="text-sm">
+                Explore {city.name} with detailed maps and navigation
+              </p>
             </div>
-
-            {/* Pagination */}
-            {totalPages > 1 && (
-              <div className="flex justify-center mt-8">
-                <Pagination>
-                  <PaginationContent>
-                    <PaginationItem>
-                      <PaginationPrevious
-                        onClick={() =>
-                          currentPage > 1 && setCurrentPage(currentPage - 1)
-                        }
-                        className={
-                          currentPage <= 1
-                            ? "opacity-50 cursor-not-allowed"
-                            : "cursor-pointer"
-                        }
-                      />
-                    </PaginationItem>
-
-                    {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
-                      let pageNum;
-                      if (totalPages <= 7) {
-                        pageNum = i + 1;
-                      } else if (currentPage <= 4) {
-                        pageNum = i + 1;
-                      } else if (currentPage >= totalPages - 3) {
-                        pageNum = totalPages - 6 + i;
-                      } else {
-                        pageNum = currentPage - 3 + i;
-                      }
-
-                      return (
-                        <PaginationItem key={pageNum}>
-                          <PaginationLink
-                            onClick={() => setCurrentPage(pageNum)}
-                            isActive={currentPage === pageNum}
-                            className="cursor-pointer"
-                          >
-                            {pageNum}
-                          </PaginationLink>
-                        </PaginationItem>
-                      );
-                    })}
-
-                    <PaginationItem>
-                      <PaginationNext
-                        onClick={() =>
-                          currentPage < totalPages &&
-                          setCurrentPage(currentPage + 1)
-                        }
-                        className={
-                          currentPage >= totalPages
-                            ? "opacity-50 cursor-not-allowed"
-                            : "cursor-pointer"
-                        }
-                      />
-                    </PaginationItem>
-                  </PaginationContent>
-                </Pagination>
-              </div>
-            )}
-          </>
-        ) : (
-          <div className="py-12 text-center">
-            <Star className="mx-auto mb-4 w-12 h-12 text-muted-foreground" />
-            <h3 className="mb-2 font-medium text-lg">No Attractions Found</h3>
-            <p className="text-muted-foreground">
-              {hasActiveFilters
-                ? "No attractions match your current filters."
-                : `No attractions available for ${city.name}.`}
-            </p>
-            {hasActiveFilters && (
-              <Button variant="outline" onClick={resetFilters} className="mt-4">
-                <Filter className="mr-2 w-4 h-4" />
-                Clear All Filters
-              </Button>
-            )}
+            <div>
+              <Calendar className="mx-auto mb-2 w-8 h-8 text-green-600" />
+              <h3 className="font-medium">Plan Your Visit</h3>
+              <p className="text-sm">
+                Find the best times and places to visit various attractions
+              </p>
+            </div>
+            <div>
+              <Globe className="mx-auto mb-2 w-8 h-8 text-purple-600" />
+              <h3 className="font-medium">Local Insights</h3>
+              <p className="text-sm">
+                Discover hidden gems and local recommendations
+              </p>
+            </div>
           </div>
-        )}
+        </div>
       </div>
     </div>
-  );
-}
-
-function AttractionCard({
-  attraction,
-  categoryList,
-}: {
-  attraction: Attraction;
-  categoryList: string[];
-}) {
-  const getTypeColor = (type: string) => {
-    switch (type) {
-      case "Sightseeing":
-        return "gradientSecondary";
-      case "History":
-        return "gradientInfo";
-      case "Culture":
-        return "gradientInfo";
-      case "Nature & Wildlife":
-        return "gradientSuccess";
-      case "Entertainment":
-        return "gradientPrimary";
-      case "Adventure":
-        return "gradientWarning";
-      case "Local Experience":
-        return "gradientSecondary";
-      case "Religion":
-        return "gradientSuccess";
-      default:
-        return "gradient";
-    }
-  };
-
-  // Process categories to get clean category names
-  const processedCategories: string[] = [];
-  if (attraction.categories.length > 0) {
-    for (const categoryStr of attraction.categories) {
-      const categoryName = categoryStr.split(".")[0];
-      if (!processedCategories.includes(categoryName)) {
-        processedCategories.push(categoryName);
-      }
-    }
-  }
-
-  return (
-    <Card className="hover:shadow-lg transition-shadow">
-      <CardHeader>
-        <div className="flex justify-between items-start">
-          <CardTitle className="text-xl">{attraction.name}</CardTitle>
-          <Badge
-            variant={`${getTypeColor(attraction.categories[0])}`}
-            className="text-xs"
-          >
-            {toTitleCase(attraction.categories[0]?.split(".")[0]) ||
-              "Attraction"}
-          </Badge>
-        </div>
-      </CardHeader>
-      <CardContent className="space-y-4">
-        {/* Description */}
-        {attraction.description && (
-          <p className="text-muted-foreground text-sm line-clamp-3">
-            {attraction.description}
-          </p>
-        )}
-
-        {/* Address */}
-        <div className="flex items-start gap-2">
-          <MapPin className="mt-0.5 w-4 h-4 text-muted-foreground" />
-          <span className="text-sm">{attraction.address}</span>
-        </div>
-
-        {/* Categories */}
-        {processedCategories.length > 0 && (
-          <div className="flex flex-wrap gap-1">
-            {processedCategories.slice(0, 3).map((categoryName: string) => (
-              <Badge
-                key={categoryName}
-                variant="softPrimary"
-                className="text-xs"
-              >
-                {toTitleCase(categoryName.replace(/_/g, " "))}
-              </Badge>
-            ))}
-            {processedCategories.length > 3 && (
-              <Badge variant="softPrimary" className="text-xs">
-                +{processedCategories.length - 3} more
-              </Badge>
-            )}
-          </div>
-        )}
-
-        <Separator />
-
-        {/* Contact Info */}
-        <div className="space-y-2">
-          {attraction.phone && (
-            <div className="flex items-center gap-2 text-sm">
-              <Phone className="w-4 h-4 text-muted-foreground" />
-              <span>{attraction.phone}</span>
-            </div>
-          )}
-
-          {attraction.website && (
-            <div className="flex items-center gap-2 text-sm">
-              <ExternalLink className="w-4 h-4 text-muted-foreground" />
-              <a
-                href={attraction.website}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                Visit Website
-              </a>
-            </div>
-          )}
-
-          {attraction.latitude && attraction.longitude && (
-            <div className="flex items-center gap-2 text-sm">
-              <Navigation className="w-4 h-4 text-muted-foreground" />
-              <a
-                href={`https://www.google.com/maps?q=${attraction.latitude},${attraction.longitude}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="text-blue-600 hover:underline"
-              >
-                View on Map
-              </a>
-            </div>
-          )}
-        </div>
-      </CardContent>
-    </Card>
   );
 }
