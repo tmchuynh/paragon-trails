@@ -276,6 +276,96 @@ export class UserService {
       return null;
     }
   }
+
+  static async getBudgetsByUser(userId: string): Promise<any[]> {
+    const cacheKey = `budgets_user_${userId}`;
+    const cached = apiCache.get(cacheKey);
+    if (cached) return cached;
+
+    try {
+      // Simulate fetching budgets for a user
+      const budgets = Array.from({ length: 5 }, (_, index) => ({
+        id: (index + 1).toString(),
+        name: `Budget ${index + 1}`,
+        amount: Math.floor(Math.random() * 5000) + 1000,
+        currency: "USD",
+        createdAt: new Date(Date.now() - Math.random() * 31536000000)
+          .toISOString()
+          .split("T")[0],
+      }));
+
+      apiCache.set(cacheKey, budgets);
+      return budgets;
+    } catch (error) {
+      console.error("Error fetching budgets:", error);
+      return [];
+    }
+  }
+
+  static async getUserFavorites(userId: string): Promise<User["favorites"]> {
+    const cacheKey = `user_favorites_${userId}`;
+    const cached = apiCache.get(cacheKey);
+    if (cached) return cached;
+
+    try {
+      // Simulate fetching user favorites
+      const favorites: User["favorites"] = {
+        hotels: [],
+        vehicles: [],
+        attractions: [],
+        destinations: [],
+        flights: [],
+        tours: [],
+        activities: [],
+      };
+
+      apiCache.set(cacheKey, favorites);
+      return favorites;
+    } catch (error) {
+      console.error("Error fetching user favorites:", error);
+      return {
+        hotels: [],
+        vehicles: [],
+        attractions: [],
+        destinations: [],
+        flights: [],
+        tours: [],
+        activities: [],
+      };
+    }
+  }
+
+  static async getTripsByUser(userId: string): Promise<any[]> {
+    const cacheKey = `trips_user_${userId}`;
+    const cached = apiCache.get(cacheKey);
+    if (cached) return cached;
+
+    try {
+      // Simulate fetching trips for a user
+      const trips = Array.from({ length: 3 }, (_, index) => ({
+        id: (index + 1).toString(),
+        destination: `Destination ${index + 1}`,
+        startDate: new Date(
+          Date.now() + Math.random() * 30 * 24 * 60 * 60 * 1000
+        )
+          .toISOString()
+          .split("T")[0],
+        endDate: new Date(Date.now() + Math.random() * 60 * 24 * 60 * 60 * 1000)
+          .toISOString()
+          .split("T")[0],
+        budget: Math.floor(Math.random() * 5000) + 1000,
+        status: ["Planned", "In Progress", "Completed"][
+          Math.floor(Math.random() * 3)
+        ],
+      }));
+
+      apiCache.set(cacheKey, trips);
+      return trips;
+    } catch (error) {
+      console.error("Error fetching trips:", error);
+      return [];
+    }
+  }
 }
 
 // Destination Service - Uses FakerAPI for destination data
