@@ -17,8 +17,6 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockDestinations } from "@/data/destinations";
-import { mockFlights } from "@/data/flights";
 import { ArrowRight, PlayCircle, Star, Users } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
