@@ -16,7 +16,7 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockTours } from "@/data/tours";
+import { mockTours, getMockTours, Tour } from "@/data/tours";
 import {
   convertTo12HourFormat,
   formatCurrency,
@@ -47,6 +47,11 @@ export default function TourDetailsPage() {
   const params = useParams();
   const { formatPrice } = useCurrency();
   const { dispatch } = useCart();
+  
+  // State management
+  const [tours, setTours] = useState<Tour[]>([]);
+  const [currentTour, setCurrentTour] = useState<Tour | null>(null);
+  const [loading, setLoading] = useState(true);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [selectedDate, setSelectedDate] = useState("");
   const [adults, setAdults] = useState(1);
@@ -56,26 +61,36 @@ export default function TourDetailsPage() {
   const [families, setFamilies] = useState(0);
   const [isBooking, setIsBooking] = useState(false);
 
-  // Find tour by URL param
-  const tourSlug = params.tour as string;
-  const initialTour = mockTours.find(
-    (tour) => formatToSlug(tour.title) === tourSlug
-  );
-
-  const [currentTour, setCurrentTour] = useState(initialTour);
-
-  // Update current tour when URL param changes
+  // Fetch tours data on component mount
   useEffect(() => {
-    const foundTour = mockTours.find(
-      (tour) => formatToSlug(tour.title) === tourSlug
-    );
-    setCurrentTour(foundTour);
-    setSelectedImageIndex(0); // Reset image index when tour changes
-  }, [tourSlug]);
+    const fetchTours = async () => {
+      try {
+        setLoading(true);
+        const toursData = await getMockTours();
+        setTours(toursData);
+        
+        // Find the tour based on the slug
+        const tourSlug = params.tour as string;
+        const foundTour = toursData.find(
+          (t: Tour) => formatToSlug(t.title) === tourSlug
+        );
+        
+        if (foundTour) {
+          setCurrentTour(foundTour);
+        }
+      } catch (error) {
+        console.error("Error fetching tours:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchTours();
+  }, [params.tour]);
 
   // Handle tour change from selector
   const handleTourChange = (newTourId: string) => {
-    const newTour = mockTours.find((tour) => tour.id === newTourId);
+    const newTour = tours.find((tour: Tour) => tour.id === newTourId);
     if (newTour) {
       const newSlug = formatToSlug(newTour.title);
       // Update URL without reloading the page
@@ -134,6 +149,35 @@ export default function TourDetailsPage() {
     setIsBooking(false);
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+          <p className="mt-4 text-lg">Loading tour details...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!currentTour) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            Tour Not Found
+          </h1>
+          <p className="text-gray-600 dark:text-gray-400 mb-4">
+            The tour you're looking for doesn't exist.
+          </p>
+          <Button onClick={() => router.push('/tours')}>
+            Browse Tours
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
@@ -155,7 +199,7 @@ export default function TourDetailsPage() {
                 <SelectValue placeholder="Select a tour" />
               </SelectTrigger>
               <SelectContent>
-                {mockTours.map((tour) => (
+                {tours.map((tour: Tour) => (
                   <SelectItem key={tour.id} value={tour.id} variant="classic">
                     {tour.title}
                   </SelectItem>
