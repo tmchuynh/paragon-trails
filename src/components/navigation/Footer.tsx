@@ -70,7 +70,7 @@ export default function Footer() {
           {/* Company Info */}
           <div className="xl:col-span-2">
             <div className="flex items-center gap-2 mb-4">
-              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg">
+              <div className="bg-gradient-to-r from-blue-600 to-teal-500 p-2 rounded-lg text-white">
                 <GlobeAltIcon className="w-6 h-6" />
               </div>
               <span className="font-bold text-xl">ParagonTrails</span>
