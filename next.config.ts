@@ -12,6 +12,8 @@ const imageHosts = [
   "lh3.googleusercontent.com",
   "randomuser.me",
   "s3.amazonaws.com",
+  "avatars.githubusercontent.com",
+  "cdn.jsdelivr.net",
 ];
 
 const nextConfig: NextConfig = {

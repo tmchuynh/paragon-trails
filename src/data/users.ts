@@ -17,6 +17,15 @@ export const mockUserData: User[] = [
     membershipStatus: "Active",
     membershipTier: "Gold",
     membershipExpiry: "2024-01-15",
+    favorites: {
+      hotels: ["HOTEL-001", "HOTEL-035", "HOTEL-061"],
+      vehicles: ["1", "5", "3", "9", "11", "12", "15"],
+      attractions: ["ATT001", "ATT207", "ATT009"],
+      destinations: ["1", "2", "3"],
+      flights: ["FL001", "FL002", "FL007"],
+      tours: ["TOUR-PAR-001", "TOUR-TOK-001", "TOUR-BAL-001", "TOUR-CUS-001"],
+      activities: ["ACT001", "ACT002", "ACT007"],
+    },
     rewards: [
       {
         rewardId: 1,
@@ -80,8 +89,7 @@ export const mockUserData: User[] = [
         color: "purple",
       },
     ],
-    avatarUrl:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/batsirai/128.jpg",
+    avatarUrl: faker.image.avatar(),
     preferences: {
       language: "en-US",
       timezone: "America/New_York",
@@ -170,8 +178,7 @@ export const mockUserData: User[] = [
         color: "purple",
       },
     ],
-    avatarUrl:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/justinrob/128.jpg",
+    avatarUrl: faker.image.avatar(),
     preferences: {
       language: "en-US",
       timezone: "America/Los_Angeles",
@@ -260,8 +267,7 @@ export const mockUserData: User[] = [
         color: "purple",
       },
     ],
-    avatarUrl:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/andrewmunsell/128.jpg",
+    avatarUrl: faker.image.avatar(),
     preferences: {
       language: "en-US",
       timezone: "America/New_York",
@@ -350,8 +356,7 @@ export const mockUserData: User[] = [
         color: "purple",
       },
     ],
-    avatarUrl:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/ceasar_83/128.jpg",
+    avatarUrl: faker.image.avatar(),
     preferences: {
       language: "en-US",
       timezone: "America/Los_Angeles",
@@ -440,8 +445,7 @@ export const mockUserData: User[] = [
         color: "purple",
       },
     ],
-    avatarUrl:
-      "https://s3.amazonaws.com/uifaces/faces/twitter/bennett_16/128.jpg",
+    avatarUrl: faker.image.avatar(),
     preferences: {
       language: "en-US",
       timezone: "America/New_York",
