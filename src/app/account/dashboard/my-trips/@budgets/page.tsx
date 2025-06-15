@@ -33,13 +33,59 @@ import {
   Trash2,
   TrendingUp,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function BudgetsSection() {
   const { user } = useAuth();
   const [filter, setFilter] = useState<
     "all" | "active" | "achieved" | "overdue"
   >("all");
+  const [allBudgets, setAllBudgets] = useState<any[]>([]);
+  const [allTrips, setAllTrips] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!user) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const [budgets, trips] = await Promise.all([
+          getBudgetsByUser(user.id),
+          getTripsByUser(user.id),
+        ]);
+        setAllBudgets(budgets);
+        setAllTrips(trips);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+        setAllBudgets([]);
+        setAllTrips([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [user]);
+
+  if (loading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>My Budgets</CardTitle>
+          <CardDescription>Loading your budgets...</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4 animate-pulse">
+            <div className="bg-gray-200 rounded w-3/4 h-4"></div>
+            <div className="bg-gray-200 rounded w-1/2 h-4"></div>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
 
   if (!user) {
     return (
@@ -52,12 +98,10 @@ export default function BudgetsSection() {
     );
   }
 
-  const allBudgets = getBudgetsByUser(user.id);
-  const allTrips = getTripsByUser(user.id);
   const now = new Date();
 
   // Filter budgets based on selected filter
-  const filteredBudgets = allBudgets.filter((budget) => {
+  const filteredBudgets = allBudgets.filter((budget: any) => {
     const progress = (budget.currentAmount / budget.targetAmount) * 100;
     const isAchieved = progress >= 100;
     const isOverdue = isBefore(budget.targetDate, now) && !isAchieved;
