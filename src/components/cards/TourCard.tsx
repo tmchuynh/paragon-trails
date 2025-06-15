@@ -2,6 +2,7 @@ import { Badge } from "@/components/ui/badge";
 import { Card } from "@/components/ui/card";
 import { useCurrency } from "@/context/CurrencyContext";
 import { Tour } from "@/lib/interfaces/services/tours";
+import { formatToSlug } from "@/lib/utils/format";
 import { Clock, MapPin, Star } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -13,9 +14,7 @@ export default function TourCard({ tour }: { tour: Tour }) {
   return (
     <Card
       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
-      onClick={() =>
-        router.push(`/tours/${tour.id.toLowerCase().replace(/\s+/g, "-")}`)
-      }
+      onClick={() => router.push(`/tours/${formatToSlug(tour.title)}`)}
     >
       <div className="relative h-64">
         <Image
