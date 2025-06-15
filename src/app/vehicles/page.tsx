@@ -176,15 +176,23 @@ export default function VehiclesPage() {
       })),
   ];
 
-  // Dynamically extract locations from mockDestinations
+  // Dynamically extract locations from vehicles
   const locations = [
     { value: "all", label: "All Locations" },
-    ...vehicles
-      .map((destination) => ({
-        value: destination.name.toLowerCase().replace(/\s+/g, "-"),
-        label: destination.name,
-      }))
-      .sort((a, b) => a.label.localeCompare(b.label)),
+    ...Array.from(
+      new Map(
+        vehicles
+          .map((vehicle) => ({
+            value:
+              vehicle.availability?.locations?.[0]
+                ?.toLowerCase()
+                .replace(/\s+/g, "-") ||
+              vehicle.name.toLowerCase().replace(/\s+/g, "-"),
+            label: vehicle.availability?.locations?.[0] || vehicle.name,
+          }))
+          .map((location) => [location.value, location])
+      ).values()
+    ).sort((a, b) => a.label.localeCompare(b.label)),
   ];
 
   const handleSearch = () => {
@@ -403,9 +411,9 @@ export default function VehiclesPage() {
                       className="w-full max-h-60"
                       variant="professional"
                     >
-                      {locations.map((location) => (
+                      {locations.map((location, index) => (
                         <SelectItem
-                          key={location.value}
+                          key={`${location.value}-${index}`}
                           value={location.value}
                           variant="classic"
                         >
@@ -905,7 +913,7 @@ export default function VehiclesPage() {
                             type="number"
                             min="1"
                             max={totalPages}
-                            value=""
+                            defaultValue=""
                             placeholder={currentPage.toString()}
                             className="border-slate-200 focus:border-primary focus:ring-primary/20 w-20 h-12"
                             onKeyDown={(e) => {
