@@ -513,7 +513,7 @@ export default function HomePage() {
                     </Badge>
                   </div>
                 </div>
-                <CardContent className="p-6">
+                <CardContent className="-mt-5 p-6">
                   <h3 className="mb-2 font-bold text-xl">Mirror House Sud</h3>
                   <p className="mb-2 text-sm">
                     Bolzano, Trentino-Alto Adige/South Tyrol, Italy
