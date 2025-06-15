@@ -17,6 +17,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/context/AuthContext";
+import { getTripsByUser } from "@/data/users";
 import { format, isAfter, isBefore, isWithinInterval } from "date-fns";
 import {
   Calendar,
@@ -28,13 +29,53 @@ import {
   Trash2,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function MyTripsSection() {
   const { user } = useAuth();
   const [filter, setFilter] = useState<
     "all" | "upcoming" | "ongoing" | "completed"
   >("all");
+  const [allTrips, setAllTrips] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!user) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const trips = await getTripsByUser(user.id);
+        setAllTrips(trips);
+      } catch (error) {
+        console.error("Error fetching trips:", error);
+        setAllTrips([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [user]);
+
+  if (loading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>My Trips</CardTitle>
+          <CardDescription>Loading your trips...</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4 animate-pulse">
+            <div className="bg-gray-200 rounded w-3/4 h-4"></div>
+            <div className="bg-gray-200 rounded w-1/2 h-4"></div>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
 
   if (!user) {
     return (
@@ -47,11 +88,10 @@ export default function MyTripsSection() {
     );
   }
 
-  const allTrips = getTripsByUser(user.id);
   const now = new Date();
 
   // Filter trips based on selected filter
-  const filteredTrips = allTrips.filter((trip) => {
+  const filteredTrips = allTrips.filter((trip: any) => {
     const isUpcoming =
       trip.status === "upcoming" && isAfter(trip.startDate, now);
     const isOngoing =
