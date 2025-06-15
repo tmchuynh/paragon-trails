@@ -119,28 +119,6 @@ function RouteGuard({ children, resourceId }) {
 }
 ```
 
-### Dynamic Content 404
-```tsx
-function TourDetailsPage({ tourId }) {
-  const { setNotFound, clearNotFound } = useNotFound();
-  const [tour, setTour] = useState(null);
-
-  useEffect(() => {
-    fetchTour(tourId)
-      .then((data) => {
-        if (data) {
-          setTour(data);
-          clearNotFound();
-        } else {
-          setNotFound(`/tours/${tourId}`, '404');
-        }
-      });
-  }, [tourId]);
-
-  // Component logic...
-}
-```
-
 ### Search Results 404
 ```tsx
 function SearchResults({ query }) {
@@ -151,7 +129,7 @@ function SearchResults({ query }) {
     searchAPI(query).then((data) => {
       if (data.length === 0) {
         setNotFound(`/search?q=${query}`, '404');
-        addSuggestion('/tours');
+        addSuggestion('/destinations');
         addSuggestion('/hotels');
       } else {
         setResults(data);
