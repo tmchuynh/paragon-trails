@@ -10,7 +10,6 @@
 
 ### 2. Add to Cart Functionality - ALL SERVICE TYPES IMPLEMENTED
 
-- ✅ **Tours** (`TourCard.tsx`) - Complete implementation with handleAddToCart & toast notifications
 - ✅ **Flights** (`/flights/page.tsx` & `/flights/[flight]/page.tsx`) - Full cart functionality added
 - ✅ **Vehicles** (`VehicleCard.tsx` & `/vehicles/[vehicle]/page.tsx`) - Complete implementation
 - ✅ **Activities** (`/destinations/[destination]/activities/page.tsx`) - Full cart implementation verified
@@ -50,7 +49,7 @@
 
 ### Key Features Verified
 
-1. **Multi-Service Support**: Tours, Flights, Vehicles, Activities, Attractions all working
+1. **Multi-Service Support**: Flights, Vehicles, Activities, Attractions all working
 2. **State Management**: useReducer-based cart with proper state updates
 3. **Persistence**: Cart state maintained across page navigation
 4. **User Feedback**: Toast notifications for all actions
