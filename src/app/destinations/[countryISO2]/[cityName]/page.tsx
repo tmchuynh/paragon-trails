@@ -5,7 +5,24 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import {
+  Pagination,
+  PaginationContent,
+  PaginationItem,
+  PaginationLink,
+  PaginationNext,
+  PaginationPrevious,
+} from "@/components/ui/pagination";
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from "@/components/ui/select";
 import { Separator } from "@/components/ui/separator";
+import { Switch } from "@/components/ui/switch";
 import {
   getCityAttractions,
   type Attraction,
@@ -14,11 +31,14 @@ import {
 import { toTitleCase } from "@/lib/utils/format";
 import {
   ArrowLeft,
+  ArrowUpDown,
   ExternalLink,
+  Filter,
   MapPin,
   Navigation,
   Phone,
   Search,
+  SlidersHorizontal,
   Star,
 } from "lucide-react";
 import Link from "next/link";
@@ -42,6 +62,17 @@ export default function CityPage({ params }: CityPageProps) {
     []
   );
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  const [sortBy, setSortBy] = useState<string>("name");
+  const [sortOrder, setSortOrder] = useState<"asc" | "desc">("asc");
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(12);
+
+  // Advanced filters
+  const [showAdvancedFilters, setShowAdvancedFilters] = useState(false);
+  const [hasWebsite, setHasWebsite] = useState(false);
+  const [hasPhone, setHasPhone] = useState(false);
+  const [hasCoordinates, setHasCoordinates] = useState(false);
+
   const [resolvedParams, setResolvedParams] = useState<{
     countryISO2: string;
     cityName: string;
@@ -105,8 +136,54 @@ export default function CityPage({ params }: CityPageProps) {
       );
     }
 
+    // Advanced filters
+    if (hasWebsite) {
+      filtered = filtered.filter((attraction) => attraction.website);
+    }
+    if (hasPhone) {
+      filtered = filtered.filter((attraction) => attraction.phone);
+    }
+    if (hasCoordinates) {
+      filtered = filtered.filter(
+        (attraction) => attraction.latitude && attraction.longitude
+      );
+    }
+
+    // Sort the filtered results
+    filtered.sort((a, b) => {
+      let comparison = 0;
+
+      switch (sortBy) {
+        case "name":
+          comparison = a.name.localeCompare(b.name);
+          break;
+        case "category":
+          comparison = (a.categories[0] || "").localeCompare(
+            b.categories[0] || ""
+          );
+          break;
+        case "address":
+          comparison = (a.address || "").localeCompare(b.address || "");
+          break;
+        default:
+          comparison = a.name.localeCompare(b.name);
+      }
+
+      return sortOrder === "asc" ? comparison : -comparison;
+    });
+
     setFilteredAttractions(filtered);
-  }, [searchQuery, selectedCategory, data]);
+    setCurrentPage(1); // Reset to first page when filters change
+  }, [
+    searchQuery,
+    selectedCategory,
+    hasWebsite,
+    hasPhone,
+    hasCoordinates,
+    sortBy,
+    sortOrder,
+    data,
+  ]);
 
   // Get unique categories for filtering
   const categories = data
@@ -118,6 +195,33 @@ export default function CityPage({ params }: CityPageProps) {
         )
       ).sort()
     : [];
+
+  // Pagination calculations
+  const totalPages = Math.ceil(filteredAttractions.length / itemsPerPage);
+  const startIndex = (currentPage - 1) * itemsPerPage;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedAttractions = filteredAttractions.slice(startIndex, endIndex);
+
+  // Helper functions
+  const resetFilters = () => {
+    setSearchQuery("");
+    setSelectedCategory("all");
+    setHasWebsite(false);
+    setHasPhone(false);
+    setHasCoordinates(false);
+    setSortBy("name");
+    setSortOrder("asc");
+    setCurrentPage(1);
+  };
+
+  const hasActiveFilters =
+    searchQuery.trim() ||
+    selectedCategory !== "all" ||
+    hasWebsite ||
+    hasPhone ||
+    hasCoordinates ||
+    sortBy !== "name" ||
+    sortOrder !== "asc";
 
   console.log("categories:", categories);
 
@@ -198,49 +302,175 @@ export default function CityPage({ params }: CityPageProps) {
           </div>
         </div>
 
-        {/* Search and Filters */}
+        {/* Search, Filters, and Sorting */}
         <div className="space-y-4 mb-6">
-          <div className="flex sm:flex-row flex-col gap-4">
-            <div className="relative flex-1 max-w-md">
+          {/* Search and Primary Filters */}
+          <div className="flex sm:flex-row flex-col items-center gap-4">
+            <div className="relative flex-1 min-w-3/7">
               <Search className="top-1/2 left-3 absolute w-4 h-4 text-muted-foreground transform -translate-y-1/2" />
               <Input
                 placeholder="Search attractions..."
                 value={searchQuery}
                 onChange={(e) => setSearchQuery(e.target.value)}
-                className="pl-10"
+                className="pl-10 focus:border-muted border-border focus:ring-muted/20 h-8"
               />
             </div>
 
+            {/* Category Select */}
             {categories.length > 0 && (
-              <select
+              <Select
                 value={selectedCategory}
-                onChange={(e) => setSelectedCategory(e.target.value)}
-                className="bg-background px-3 py-2 border rounded-md"
+                onValueChange={setSelectedCategory}
               >
-                <option value="all">All Categories</option>
-                {categories.map((category) => (
-                  <option key={category} value={category}>
-                    {toTitleCase(category.replace(/_/g, " "))}
-                  </option>
-                ))}
-              </select>
+                <SelectTrigger className="border border-border w-full md:w-1/2">
+                  <SelectValue />
+                </SelectTrigger>
+                <SelectContent
+                  className="w-full max-h-60"
+                  variant="professional"
+                >
+                  <SelectItem value="all" variant="classic">
+                    All Categories
+                  </SelectItem>
+                  {categories.map((category) => (
+                    <SelectItem
+                      key={category}
+                      value={category}
+                      variant="classic"
+                    >
+                      {toTitleCase(category.replace(/_/g, " "))}
+                    </SelectItem>
+                  ))}
+                </SelectContent>
+              </Select>
             )}
+
+            {/* Sort Select */}
+            <Select
+              value={`${sortBy}-${sortOrder}`}
+              onValueChange={(value) => {
+                const [newSortBy, newSortOrder] = value.split("-") as [
+                  string,
+                  "asc" | "desc",
+                ];
+                setSortBy(newSortBy);
+                setSortOrder(newSortOrder);
+              }}
+            >
+              <SelectTrigger className="border border-border w-full md:w-48">
+                <ArrowUpDown className="mr-2 w-4 h-4" />
+                <SelectValue placeholder="Sort" />
+              </SelectTrigger>
+              <SelectContent className="w-full max-h-60" variant="professional">
+                <SelectItem value="name-asc" variant="classic">
+                  Name A-Z
+                </SelectItem>
+                <SelectItem value="name-desc" variant="classic">
+                  Name Z-A
+                </SelectItem>
+                <SelectItem value="category-asc" variant="classic">
+                  Category A-Z
+                </SelectItem>
+                <SelectItem value="address-asc" variant="classic">
+                  Address A-Z
+                </SelectItem>
+              </SelectContent>
+            </Select>
+
+            {/* Items per page Select */}
+            <Select
+              value={itemsPerPage.toString()}
+              onValueChange={(value) => setItemsPerPage(parseInt(value))}
+            >
+              <SelectTrigger className="border border-border w-full md:w-32">
+                <SelectValue />
+              </SelectTrigger>
+              <SelectContent className="w-full max-h-60" variant="professional">
+                <SelectItem value="4" variant="classic">
+                  4 per page
+                </SelectItem>
+                <SelectItem value="8" variant="classic">
+                  8 per page
+                </SelectItem>
+                <SelectItem value="12" variant="classic">
+                  12 per page
+                </SelectItem>
+                <SelectItem value="16" variant="classic">
+                  16 per page
+                </SelectItem>
+                <SelectItem value="24" variant="classic">
+                  24 per page
+                </SelectItem>
+              </SelectContent>
+            </Select>
+
+            {/* Advanced Filters Toggle */}
+            <Button
+              variant="outline"
+              onClick={() => setShowAdvancedFilters(!showAdvancedFilters)}
+              className={showAdvancedFilters ? "bg-accent" : ""}
+            >
+              <SlidersHorizontal className="mr-2 w-4 h-4" />
+              Advanced
+            </Button>
           </div>
 
+          {/* Advanced Filters Panel */}
+          {showAdvancedFilters && (
+            <div className="bg-muted/30 p-4 border rounded-lg">
+              <h3 className="mb-3 font-medium text-sm">Advanced Filters</h3>
+              <div className="gap-4 grid grid-cols-1 sm:grid-cols-3">
+                <div className="flex items-center space-x-2">
+                  <Switch
+                    id="has-website"
+                    checked={hasWebsite}
+                    onCheckedChange={setHasWebsite}
+                  />
+                  <Label htmlFor="has-website" className="text-sm">
+                    Has Website
+                  </Label>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Switch
+                    id="has-phone"
+                    checked={hasPhone}
+                    onCheckedChange={setHasPhone}
+                  />
+                  <Label htmlFor="has-phone" className="text-sm">
+                    Has Phone
+                  </Label>
+                </div>
+                <div className="flex items-center space-x-2">
+                  <Switch
+                    id="has-coordinates"
+                    checked={hasCoordinates}
+                    onCheckedChange={setHasCoordinates}
+                  />
+                  <Label htmlFor="has-coordinates" className="text-sm">
+                    Has Map Location
+                  </Label>
+                </div>
+              </div>
+            </div>
+          )}
+
+          {/* Results Summary and Clear Filters */}
           <div className="flex justify-between items-center">
-            <Badge variant="soft">
-              {filteredAttractions.length} of {attractions.length} attractions
-            </Badge>
-            {(searchQuery.trim() || selectedCategory !== "all") && (
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={() => {
-                  setSearchQuery("");
-                  setSelectedCategory("all");
-                }}
-              >
-                Clear Filters
+            <div className="flex items-center gap-2">
+              <Badge variant="secondary">
+                {filteredAttractions.length} of {data?.attractions.length || 0}{" "}
+                attractions
+              </Badge>
+              {currentPage > 1 && (
+                <Badge variant="outline">
+                  Page {currentPage} of {totalPages}
+                </Badge>
+              )}
+            </div>
+            {hasActiveFilters && (
+              <Button variant="outline" size="sm" onClick={resetFilters}>
+                <Filter className="mr-2 w-4 h-4" />
+                Clear All Filters
               </Button>
             )}
           </div>
@@ -248,30 +478,91 @@ export default function CityPage({ params }: CityPageProps) {
 
         {/* Attractions Grid */}
         {filteredAttractions.length > 0 ? (
-          <div className="gap-6 grid grid-cols-1 md:grid-cols-2">
-            {filteredAttractions.map((attraction) => (
-              <AttractionCard key={attraction.id} attraction={attraction} />
-            ))}
-          </div>
+          <>
+            <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+              {paginatedAttractions.map((attraction) => (
+                <AttractionCard
+                  key={attraction.id}
+                  attraction={attraction}
+                  categoryList={categories}
+                />
+              ))}
+            </div>
+
+            {/* Pagination */}
+            {totalPages > 1 && (
+              <div className="flex justify-center mt-8">
+                <Pagination>
+                  <PaginationContent>
+                    <PaginationItem>
+                      <PaginationPrevious
+                        onClick={() =>
+                          currentPage > 1 && setCurrentPage(currentPage - 1)
+                        }
+                        className={
+                          currentPage <= 1
+                            ? "opacity-50 cursor-not-allowed"
+                            : "cursor-pointer"
+                        }
+                      />
+                    </PaginationItem>
+
+                    {Array.from({ length: Math.min(7, totalPages) }, (_, i) => {
+                      let pageNum;
+                      if (totalPages <= 7) {
+                        pageNum = i + 1;
+                      } else if (currentPage <= 4) {
+                        pageNum = i + 1;
+                      } else if (currentPage >= totalPages - 3) {
+                        pageNum = totalPages - 6 + i;
+                      } else {
+                        pageNum = currentPage - 3 + i;
+                      }
+
+                      return (
+                        <PaginationItem key={pageNum}>
+                          <PaginationLink
+                            onClick={() => setCurrentPage(pageNum)}
+                            isActive={currentPage === pageNum}
+                            className="cursor-pointer"
+                          >
+                            {pageNum}
+                          </PaginationLink>
+                        </PaginationItem>
+                      );
+                    })}
+
+                    <PaginationItem>
+                      <PaginationNext
+                        onClick={() =>
+                          currentPage < totalPages &&
+                          setCurrentPage(currentPage + 1)
+                        }
+                        className={
+                          currentPage >= totalPages
+                            ? "opacity-50 cursor-not-allowed"
+                            : "cursor-pointer"
+                        }
+                      />
+                    </PaginationItem>
+                  </PaginationContent>
+                </Pagination>
+              </div>
+            )}
+          </>
         ) : (
           <div className="py-12 text-center">
             <Star className="mx-auto mb-4 w-12 h-12 text-muted-foreground" />
             <h3 className="mb-2 font-medium text-lg">No Attractions Found</h3>
             <p className="text-muted-foreground">
-              {searchQuery.trim() || selectedCategory !== "all"
+              {hasActiveFilters
                 ? "No attractions match your current filters."
                 : `No attractions available for ${city.name}.`}
             </p>
-            {(searchQuery.trim() || selectedCategory !== "all") && (
-              <Button
-                variant="outline"
-                onClick={() => {
-                  setSearchQuery("");
-                  setSelectedCategory("all");
-                }}
-                className="mt-4"
-              >
-                Clear Filters
+            {hasActiveFilters && (
+              <Button variant="outline" onClick={resetFilters} className="mt-4">
+                <Filter className="mr-2 w-4 h-4" />
+                Clear All Filters
               </Button>
             )}
           </div>
@@ -281,7 +572,13 @@ export default function CityPage({ params }: CityPageProps) {
   );
 }
 
-function AttractionCard({ attraction }: { attraction: Attraction }) {
+function AttractionCard({
+  attraction,
+  categoryList,
+}: {
+  attraction: Attraction;
+  categoryList: string[];
+}) {
   const getTypeColor = (type: string) => {
     switch (type) {
       case "Sightseeing":
@@ -305,6 +602,17 @@ function AttractionCard({ attraction }: { attraction: Attraction }) {
     }
   };
 
+  // Process categories to get clean category names
+  const processedCategories: string[] = [];
+  if (attraction.categories.length > 0) {
+    for (const categoryStr of attraction.categories) {
+      const categoryName = categoryStr.split(".")[0];
+      if (!processedCategories.includes(categoryName)) {
+        processedCategories.push(categoryName);
+      }
+    }
+  }
+
   return (
     <Card className="hover:shadow-lg transition-shadow">
       <CardHeader>
@@ -321,6 +629,11 @@ function AttractionCard({ attraction }: { attraction: Attraction }) {
       </CardHeader>
       <CardContent className="space-y-4">
         {/* Description */}
+        {attraction.description && (
+          <p className="text-muted-foreground text-sm line-clamp-3">
+            {attraction.description}
+          </p>
+        )}
 
         {/* Address */}
         <div className="flex items-start gap-2">
@@ -329,16 +642,20 @@ function AttractionCard({ attraction }: { attraction: Attraction }) {
         </div>
 
         {/* Categories */}
-        {attraction.categories.length > 1 && (
+        {processedCategories.length > 0 && (
           <div className="flex flex-wrap gap-1">
-            {attraction.categories.slice(0, 3).map((category) => (
-              <Badge key={category} variant="softPrimary" className="text-xs">
-                {category.split(".").pop()?.replace(/_/g, " ")}
+            {processedCategories.slice(0, 3).map((categoryName: string) => (
+              <Badge
+                key={categoryName}
+                variant="softPrimary"
+                className="text-xs"
+              >
+                {toTitleCase(categoryName.replace(/_/g, " "))}
               </Badge>
             ))}
-            {attraction.categories.length > 3 && (
+            {processedCategories.length > 3 && (
               <Badge variant="softPrimary" className="text-xs">
-                +{attraction.categories.length - 3} more
+                +{processedCategories.length - 3} more
               </Badge>
             )}
           </div>
