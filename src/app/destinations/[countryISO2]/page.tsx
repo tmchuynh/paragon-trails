@@ -17,7 +17,6 @@ import {
   MapPin,
   Phone,
   Search,
-  Users,
 } from "lucide-react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
@@ -56,7 +55,7 @@ export default function CountryPage({ params }: CountryPageProps) {
       try {
         const result = await getDestinationCities({
           countryISO2: resolvedParams!.countryISO2.toUpperCase(),
-          limit: 100,
+          limit: 200,
         });
         setData(result);
         setFilteredCities(result.cities);
@@ -244,26 +243,7 @@ function CityCard({ city, country }: { city: City; country: Country }) {
             )}
           </div>
         </CardHeader>
-        <CardContent>
-          <div className="space-y-2 text-muted-foreground text-sm">
-            <div className="flex items-center gap-1">
-              <MapPin className="w-3 h-3" />
-              <span>{country.name}</span>
-            </div>
-            <div className="flex items-center gap-1">
-              <Users className="w-3 h-3" />
-              <span>Explore attractions</span>
-            </div>
-            {city.latitude && city.longitude && (
-              <div className="flex items-center gap-1">
-                <Globe className="w-3 h-3" />
-                <span>
-                  {city.latitude.toFixed(2)}, {city.longitude.toFixed(2)}
-                </span>
-              </div>
-            )}
-          </div>
-        </CardContent>
+        <CardContent></CardContent>
       </Card>
     </Link>
   );
