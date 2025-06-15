@@ -106,6 +106,7 @@ export default function FlightsPage() {
   const airlines = [
     { value: "all", label: "All Airlines" },
     ...Array.from(new Set(flights.map((flight) => flight.airline)))
+      .filter(Boolean)
       .sort()
       .map((airline) => ({ value: airline, label: airline })),
   ];
