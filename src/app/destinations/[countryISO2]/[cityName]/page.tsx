@@ -8,6 +8,7 @@ import { getCityAttractions, type City } from "@/lib/api/destinations";
 import {
   Activity,
   ArrowLeft,
+  Bed,
   Calendar,
   Car,
   Globe,
@@ -176,7 +177,7 @@ export default function CityPage({ params }: CityPageProps) {
         </div>
 
         {/* Main Navigation Grid */}
-        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 mb-12">
+        <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 mb-12">
           {/* Attractions Card */}
           <Card className="group bg-gradient-to-br from-yellow-50 to-orange-100 hover:shadow-md border-yellow-200 transition-all duration-300 cursor-pointer">
             <Link
@@ -225,6 +226,32 @@ export default function CityPage({ params }: CityPageProps) {
                   Entertainment, sports, leisure activities and fun experiences
                 </p>
                 <Badge variant="gradient">Find Activities</Badge>
+              </CardContent>
+            </Link>
+          </Card>
+
+          {/* Accommodation Card */}
+          <Card className="group bg-gradient-to-br from-teal-50 to-cyan-100 hover:shadow-md border-teal-200 transition-all duration-300 cursor-pointer">
+            <Link
+              href={
+                resolvedParams
+                  ? `/destinations/${resolvedParams.countryISO2}/${resolvedParams.cityName}/accommodations`
+                  : "#"
+              }
+            >
+              <CardHeader className="pb-2 text-center">
+                <div className="flex justify-center items-center bg-teal-500 mx-auto mb-4 p-4 rounded-full w-16 h-16 transition-colors">
+                  <Bed className="w-8 h-8 text-white" />
+                </div>
+                <CardTitle className="text-teal-800 text-xl">
+                  Places to Stay
+                </CardTitle>
+              </CardHeader>
+              <CardContent className="text-center">
+                <p className="mb-4 text-sm text-teal-700">
+                  Hotels, accommodations and comfortable places to stay
+                </p>
+                <Badge variant="gradient">Find Places</Badge>
               </CardContent>
             </Link>
           </Card>
