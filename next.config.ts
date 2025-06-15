@@ -14,6 +14,14 @@ const imageHosts = [
   "s3.amazonaws.com",
   "avatars.githubusercontent.com",
   "cdn.jsdelivr.net",
+  // API-related image hosts
+  "picsum.photos",
+  "via.placeholder.com",
+  "ui-avatars.com",
+  "cdn.dummyjson.com",
+  "i.dummyjson.com",
+  "jsonplaceholder.typicode.com",
+  "fakerapi.it",
 ];
 
 const nextConfig: NextConfig = {
