@@ -47,12 +47,6 @@ export default function Cart() {
             </p>
             <div className="flex sm:flex-row flex-col justify-center gap-4">
               <Button
-                onClick={() => router.push("/tours")}
-                className="bg-primary hover:bg-primary/90 px-8 py-3 text-white"
-              >
-                Browse Tours
-              </Button>
-              <Button
                 variant="outline"
                 onClick={() => router.push("/hotels")}
                 className="px-8 py-3"
@@ -170,7 +164,7 @@ export default function Cart() {
 
                   <Button
                     variant="outline"
-                    onClick={() => router.push("/tours")}
+                    onClick={() => router.push("/destinations")}
                     className="w-full"
                   >
                     Continue Shopping
