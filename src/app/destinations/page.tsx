@@ -74,10 +74,14 @@ export default function DestinationsPage() {
 
   // Calculate min and max prices from destinations data
   const minPrice = Math.min(
-    ...destinations.map((destination) => destination.pricing.averageDailyBudget)
+    ...destinations.map(
+      (destination) => destination.pricing?.averageDailyBudget || 50
+    )
   );
   const maxPrice = Math.max(
-    ...destinations.map((destination) => destination.pricing.averageDailyBudget)
+    ...destinations.map(
+      (destination) => destination.pricing?.averageDailyBudget || 500
+    )
   );
 
   const [budgetRange, setBudgetRange] = useState([minPrice, maxPrice]);
@@ -221,8 +225,8 @@ export default function DestinationsPage() {
     // Filter by budget range
     filtered = filtered.filter(
       (dest) =>
-        dest.pricing.averageDailyBudget >= budgetRange[0] &&
-        dest.pricing.averageDailyBudget <= budgetRange[1]
+        (dest.pricing?.averageDailyBudget || 100) >= budgetRange[0] &&
+        (dest.pricing?.averageDailyBudget || 100) <= budgetRange[1]
     );
 
     // Sort results
@@ -231,9 +235,15 @@ export default function DestinationsPage() {
         case "name":
           return a.name.localeCompare(b.name);
         case "price-low":
-          return a.pricing.averageDailyBudget - b.pricing.averageDailyBudget;
+          return (
+            (a.pricing?.averageDailyBudget || 100) -
+            (b.pricing?.averageDailyBudget || 100)
+          );
         case "price-high":
-          return b.pricing.averageDailyBudget - a.pricing.averageDailyBudget;
+          return (
+            (b.pricing?.averageDailyBudget || 100) -
+            (a.pricing?.averageDailyBudget || 100)
+          );
         case "rating":
           // Use a default rating if not available
           const ratingA = (a as any).rating || 0;
@@ -784,7 +794,9 @@ export default function DestinationsPage() {
                           className="transition-transform group-hover:scale-105 object-cover"
                         />
                         <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
-                          {formatPrice(destination.pricing.averageDailyBudget)}
+                          {formatPrice(
+                            destination.pricing?.averageDailyBudget || 100
+                          )}
                         </div>
                         <div className="bottom-4 left-4 absolute bg-black/70 px-3 py-1 rounded-full font-medium text-sm text-white">
                           <MapPin className="inline mr-1 w-3 h-3" />
@@ -821,7 +833,7 @@ export default function DestinationsPage() {
                             <p className="font-semibold text-slate-600 text-sm">
                               From{" "}
                               {formatPrice(
-                                destination.pricing.averageDailyBudget
+                                destination.pricing?.averageDailyBudget || 100
                               )}
                               /day
                             </p>
