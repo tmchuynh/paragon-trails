@@ -23,14 +23,33 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
+import { getMockVehicles } from "@/data/vehicles";
 import { Vehicle } from "@/lib/interfaces/services/vehicles";
 import { Car, Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 import { FaFilter } from "react-icons/fa";
 
 export default function VehiclesPage() {
-  const [filteredVehicles, setFilteredVehicles] =
-    useState<Vehicle[]>(mockVehicles);
+  const [vehicles, setVehicles] = useState<Vehicle[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [vehiclesData] = await Promise.all([getMockVehicles()]);
+
+        setVehicles(vehiclesData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const [filteredVehicles, setFilteredVehicles] = useState<Vehicle[]>(vehicles);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedBrand, setSelectedBrand] = useState<string>("all");
@@ -42,10 +61,10 @@ export default function VehiclesPage() {
 
   // Calculate min and max prices from vehicles data
   const minPrice = Math.min(
-    ...mockVehicles.map((vehicle) => vehicle.pricing.daily)
+    ...vehicles.map((vehicle) => vehicle.pricing.daily)
   );
   const maxPrice = Math.max(
-    ...mockVehicles.map((vehicle) => vehicle.pricing.daily)
+    ...vehicles.map((vehicle) => vehicle.pricing.daily)
   );
 
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
@@ -59,10 +78,10 @@ export default function VehiclesPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(8);
 
-  // Dynamically extract vehicle types from mockVehicles
+  // Dynamically extract vehicle types from vehicles
   const vehicleTypes = [
     { value: "all", label: "All Vehicles" },
-    ...Array.from(new Set(mockVehicles.map((vehicle) => vehicle.type)))
+    ...Array.from(new Set(vehicles.map((vehicle) => vehicle.type)))
       .sort()
       .map((type) => ({
         value: type,
@@ -75,9 +94,9 @@ export default function VehiclesPage() {
 
   // Get available brands based on selected type
   const getAvailableBrands = () => {
-    let vehicles = mockVehicles;
+    let vehicle = vehicles;
     if (selectedType !== "all") {
-      vehicles = vehicles.filter((v) => v.type === selectedType);
+      vehicle = vehicles.filter((v) => v.type === selectedType);
     }
     return [
       { value: "all", label: "All Brands" },
@@ -89,12 +108,12 @@ export default function VehiclesPage() {
 
   // Get available models based on selected type and brand
   const getAvailableModels = () => {
-    let vehicles = mockVehicles;
+    let vehicle = vehicles;
     if (selectedType !== "all") {
-      vehicles = vehicles.filter((v) => v.type === selectedType);
+      vehicle = vehicles.filter((v) => v.type === selectedType);
     }
     if (selectedBrand !== "all") {
-      vehicles = vehicles.filter((v) => v.brand === selectedBrand);
+      vehicle = vehicles.filter((v) => v.brand === selectedBrand);
     }
     return [
       { value: "all", label: "All Models" },
@@ -106,15 +125,15 @@ export default function VehiclesPage() {
 
   // Get available years based on selected type, brand, and model
   const getAvailableYears = () => {
-    let vehicles = mockVehicles;
+    let vehicle = vehicles;
     if (selectedType !== "all") {
-      vehicles = vehicles.filter((v) => v.type === selectedType);
+      vehicle = vehicles.filter((v) => v.type === selectedType);
     }
     if (selectedBrand !== "all") {
-      vehicles = vehicles.filter((v) => v.brand === selectedBrand);
+      vehicle = vehicles.filter((v) => v.brand === selectedBrand);
     }
     if (selectedModel !== "all") {
-      vehicles = vehicles.filter((v) => v.model === selectedModel);
+      vehicle = vehicles.filter((v) => v.model === selectedModel);
     }
     return [
       { value: "all", label: "All Years" },
@@ -129,7 +148,7 @@ export default function VehiclesPage() {
     { value: "all", label: "All Fuel Types" },
     ...Array.from(
       new Set(
-        mockVehicles
+        vehicles
           .filter((vehicle) => vehicle.specifications?.fuelType)
           .map((vehicle) => vehicle.specifications.fuelType!)
       )
@@ -143,7 +162,7 @@ export default function VehiclesPage() {
     { value: "all", label: "All Seating" },
     ...Array.from(
       new Set(
-        mockVehicles
+        vehicles
           .filter(
             (vehicle) => vehicle.specifications?.seatingCapacity !== undefined
           )
@@ -160,7 +179,7 @@ export default function VehiclesPage() {
   // Dynamically extract locations from mockDestinations
   const locations = [
     { value: "all", label: "All Locations" },
-    ...mockDestinations
+    ...vehicles
       .map((destination) => ({
         value: destination.name.toLowerCase().replace(/\s+/g, "-"),
         label: destination.name,
@@ -169,7 +188,7 @@ export default function VehiclesPage() {
   ];
 
   const handleSearch = () => {
-    let filtered = mockVehicles;
+    let filtered = vehicles;
 
     // Filter by search query
     if (searchQuery) {
