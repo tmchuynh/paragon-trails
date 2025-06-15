@@ -274,15 +274,15 @@ export default function ActivitiesPage() {
   const getDifficultyBadgeVariant = (difficulty: string) => {
     switch (difficulty) {
       case "Easy":
-        return "secondary";
+        return "outlineGradient";
       case "Moderate":
-        return "default";
+        return "outlineGradientPrimary";
       case "Challenging":
-        return "destructive";
+        return "outlineGradientWarning";
       case "Expert":
-        return "outline";
+        return "outlineGradientDanger";
       default:
-        return "outline";
+        return "outlineGradientInfo";
     }
   };
 
@@ -691,10 +691,10 @@ export default function ActivitiesPage() {
                         </p>
 
                         <div className="flex flex-wrap gap-2 mb-4">
-                          <Badge variant="secondary" className="text-xs">
+                          <Badge variant="softPrimary" className="text-xs">
                             {activity.category}
                           </Badge>
-                          <Badge variant="outline" className="text-xs">
+                          <Badge variant="softInfo" className="text-xs">
                             <Users className="inline mr-1 w-3 h-3" />
                             {activity.groupSize.min}-{activity.groupSize.max}{" "}
                             people
