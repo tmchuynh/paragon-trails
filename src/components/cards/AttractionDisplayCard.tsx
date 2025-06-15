@@ -34,17 +34,17 @@ export default function AttractionDisplayCard({
   const getTypeColor = (type: string) => {
     switch (type.toLowerCase()) {
       case "monument":
-        return "bg-amber-100 text-amber-800 dark:bg-amber-900 dark:text-amber-200";
+        return "gradientPrimary";
       case "museum":
-        return "bg-purple-100 text-purple-800 dark:bg-purple-900 dark:text-purple-200";
+        return "gradientInfo";
       case "park":
-        return "bg-green-100 text-green-800 dark:bg-green-900 dark:text-green-200";
+        return "gradientSecondary";
       case "tower":
-        return "bg-blue-100 text-blue-800 dark:bg-blue-900 dark:text-blue-200";
+        return "gradient";
       case "temple":
-        return "bg-orange-100 text-orange-800 dark:bg-orange-900 dark:text-orange-200";
+        return "gradientSuccess";
       default:
-        return "bg-gray-100 text-gray-800 dark:bg-gray-800 dark:text-gray-200";
+        return "gradientWarning";
     }
   };
 
@@ -62,7 +62,8 @@ export default function AttractionDisplayCard({
         />
         <div className="top-4 left-4 absolute">
           <Badge
-            className={`text-xs font-medium ${getTypeColor(attraction.type)}`}
+            variant={`${getTypeColor(attraction.type)}`}
+            className={`text-xs font-medium `}
           >
             {attraction.type}
           </Badge>
@@ -104,18 +105,18 @@ export default function AttractionDisplayCard({
         </div>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge variant="secondary" className="text-xs">
+          <Badge variant="softInfo" className="text-xs">
             <Calendar className="mr-1 w-3 h-3" />
             {attraction.bestTimeToVisit[0]}
           </Badge>
           {attraction.accessibility?.wheelchairAccessible && (
-            <Badge variant="secondary" className="text-xs">
+            <Badge variant="softSecondary" className="text-xs">
               <Accessibility className="mr-1 w-3 h-3" />
               Accessible
             </Badge>
           )}
           {attraction.tickets.skipTheLine && (
-            <Badge variant="secondary" className="text-xs">
+            <Badge variant="softSuccess" className="text-xs">
               <Ticket className="mr-1 w-3 h-3" />
               Skip Line
             </Badge>

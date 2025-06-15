@@ -29,7 +29,7 @@ export default function FlightCard({
       className="hover:shadow-lg p-0 transition-shadow cursor-pointer"
       onClick={() => router.push(`/flights/${flight.id}`)}
     >
-      <CardContent className="p-6">
+      <CardContent className="-mt-5 p-6">
         <div className="gap-6 grid grid-cols-1 lg:grid-cols-4">
           {/* Flight Info */}
           <div className="lg:col-span-2">
@@ -85,7 +85,7 @@ export default function FlightCard({
             <h4 className="mb-3 font-semibold text-sm">Amenities</h4>
             <div className="flex flex-wrap gap-2">
               {flight.amenities.slice(0, 3).map((amenity, index) => (
-                <Badge key={index} variant="secondary" className="text-xs">
+                <Badge key={index} variant="softPrimary" className="text-xs">
                   {amenity === "In-flight Wi-Fi" && (
                     <Wifi className="mr-1 w-3 h-3" />
                   )}
@@ -93,7 +93,7 @@ export default function FlightCard({
                 </Badge>
               ))}
               {flight.amenities.length > 3 && (
-                <Badge variant="outline" className="text-xs">
+                <Badge variant="softInfo" className="text-xs">
                   +{flight.amenities.length - 3} more
                 </Badge>
               )}
@@ -123,7 +123,7 @@ export default function FlightCard({
                 {flight.availability[
                   classType as keyof typeof flight.availability
                 ] > 0 ? (
-                  <Badge variant="outline" className="text-green-600">
+                  <Badge variant="outlineSuccess">
                     {
                       flight.availability[
                         classType as keyof typeof flight.availability
@@ -132,7 +132,7 @@ export default function FlightCard({
                     seats left
                   </Badge>
                 ) : (
-                  <Badge variant="destructive">Sold out</Badge>
+                  <Badge variant="softDanger">Sold out</Badge>
                 )}
               </div>
             </div>

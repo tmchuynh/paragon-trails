@@ -11,6 +11,29 @@ export default function TourCard({ tour }: { tour: Tour }) {
   const router = useRouter();
   const { formatPrice } = useCurrency();
 
+  const getTypeColor = (type: string) => {
+    switch (type) {
+      case "Sightseeing":
+        return "gradientSecondary";
+      case "History":
+        return "gradientInfo";
+      case "Culture":
+        return "gradientInfo";
+      case "Nature & Wildlife":
+        return "gradientSuccess";
+      case "Entertainment":
+        return "gradientPrimary";
+      case "Adventure":
+        return "gradientWarning";
+      case "Local Experience":
+        return "gradientSecondary";
+      case "Religion":
+        return "gradientSuccess";
+      default:
+        return "gradient";
+    }
+  };
+
   return (
     <Card
       className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
@@ -23,6 +46,11 @@ export default function TourCard({ tour }: { tour: Tour }) {
           fill
           className="transition-transform group-hover:scale-105 object-cover"
         />
+        <div className="top-4 left-4 absolute">
+          <Badge variant={`${getTypeColor(tour.category)}`} className="text-xs">
+            {tour.category}
+          </Badge>
+        </div>
         <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
           {formatPrice(tour.pricing.adult)}
         </div>
@@ -44,11 +72,8 @@ export default function TourCard({ tour }: { tour: Tour }) {
         </p>
 
         <div className="flex flex-wrap gap-2 mb-4">
-          <Badge variant="secondary" className="text-xs">
+          <Badge variant="softSecondary" className="text-xs">
             {tour.type}
-          </Badge>
-          <Badge variant="outline" className="text-xs">
-            {tour.category}
           </Badge>
         </div>
 

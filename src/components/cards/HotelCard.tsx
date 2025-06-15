@@ -1,11 +1,11 @@
 "use client";
 
 import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { Hotel } from "@/lib/interfaces/services/hotels";
+import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import {
   Bath,
@@ -27,8 +27,8 @@ import { toast } from "sonner";
 
 interface HotelCardProps {
   hotel: Hotel;
-  checkInDate?: string;
-  checkOutDate?: string;
+  checkInDate?: Date;
+  checkOutDate?: Date;
   guests?: {
     adults: number;
     children: number;
@@ -74,8 +74,8 @@ export default function HotelCard({
       image: hotel.images[0],
       price: hotel.pricing.priceRange.min,
       dates: {
-        startDate: checkInDate,
-        endDate: checkOutDate,
+        startDate: checkInDate.toISOString(),
+        endDate: checkOutDate.toISOString(),
       },
       guests: guests.adults + guests.children,
       location: `${hotel.location.city}, ${hotel.location.country}`,
@@ -132,43 +132,64 @@ export default function HotelCard({
     return Calendar; // Default icon
   };
 
+  const getTypeColor = (type: string) => {
+    switch (type.toLowerCase()) {
+      case "hotel":
+        return "gradientWarning";
+      case "resort":
+        return "gradientInfo";
+      case "boutique":
+        return "gradientInfo";
+      case "hostel":
+        return "gradientSuccess";
+      case "apartment":
+        return "gradientPrimary";
+      case "villa":
+        return "gradientWarning";
+      case "bed-and-breakfast":
+        return "gradientSecondary";
+      default:
+        return "gradient";
+    }
+  };
+
   return (
-    <Card className="hover:shadow-xl transition-shadow overflow-hidden">
+    <Card
+      className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
+      onClick={() => router.push(`/hotels/${formatToSlug(hotel.name)}`)}
+    >
       <div className="relative h-64">
         <Image
           src={hotel.images[0]}
           alt={hotel.name}
           fill
-          className="object-cover"
+          className="transition-transform group-hover:scale-105 object-cover"
         />
         <div className="top-4 left-4 absolute">
-          <Badge variant="secondary" className="bg-white text-black">
+          <Badge variant={`${getTypeColor(hotel.type)}`}>
             {hotel.type.charAt(0).toUpperCase() + hotel.type.slice(1)}
           </Badge>
         </div>
-        <div className="top-4 right-4 absolute flex items-center">
-          {renderStarRating(hotel.starRating)}
-        </div>
+        <Badge className="top-4 right-4 absolute" variant={"glassSuccess"}>
+          {displayRatingStars(hotel.starRating, 5, {
+            size: "sm",
+          })}
+        </Badge>
         {hotel.awards && hotel.awards.length > 0 && (
           <div className="bottom-4 left-4 absolute">
-            <Badge
-              variant="outline"
-              className="bg-white/90 border-amber-200 text-amber-600"
-            >
-              Award Winner
-            </Badge>
+            <Badge variant="platinum">Award Winner</Badge>
           </div>
         )}
       </div>
 
-      <CardContent className="p-6">
+      <CardContent className="-mt-5 p-6">
         <div className="mb-4">
-          <h3 className="mb-2 font-bold text-slate-900 text-xl dark:text-white">
+          <h3 className="mb-2 font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
             {hotel.name}
           </h3>
           <div className="flex items-center gap-2 mb-2">
-            <MapPin className="w-4 h-4 text-slate-500" />
-            <span className="text-slate-600 text-sm">
+            <MapPin className="w-4 h-4 text-accent" />
+            <span className="text-slate-600 text-sm dark:text-slate-400">
               {hotel.location.city}, {hotel.location.country}
             </span>
           </div>
@@ -179,7 +200,6 @@ export default function HotelCard({
 
         <div className="mb-4">
           <div className="flex items-center gap-1 mb-2">
-            <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
             <span className="font-medium text-slate-900 text-sm dark:text-white">
               {hotel.rating}
             </span>
@@ -196,10 +216,7 @@ export default function HotelCard({
             {hotel.amenities.general.slice(0, 4).map((amenity, index) => {
               const IconComponent = getAmenityIcon(amenity);
               return (
-                <div
-                  key={index}
-                  className="flex items-center gap-1 text-slate-600 text-xs"
-                >
+                <div key={index} className="flex items-center gap-1 text-xs">
                   <IconComponent className="w-3 h-3" />
                   <span>{amenity}</span>
                 </div>
@@ -208,61 +225,16 @@ export default function HotelCard({
           </div>
         </div>
 
-        {/* Room info */}
-        <div className="mb-4">
-          <div className="flex justify-between items-center text-sm">
-            <span className="text-slate-600">
-              {hotel.rooms.totalRooms} rooms available
-            </span>
-            <span className="text-slate-600">
-              Maximum of {hotel.rooms.types[0]?.capacity.maxOccupancy} guests /
-              room
-            </span>
-          </div>
-        </div>
-
-        {/* Pricing */}
+        {/* Pricing and Actions */}
         <div className="flex justify-between items-end">
           <div>
-            <p className="text-slate-600 text-sm">From</p>
-            <p className="font-bold text-2xl text-slate-900 dark:text-white">
+            <p className="text-slate-600 text-sm dark:text-slate-400">From</p>
+            <span className="font-bold text-2xl">
               {formatPrice(hotel.pricing.priceRange.min)}
-            </p>
-            <p className="text-slate-500 text-xs">per night</p>
-            {checkInDate && checkOutDate && nights > 1 && (
-              <p className="text-slate-600 text-xs">
-                {formatPrice(totalPrice)} for {nights} nights
-              </p>
-            )}
-          </div>
-
-          <div className="flex gap-2">
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={() => {
-                const hotelSlug = formatToSlug(hotel.name);
-                const searchParams = new URLSearchParams();
-                if (checkInDate) searchParams.set("checkin", checkInDate);
-                if (checkOutDate) searchParams.set("checkout", checkOutDate);
-                if (guests.adults)
-                  searchParams.set("adults", guests.adults.toString());
-                if (guests.children)
-                  searchParams.set("children", guests.children.toString());
-
-                const url = `/hotels/${hotelSlug}${searchParams.toString() ? `?${searchParams.toString()}` : ""}`;
-                router.push(url);
-              }}
-            >
-              View Details
-            </Button>
-            <Button
-              size="sm"
-              onClick={handleAddToCart}
-              disabled={isAddingToCart || !checkInDate || !checkOutDate}
-            >
-              {isAddingToCart ? "Adding..." : "Book Now"}
-            </Button>
+            </span>{" "}
+            <span className="text-slate-500 text-xs dark:text-slate-400 uppercase">
+              /per night
+            </span>
           </div>
         </div>
       </CardContent>
