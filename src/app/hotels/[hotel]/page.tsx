@@ -17,6 +17,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import { formatToSlug } from "@/lib/utils/format";
+import { getMockHotels, Hotel } from "@/data/hotels";
 import {
   ArrowLeft,
   Bed,
@@ -47,17 +48,12 @@ export default function HotelDetailPage() {
   const { state: cartState, dispatch } = useCart();
   const { formatPrice } = useCurrency();
 
-  // Find the hotel based on the slug
-  const hotelSlug = params.hotel as string;
-  const initialHotel = mockHotels.find(
-    (h) => formatToSlug(h.name) === hotelSlug
-  );
-
-  const [currentHotel, setCurrentHotel] = useState(initialHotel);
+  // State management
+  const [hotels, setHotels] = useState<Hotel[]>([]);
+  const [currentHotel, setCurrentHotel] = useState<Hotel | null>(null);
+  const [loading, setLoading] = useState(true);
   const [selectedImage, setSelectedImage] = useState(0);
-  const [selectedRoom, setSelectedRoom] = useState(
-    initialHotel?.rooms.types[0]
-  );
+  const [selectedRoom, setSelectedRoom] = useState<any>(null);
   const [quantity, setQuantity] = useState(1);
   const [isAddingToCart, setIsAddingToCart] = useState(false);
   const [checkInDate, setCheckInDate] = useState(
@@ -76,21 +72,37 @@ export default function HotelDetailPage() {
     )
   );
 
-  // Update current hotel when URL param changes
+  // Fetch hotels data on component mount
   useEffect(() => {
-    const foundHotel = mockHotels.find(
-      (hotel) => formatToSlug(hotel.name) === hotelSlug
-    );
-    setCurrentHotel(foundHotel);
-    setSelectedImage(0); // Reset image index when hotel changes
-    if (foundHotel) {
-      setSelectedRoom(foundHotel.rooms.types[0]); // Reset to first room
-    }
-  }, [hotelSlug]);
+    const fetchHotels = async () => {
+      try {
+        setLoading(true);
+        const hotelsData = await getMockHotels();
+        setHotels(hotelsData);
+        
+        // Find the hotel based on the slug
+        const hotelSlug = params.hotel as string;
+        const foundHotel = hotelsData.find(
+          (h: Hotel) => formatToSlug(h.name) === hotelSlug
+        );
+        
+        if (foundHotel) {
+          setCurrentHotel(foundHotel);
+          setSelectedRoom(foundHotel.rooms.types[0]);
+        }
+      } catch (error) {
+        console.error("Error fetching hotels:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchHotels();
+  }, [params.hotel]);
 
   // Handle hotel change from selector
   const handleHotelChange = (newHotelId: string) => {
-    const newHotel = mockHotels.find((hotel) => hotel.id === newHotelId);
+    const newHotel = hotels.find((hotel: Hotel) => hotel.id === newHotelId);
     if (newHotel) {
       const newSlug = formatToSlug(newHotel.name);
       // Update URL without reloading the page
@@ -219,6 +231,35 @@ export default function HotelDetailPage() {
     ));
   };
 
+  if (loading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+          <p className="mt-4 text-lg">Loading hotel details...</p>
+        </div>
+      </div>
+    );
+  }
+
+  if (!currentHotel) {
+    return (
+      <div className="min-h-screen flex items-center justify-center">
+        <div className="text-center">
+          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+            Hotel Not Found
+          </h1>
+          <p className="text-gray-600 dark:text-gray-400 mb-4">
+            The hotel you're looking for doesn't exist.
+          </p>
+          <Button onClick={() => router.push('/hotels')}>
+            Browse Hotels
+          </Button>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-screen">
       <div className="mx-auto px-6 lg:px-8 py-12 max-w-7xl">
@@ -244,7 +285,7 @@ export default function HotelDetailPage() {
                 <SelectValue placeholder="Select a hotel" />
               </SelectTrigger>
               <SelectContent>
-                {mockHotels.map((hotel) => (
+                {hotels.map((hotel: Hotel) => (
                   <SelectItem key={hotel.id} value={hotel.id} variant="classic">
                     {hotel.name}
                   </SelectItem>
