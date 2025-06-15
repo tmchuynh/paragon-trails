@@ -1,7 +1,7 @@
 "use client";
 
-import FlightCard from "@/components/cards/FlightCard";
 import { DateTimePicker } from "@/components/calendar/date-time-picker";
+import FlightCard from "@/components/cards/FlightCard";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";

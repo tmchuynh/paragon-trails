@@ -2,11 +2,12 @@
 
 import { cn } from "@/lib/utils";
 import { format } from "date-fns";
-import { CalendarIcon } from "lucide-react";
-import { useState, useEffect } from "react";
+import { CalendarIcon, X } from "lucide-react";
+import { useEffect, useState } from "react";
 import { Button } from "../ui/button";
 import { Calendar } from "../ui/calendar";
 import { Popover, PopoverContent, PopoverTrigger } from "../ui/popover";
+import { ScrollArea } from "../ui/scroll-area";
 import {
   Select,
   SelectContent,
@@ -14,7 +15,6 @@ import {
   SelectTrigger,
   SelectValue,
 } from "../ui/select";
-import { ScrollArea } from "../ui/scroll-area";
 
 interface DateTimePickerProps {
   value?: Date;
@@ -25,6 +25,7 @@ interface DateTimePickerProps {
   includeTime?: boolean;
   minDate?: Date;
   maxDate?: Date;
+  showClearButton?: boolean;
 }
 
 export function DateTimePicker({
@@ -36,6 +37,7 @@ export function DateTimePicker({
   includeTime = false,
   minDate,
   maxDate,
+  showClearButton = true,
 }: DateTimePickerProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [time, setTime] = useState<string>("09:00");
@@ -68,7 +70,7 @@ export function DateTimePicker({
     } else {
       onChange?.(selectedDate);
     }
-    
+
     if (!includeTime) {
       setIsOpen(false);
     }
@@ -86,13 +88,16 @@ export function DateTimePicker({
 
   const formatDisplayValue = () => {
     if (!value) return placeholder;
-    
+
     if (includeTime) {
       return `${format(value, "MMM dd, yyyy")} at ${format(value, "HH:mm")}`;
     } else {
       return format(value, "MMM dd, yyyy");
     }
   };
+
+  const today = new Date();
+  today.setHours(0, 0, 0, 0);
 
   return (
     <div className={cn("flex gap-2", className)}>
@@ -106,11 +111,11 @@ export function DateTimePicker({
               !value && "text-muted-foreground"
             )}
           >
-            <CalendarIcon className="mr-2 h-4 w-4" />
+            <CalendarIcon className="mr-2 w-4 h-4" />
             {formatDisplayValue()}
           </Button>
         </PopoverTrigger>
-        <PopoverContent className="w-auto p-0" align="start">
+        <PopoverContent className="p-0 w-auto" align="start">
           <div className="flex">
             <Calendar
               mode="single"
@@ -122,13 +127,15 @@ export function DateTimePicker({
               disabled={(date) => {
                 if (minDate && date < minDate) return true;
                 if (maxDate && date > maxDate) return true;
+                // Don't allow dates before today unless explicitly set
+                if (!minDate && date < today) return true;
                 return false;
               }}
               defaultMonth={value || new Date()}
             />
             {includeTime && (
-              <div className="border-l p-3">
-                <div className="text-sm font-medium mb-2">Time</div>
+              <div className="p-3 border-l">
+                <div className="mb-2 font-medium text-sm">Time</div>
                 <Select value={time} onValueChange={handleTimeChange}>
                   <SelectTrigger className="w-[120px]">
                     <SelectValue />
@@ -156,6 +163,19 @@ export function DateTimePicker({
           </div>
         </PopoverContent>
       </Popover>
+
+      {/* Clear button - only show if there's a value and showClearButton is true */}
+      {value && showClearButton && (
+        <Button
+          variant="outline"
+          size="icon"
+          onClick={() => onChange?.(undefined)}
+          className="shrink-0"
+          disabled={disabled}
+        >
+          <X className="w-4 h-4" />
+        </Button>
+      )}
     </div>
   );
 }
