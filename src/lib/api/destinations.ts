@@ -218,7 +218,7 @@ export async function getPopularDestinations({
 export async function searchDestinations({
   query,
   type = "both", // "countries", "cities", or "both"
-  limit = 10,
+  limit = 25,
 }: {
   query: string;
   type?: "countries" | "cities" | "both";
@@ -268,6 +268,25 @@ export async function searchDestinations({
       "AU",
       "CA",
       "NL",
+      "BR",
+      "IN",
+      "CN",
+      "RU",
+      "ZA",
+      "KR",
+      "MX",
+      "AR",
+      "SE",
+      "NO",
+      "FI",
+      "DK",
+      "PL",
+      "TR",
+      "CH",
+      "BE",
+      "AT",
+      "IE",
+      "PT",
     ];
     const citySearchPromises = popularCountryCodes.map(async (countryCode) => {
       try {
