@@ -1,18 +1,17 @@
-import { 
-  fetchCountries, 
-  fetchAllCountries, 
-  fetchAllCitiesByCountry, 
-  fetchCountryByISO2,
-  fetchCountriesByRegion,
-  Country, 
-  City 
-} from "./geography";
-import { 
-  fetchAttractionsByCountry, 
-  fetchAttractionsByCity, 
+import {
+  Attraction,
+  fetchAttractionsByCity,
+  fetchAttractionsByCountry,
   fetchPopularDestinations,
-  Attraction 
 } from "./attractions";
+import {
+  City,
+  Country,
+  fetchAllCitiesByCountry,
+  fetchAllCountries,
+  fetchCountriesByRegion,
+  fetchCountryByISO2,
+} from "./geography";
 import { apiCache } from "./services";
 
 // Extended destination interface that combines geographic and attraction data
@@ -42,15 +41,15 @@ export async function getDestinationCountries({
   region?: string;
   subregion?: string;
 } = {}): Promise<Country[]> {
-  const cacheKey = `destination_countries_${region || 'all'}_${subregion || 'all'}`;
+  const cacheKey = `destination_countries_${region || "all"}_${subregion || "all"}`;
   const cachedData = apiCache.get(cacheKey) as Country[] | undefined;
-  
+
   if (cachedData) {
     return cachedData;
   }
 
   const countries = await fetchAllCountries({ region, subregion });
-  
+
   // Cache for 24 hours
   apiCache.set(cacheKey, countries, 86400);
   return countries;
@@ -59,16 +58,20 @@ export async function getDestinationCountries({
 /**
  * Get countries grouped by region for the destinations page
  */
-export async function getDestinationCountriesByRegion(): Promise<Record<string, Country[]>> {
-  const cacheKey = 'destination_countries_by_region';
-  const cachedData = apiCache.get(cacheKey) as Record<string, Country[]> | undefined;
-  
+export async function getDestinationCountriesByRegion(): Promise<
+  Record<string, Country[]>
+> {
+  const cacheKey = "destination_countries_by_region";
+  const cachedData = apiCache.get(cacheKey) as
+    | Record<string, Country[]>
+    | undefined;
+
   if (cachedData) {
     return cachedData;
   }
 
   const groupedCountries = await fetchCountriesByRegion();
-  
+
   // Cache for 24 hours
   apiCache.set(cacheKey, groupedCountries, 86400);
   return groupedCountries;
@@ -85,15 +88,17 @@ export async function getDestinationCities({
   limit?: number;
 }): Promise<{ country: Country; cities: City[] }> {
   const cacheKey = `destination_cities_${countryISO2}_${limit}`;
-  const cachedData = apiCache.get(cacheKey) as { country: Country; cities: City[] } | undefined;
-  
+  const cachedData = apiCache.get(cacheKey) as
+    | { country: Country; cities: City[] }
+    | undefined;
+
   if (cachedData) {
     return cachedData;
   }
 
   const [country, cities] = await Promise.all([
     fetchCountryByISO2(countryISO2),
-    fetchAllCitiesByCountry({ countryCode: countryISO2, limit })
+    fetchAllCitiesByCountry({ countryCode: countryISO2, limit }),
   ]);
 
   if (!country) {
@@ -101,7 +106,7 @@ export async function getDestinationCities({
   }
 
   const result = { country, cities };
-  
+
   // Cache for 12 hours
   apiCache.set(cacheKey, result, 43200);
   return result;
@@ -122,8 +127,10 @@ export async function getDestinationWithAttractions({
   categories?: string[] | string;
 }): Promise<DestinationWithAttractions> {
   const cacheKey = `destination_with_attractions_${countryISO2}_${maxCities}_${attractionsPerCity}`;
-  const cachedData = apiCache.get(cacheKey) as DestinationWithAttractions | undefined;
-  
+  const cachedData = apiCache.get(cacheKey) as
+    | DestinationWithAttractions
+    | undefined;
+
   if (cachedData) {
     return cachedData;
   }
@@ -134,7 +141,7 @@ export async function getDestinationWithAttractions({
     attractionsPerCity,
     categories,
   });
-  
+
   // Cache for 6 hours (attractions data changes less frequently)
   apiCache.set(cacheKey, result, 21600);
   return result;
@@ -155,8 +162,10 @@ export async function getCityAttractions({
   categories?: string[] | string;
 }): Promise<{ city: City | null; attractions: Attraction[] }> {
   const cacheKey = `city_attractions_${cityName}_${countryISO2}_${limit}`;
-  const cachedData = apiCache.get(cacheKey) as { city: City | null; attractions: Attraction[] } | undefined;
-  
+  const cachedData = apiCache.get(cacheKey) as
+    | { city: City | null; attractions: Attraction[] }
+    | undefined;
+
   if (cachedData) {
     return cachedData;
   }
@@ -167,7 +176,7 @@ export async function getCityAttractions({
     limit,
     categories,
   });
-  
+
   // Cache for 6 hours
   apiCache.set(cacheKey, result, 21600);
   return result;
@@ -185,9 +194,9 @@ export async function getPopularDestinations({
   citiesPerRegion?: number;
   attractionsPerCity?: number;
 } = {}): Promise<PopularDestination[]> {
-  const cacheKey = `popular_destinations_${regions.join(',')}_${citiesPerRegion}_${attractionsPerCity}`;
+  const cacheKey = `popular_destinations_${regions.join(",")}_${citiesPerRegion}_${attractionsPerCity}`;
   const cachedData = apiCache.get(cacheKey) as PopularDestination[] | undefined;
-  
+
   if (cachedData) {
     return cachedData;
   }
@@ -197,7 +206,7 @@ export async function getPopularDestinations({
     citiesPerRegion,
     attractionsPerCity,
   });
-  
+
   // Cache for 12 hours (popular destinations don't change frequently)
   apiCache.set(cacheKey, destinations, 43200);
   return destinations;
@@ -235,11 +244,12 @@ export async function searchDestinations({
   if (type === "countries" || type === "both") {
     const allCountries = await fetchAllCountries();
     results.countries = allCountries
-      .filter(country => 
-        country.name.toLowerCase().includes(searchTerm) ||
-        country.capital.toLowerCase().includes(searchTerm) ||
-        country.iso2.toLowerCase() === searchTerm ||
-        country.iso3.toLowerCase() === searchTerm
+      .filter(
+        (country) =>
+          country.name.toLowerCase().includes(searchTerm) ||
+          country.capital.toLowerCase().includes(searchTerm) ||
+          country.iso2.toLowerCase() === searchTerm ||
+          country.iso3.toLowerCase() === searchTerm
       )
       .slice(0, limit);
   }
@@ -247,19 +257,30 @@ export async function searchDestinations({
   // Search cities (this is more complex as we'd need to search across all countries)
   // For now, we'll implement a basic version that searches within popular countries
   if (type === "cities" || type === "both") {
-    const popularCountryCodes = ["US", "GB", "FR", "DE", "IT", "ES", "JP", "AU", "CA", "NL"];
+    const popularCountryCodes = [
+      "US",
+      "GB",
+      "FR",
+      "DE",
+      "IT",
+      "ES",
+      "JP",
+      "AU",
+      "CA",
+      "NL",
+    ];
     const citySearchPromises = popularCountryCodes.map(async (countryCode) => {
       try {
         const [country, cities] = await Promise.all([
           fetchCountryByISO2(countryCode),
-          fetchAllCitiesByCountry({ countryCode, limit: 100 })
+          fetchAllCitiesByCountry({ countryCode, limit: 100 }),
         ]);
-        
+
         if (!country) return [];
-        
+
         return cities
-          .filter(city => city.name.toLowerCase().includes(searchTerm))
-          .map(city => ({ city, country }))
+          .filter((city) => city.name.toLowerCase().includes(searchTerm))
+          .map((city) => ({ city, country }))
           .slice(0, Math.ceil(limit / popularCountryCodes.length));
       } catch (error) {
         console.error(`Error searching cities in ${countryCode}:`, error);
@@ -274,5 +295,5 @@ export async function searchDestinations({
   return results;
 }
 
-// Export types for use in components  
-export type { Country, City, Attraction };
+// Export types for use in components
+export type { Attraction, City, Country };
