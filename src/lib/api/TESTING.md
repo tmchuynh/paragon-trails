@@ -1,10 +1,18 @@
 # API Testing Guide
 
-This document provides comprehensive testing guidelines and examples for all API services in the Paragon Trails application.
+*Last Updated: June 15, 2025*
 
-## Overview
+This document provides comprehensive testing guidelines and examples for all API services in the Paragon Trails application, including external integrations, data transformation logic, and complete testing strategies.
 
-The API services include both external integrations and internal data transformation logic. This guide covers unit testing, integration testing, and end-to-end testing strategies.
+## 📋 Testing Overview
+
+The API services include both external integrations and internal data transformation logic. This guide covers:
+
+- **Unit Testing**: Individual service functions and data transformations
+- **Integration Testing**: API service interactions and context integration  
+- **End-to-End Testing**: Complete user workflows and booking processes
+- **Performance Testing**: API response times and caching effectiveness
+- **Error Handling Testing**: Network failures and edge case scenarios
 
 ## Testing Setup
 
