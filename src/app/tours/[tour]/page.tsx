@@ -16,7 +16,7 @@ import { Separator } from "@/components/ui/separator";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockTours, getMockTours, Tour } from "@/data/tours";
+import { getMockTours, Tour } from "@/data/tours";
 import {
   convertTo12HourFormat,
   formatCurrency,
@@ -151,9 +151,9 @@ export default function TourDetailsPage() {
 
   if (loading) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="text-center">
-          <div className="animate-spin rounded-full h-32 w-32 border-b-2 border-primary"></div>
+          <div className="border-primary border-b-2 rounded-full w-32 h-32 animate-spin"></div>
           <p className="mt-4 text-lg">Loading tour details...</p>
         </div>
       </div>
@@ -162,12 +162,12 @@ export default function TourDetailsPage() {
 
   if (!currentTour) {
     return (
-      <div className="min-h-screen flex items-center justify-center">
+      <div className="flex justify-center items-center min-h-screen">
         <div className="text-center">
-          <h1 className="text-2xl font-bold text-gray-900 dark:text-white mb-4">
+          <h1 className="mb-4 font-bold text-2xl text-gray-900 dark:text-white">
             Tour Not Found
           </h1>
-          <p className="text-gray-600 dark:text-gray-400 mb-4">
+          <p className="mb-4 text-gray-600 dark:text-gray-400">
             The tour you're looking for doesn't exist.
           </p>
           <Button onClick={() => router.push('/tours')}>
