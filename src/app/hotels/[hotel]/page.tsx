@@ -463,7 +463,7 @@ export default function HotelDetailPage() {
                           }`}
                           onClick={() => setSelectedRoom(room)}
                         >
-                          <CardContent className="p-6">
+                          <CardContent className="-mt-5 p-6">
                             <div className="gap-4 grid grid-cols-1 md:grid-cols-3">
                               <div className="relative rounded-lg h-32 overflow-hidden">
                                 <Image
