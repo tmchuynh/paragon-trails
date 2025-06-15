@@ -11,6 +11,7 @@ const imageHosts = [
   "cdn.pixabay.com",
   "lh3.googleusercontent.com",
   "randomuser.me",
+  "s3.amazonaws.com",
 ];
 
 const nextConfig: NextConfig = {
