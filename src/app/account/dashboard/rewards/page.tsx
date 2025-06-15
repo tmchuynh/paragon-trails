@@ -5,6 +5,7 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Progress } from "@/components/ui/progress";
 import { useAuth } from "@/context/AuthContext";
+import { mockUserData } from "@/data/users";
 import {
   ArrowLeft,
   Award,
@@ -18,7 +19,7 @@ import {
   Trophy,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 const rewardsTierBenefits = {
@@ -78,8 +79,29 @@ const rewardsTierBenefits = {
   },
 };
 
-// Mock user data - in a real app, this would come from your auth context or API
-const mockUserData = {
+interface Reward {
+  id: number;
+  title: string;
+  points: number;
+  description: string;
+  available: boolean;
+  redeemed?: boolean;
+  redeemedDate?: string;
+  expiryDate?: string;
+}
+
+interface Activity {
+  id: number;
+  date: string;
+  description: string;
+  points: number;
+  type: "earned" | "redeemed" | "expired";
+  expiryDate?: string;
+  daysLeft?: number;
+}
+
+// Initial user data
+const initialUserData = {
   currentPoints: 2847,
   currentTier: "gold" as keyof typeof rewardsTierBenefits,
   pointsThisYear: 1200,
@@ -87,45 +109,8 @@ const mockUserData = {
   nextTierPoints: 5000,
 };
 
-const pointsHistory = [
-  {
-    id: 1,
-    date: "2025-06-10",
-    description: "Tokyo City Explorer Booking",
-    points: 250,
-    type: "earned" as const,
-  },
-  {
-    id: 2,
-    date: "2025-05-28",
-    description: "Hotel Booking - Kyoto",
-    points: 180,
-    type: "earned" as const,
-  },
-  {
-    id: 3,
-    date: "2025-05-15",
-    description: "Redeemed: 10% Off Coupon",
-    points: -500,
-    type: "redeemed" as const,
-  },
-  {
-    id: 4,
-    date: "2025-04-22",
-    description: "Grand Tour of Europe Booking",
-    points: 450,
-    type: "earned" as const,
-  },
-  {
-    id: 5,
-    date: "2025-04-10",
-    description: "Flight Booking - Paris",
-    points: 320,
-    type: "earned" as const,
-  },
-];
-
-const availableRewards = [
+// Initial rewards with one already expired in history
+const initialRewards: Reward[] = [
   {
     id: 1,
     title: "5% Off Next Booking",
@@ -163,9 +148,76 @@ const availableRewards = [
   },
 ];
 
+const initialPointsHistory: Activity[] = [
+  {
+    id: 1,
+    date: "2025-06-10",
+    description: "Tokyo City Explorer Booking",
+    points: 250,
+    type: "earned",
+  },
+  {
+    id: 2,
+    date: "2025-05-28",
+    description: "Hotel Booking - Kyoto",
+    points: 180,
+    type: "earned",
+  },
+  {
+    id: 3,
+    date: "2025-05-15",
+    description: "15% Off Coupon - EXPIRED",
+    points: -750,
+    type: "expired",
+  },
+  {
+    id: 4,
+    date: "2025-04-22",
+    description: "Grand Tour of Europe Booking",
+    points: 450,
+    type: "earned",
+  },
+  {
+    id: 5,
+    date: "2025-04-10",
+    description: "Flight Booking - Paris",
+    points: 320,
+    type: "earned",
+  },
+];
+
 export default function RewardsPage() {
-  const { isAuthenticated } = useAuth();
+  const { user, isAuthenticated } = useAuth();
   const router = useRouter();
+
+  // Get current user data from mock data
+  const currentUser =
+    mockUserData.find((u) => u.email === user?.email) || mockUserData[0];
+
+  // State management
+  const [userData, setUserData] = useState({
+    currentPoints: currentUser.rewardsPoints.current,
+    currentTier:
+      currentUser.rewardsPoints.tier.toLowerCase() as keyof typeof rewardsTierBenefits,
+    pointsThisYear: 1200,
+    totalPointsEarned: 8450,
+    nextTierPoints: 5000,
+  });
+
+  const [availableRewards, setAvailableRewards] = useState(initialRewards);
+  const [pointsHistory, setPointsHistory] = useState([
+    ...initialPointsHistory,
+    // Add an expired reward to recent activity
+    {
+      id: Date.now() - 1000,
+      date: "2025-05-01",
+      description: "15% Off Hotel Booking - EXPIRED",
+      points: -500,
+      type: "expired" as const,
+      expiryDate: "2025-05-31",
+      daysLeft: -14,
+    },
+  ]);
 
   useEffect(() => {
     if (!isAuthenticated) {
@@ -178,30 +230,90 @@ export default function RewardsPage() {
     return null;
   }
 
-  const currentTierData = rewardsTierBenefits[mockUserData.currentTier];
+  const currentTierData = rewardsTierBenefits[userData.currentTier];
   const tierKeys = Object.keys(
     rewardsTierBenefits
   ) as (keyof typeof rewardsTierBenefits)[];
-  const currentTierIndex = tierKeys.indexOf(mockUserData.currentTier);
+  const currentTierIndex = tierKeys.indexOf(userData.currentTier);
   const nextTier = tierKeys[currentTierIndex + 1];
   const nextTierData = nextTier ? rewardsTierBenefits[nextTier] : null;
 
   const progressToNextTier = nextTierData
-    ? ((mockUserData.currentPoints - currentTierData.pointsRequired) /
+    ? ((userData.currentPoints - currentTierData.pointsRequired) /
         (nextTierData.pointsRequired - currentTierData.pointsRequired)) *
       100
     : 100;
 
   const pointsToNextTier = nextTierData
-    ? nextTierData.pointsRequired - mockUserData.currentPoints
+    ? nextTierData.pointsRequired - userData.currentPoints
     : 0;
 
-  const handleRedeemReward = (rewardId: number, points: number) => {
-    if (points <= mockUserData.currentPoints) {
-      toast.success("Reward redeemed successfully!");
+  const handleRedeemReward = (
+    rewardId: number,
+    points: number,
+    title: string
+  ) => {
+    if (points <= userData.currentPoints) {
+      // Update user points
+      setUserData((prev) => ({
+        ...prev,
+        currentPoints: prev.currentPoints - points,
+      }));
+
+      // Move reward to end and mark as redeemed
+      setAvailableRewards((prev) => {
+        const updatedRewards = prev.map((reward) =>
+          reward.id === rewardId
+            ? {
+                ...reward,
+                redeemed: true,
+                redeemedDate: new Date().toISOString(),
+                expiryDate: new Date(
+                  Date.now() + 30 * 24 * 60 * 60 * 1000
+                ).toISOString(), // 30 days from now
+              }
+            : reward
+        );
+
+        // Move redeemed reward to end
+        const redeemedReward = updatedRewards.find((r) => r.id === rewardId);
+        const otherRewards = updatedRewards.filter((r) => r.id !== rewardId);
+        return redeemedReward
+          ? [...otherRewards, redeemedReward]
+          : updatedRewards;
+      });
+
+      // Add to recent activity at the top
+      const expiryDate = new Date(Date.now() + 30 * 24 * 60 * 60 * 1000);
+      const daysLeft = Math.ceil(
+        (expiryDate.getTime() - Date.now()) / (1000 * 60 * 60 * 24)
+      );
+
+      setPointsHistory((prev) => [
+        {
+          id: Date.now(),
+          date: new Date().toISOString(),
+          description: `Redeemed: ${title}`,
+          points: -points,
+          type: "redeemed" as const,
+          expiryDate: expiryDate.toISOString(),
+          daysLeft: daysLeft,
+        },
+        ...prev,
+      ]);
+
+      toast.success(
+        `Reward redeemed successfully! Valid for ${daysLeft} days.`
+      );
     } else {
       toast.error("Insufficient points for this reward.");
     }
+  };
+
+  const formatDaysLeft = (daysLeft: number) => {
+    if (daysLeft <= 0) return "Expired";
+    if (daysLeft === 1) return "1 day left";
+    return `${daysLeft} days left`;
   };
 
   return (
@@ -232,7 +344,7 @@ export default function RewardsPage() {
             </CardHeader>
             <CardContent>
               <div className="font-bold text-3xl text-blue-600">
-                {mockUserData.currentPoints.toLocaleString()}
+                {userData.currentPoints.toLocaleString()}
               </div>
               <p className="text-sm">Valid until Dec 2025</p>
             </CardContent>
@@ -249,12 +361,9 @@ export default function RewardsPage() {
             </CardHeader>
             <CardContent>
               <div className="font-bold text-3xl capitalize">
-                {mockUserData.currentTier}
+                {userData.currentTier}
               </div>
-              <Badge
-                variant="secondary"
-                className={`${currentTierData.bgColor} ${currentTierData.color} border-0`}
-              >
+              <Badge variant="platinum" size={"xs"}>
                 Member Since 2024
               </Badge>
             </CardContent>
@@ -269,7 +378,7 @@ export default function RewardsPage() {
             </CardHeader>
             <CardContent>
               <div className="font-bold text-3xl text-green-600">
-                {mockUserData.pointsThisYear.toLocaleString()}
+                {userData.pointsThisYear.toLocaleString()}
               </div>
               <p className="text-sm">+15% from last year</p>
             </CardContent>
@@ -284,7 +393,7 @@ export default function RewardsPage() {
             </CardHeader>
             <CardContent>
               <div className="font-bold text-3xl text-purple-600">
-                {mockUserData.totalPointsEarned.toLocaleString()}
+                {userData.totalPointsEarned.toLocaleString()}
               </div>
               <p className="text-sm">Total earned</p>
             </CardContent>
@@ -304,7 +413,7 @@ export default function RewardsPage() {
               <div className="space-y-4">
                 <div className="flex justify-between items-center">
                   <span className="font-medium">
-                    {mockUserData.currentPoints.toLocaleString()} /{" "}
+                    {userData.currentPoints.toLocaleString()} /{" "}
                     {nextTierData.pointsRequired.toLocaleString()} points
                   </span>
                   <span className="text-sm">
@@ -328,9 +437,8 @@ export default function RewardsPage() {
           </h2>
           <div className="gap-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
             {Object.entries(rewardsTierBenefits).map(([tier, data]) => {
-              const isCurrentTier = tier === mockUserData.currentTier;
-              const isUnlocked =
-                mockUserData.currentPoints >= data.pointsRequired;
+              const isCurrentTier = tier === userData.currentTier;
+              const isUnlocked = userData.currentPoints >= data.pointsRequired;
 
               return (
                 <Card
@@ -350,9 +458,7 @@ export default function RewardsPage() {
                         </CardTitle>
                       </div>
                       {isCurrentTier && (
-                        <Badge variant="default" className="bg-blue-600">
-                          Current
-                        </Badge>
+                        <Badge variant="gradientPrimary">Current</Badge>
                       )}
                     </div>
                     <p className="font-medium text-sm">
@@ -402,8 +508,7 @@ export default function RewardsPage() {
                 <div
                   key={reward.id}
                   className={`flex justify-between items-center p-4 border rounded-lg ${
-                    !reward.available ||
-                    reward.points > mockUserData.currentPoints
+                    !reward.available || reward.points > userData.currentPoints
                       ? "opacity-50 bg-muted/50 cursor-not-allowed"
                       : "hover:border hover:border-blue-500 "
                   }`}
@@ -419,19 +524,21 @@ export default function RewardsPage() {
                     size="sm"
                     variant={
                       reward.available &&
-                      reward.points <= mockUserData.currentPoints
-                        ? "default"
-                        : "outline"
+                      reward.points <= userData.currentPoints
+                        ? "classic"
+                        : "professional"
                     }
                     disabled={
                       !reward.available ||
-                      reward.points > mockUserData.currentPoints
+                      reward.points > userData.currentPoints
                     }
-                    onClick={() => handleRedeemReward(reward.id, reward.points)}
+                    onClick={() =>
+                      handleRedeemReward(reward.id, reward.points, reward.title)
+                    }
                   >
                     {!reward.available
                       ? "Unavailable"
-                      : reward.points > mockUserData.currentPoints
+                      : reward.points > userData.currentPoints
                         ? "Insufficient Points"
                         : "Redeem"}
                   </Button>
@@ -449,33 +556,37 @@ export default function RewardsPage() {
               </CardTitle>
             </CardHeader>
             <CardContent className="space-y-4">
-              {pointsHistory.map((activity) => (
-                <div
-                  key={activity.id}
-                  className="flex justify-between items-center p-3 border rounded-lg"
-                >
-                  <div className="flex-1">
-                    <p className="font-medium">{activity.description}</p>
-                    <p className="text-sm">
-                      {new Date(activity.date).toLocaleDateString()}
-                    </p>
-                  </div>
+              <div className="flex flex-col gap-4 h-[35em] overflow-y-auto">
+                {pointsHistory.map((activity) => (
                   <div
-                    className={`font-medium ${
-                      activity.type === "earned"
-                        ? "text-green-600"
-                        : "text-red-600"
-                    }`}
+                    key={activity.id}
+                    className="flex justify-between items-center p-3 border rounded-lg"
                   >
-                    {activity.type === "earned" ? "+" : ""}
-                    {activity.points.toLocaleString()}
+                    <div className="flex-1">
+                      <p className="font-medium">{activity.description}</p>
+                      <p className="text-sm">
+                        {new Date(activity.date).toLocaleDateString()}
+                      </p>
+                    </div>
+                    <div
+                      className={`font-medium ${
+                        activity.type === "earned"
+                          ? "text-green-600"
+                          : "text-red-600"
+                      }`}
+                    >
+                      {activity.type === "earned" ? "+" : ""}
+                      {activity.points.toLocaleString()}
+                    </div>
                   </div>
-                </div>
-              ))}
+                ))}
+              </div>
               <Button
-                variant="outline"
+                variant="classic"
                 className="w-full"
-                onClick={() => toast.info("Full history feature coming soon!")}
+                onClick={() =>
+                  router.push("/account/dashboard/rewards/history")
+                }
               >
                 View Full History
               </Button>
