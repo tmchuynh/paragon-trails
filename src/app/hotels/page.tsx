@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockHotels } from "@/data/hotels";
 import { Hotel } from "@/lib/interfaces/services/hotels";
 import {
   Bath,
@@ -46,8 +47,26 @@ import { useEffect, useState } from "react";
 export default function HotelsPage() {
   const router = useRouter();
   const { formatPrice } = useCurrency();
+  const [hotels, setHotels] = useState<Hotel[]>([]);
+  const [loading, setLoading] = useState(true);
 
-  const [filteredHotels, setFilteredHotels] = useState<Hotel[]>(mockHotels);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [hotelsData] = await Promise.all([getMockHotels()]);
+
+        setHotels(hotelsData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const [filteredHotels, setFilteredHotels] = useState<Hotel[]>(hotels);
   const [searchQuery, setSearchQuery] = useState("");
   const [destination, setDestination] = useState("all");
   const [checkInDate, setCheckInDate] = useState<Date | undefined>(undefined);
@@ -58,10 +77,10 @@ export default function HotelsPage() {
 
   // Calculate min and max prices from hotels data
   const minPrice = Math.min(
-    ...mockHotels.map((hotel) => hotel.pricing.priceRange.min)
+    ...hotels.map((hotel) => hotel.pricing.priceRange.min)
   );
   const maxPrice = Math.max(
-    ...mockHotels.map((hotel) => hotel.pricing.priceRange.max)
+    ...hotels.map((hotel) => hotel.pricing.priceRange.max)
   );
 
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
@@ -72,15 +91,15 @@ export default function HotelsPage() {
   const [currentPage, setCurrentPage] = useState(1);
   const [itemsPerPage, setItemsPerPage] = useState(8);
 
-  // Extract unique destinations from mockHotels
+  // Extract unique destinations from hotels
   const destinations = Array.from(
-    new Set(mockHotels.map((hotel) => hotel.location.city))
+    new Set(hotels.map((hotel) => hotel.location.city))
   ).sort();
 
-  // Extract unique hotel types from mockHotels
+  // Extract unique hotel types from hotels
   const hotelTypes = [
     { value: "all", label: "All Types" },
-    ...Array.from(new Set(mockHotels.map((hotel) => hotel.type)))
+    ...Array.from(new Set(hotels.map((hotel) => hotel.type)))
       .sort()
       .map((type) => ({
         value: type,
@@ -89,7 +108,7 @@ export default function HotelsPage() {
   ];
 
   const handleSearch = () => {
-    let filtered = mockHotels;
+    let filtered = hotels;
 
     // Filter by search query
     if (searchQuery) {
