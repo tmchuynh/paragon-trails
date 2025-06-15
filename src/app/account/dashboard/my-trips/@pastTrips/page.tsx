@@ -17,6 +17,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu";
 import { useAuth } from "@/context/AuthContext";
+import { getTripsByUser } from "@/data/users";
 import { format, isBefore } from "date-fns";
 import {
   Calendar,
@@ -29,11 +30,51 @@ import {
   Star,
   Users,
 } from "lucide-react";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function PastTripsSection() {
   const { user } = useAuth();
   const [showReviews, setShowReviews] = useState<string | null>(null);
+  const [allTrips, setAllTrips] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      if (!user) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const trips = await getTripsByUser(user.id);
+        setAllTrips(trips);
+      } catch (error) {
+        console.error("Error fetching trips:", error);
+        setAllTrips([]);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [user]);
+
+  if (loading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>Past Trips</CardTitle>
+          <CardDescription>Loading your travel history...</CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="space-y-4 animate-pulse">
+            <div className="bg-gray-200 rounded w-3/4 h-4"></div>
+            <div className="bg-gray-200 rounded w-1/2 h-4"></div>
+          </div>
+        </CardContent>
+      </Card>
+    );
+  }
 
   if (!user) {
     return (
@@ -48,18 +89,18 @@ export default function PastTripsSection() {
     );
   }
 
-  const allTrips = getTripsByUser(user.id);
   const now = new Date();
 
   // Filter to show only completed trips
   const pastTrips = allTrips
     .filter(
-      (trip) =>
+      (trip: any) =>
         trip.status === "completed" ||
         (trip.status === "upcoming" && isBefore(trip.endDate, now))
     )
     .sort(
-      (a, b) => new Date(b.endDate).getTime() - new Date(a.endDate).getTime()
+      (a: any, b: any) =>
+        new Date(b.endDate).getTime() - new Date(a.endDate).getTime()
     );
 
   const totalSpent = pastTrips.reduce(
