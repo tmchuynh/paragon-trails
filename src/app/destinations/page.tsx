@@ -23,7 +23,6 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockDestinations } from "@/data/destinations";
 import { Destination } from "@/lib/interfaces/services/destinations";
 import {
   Calendar,

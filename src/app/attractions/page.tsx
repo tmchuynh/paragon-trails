@@ -23,7 +23,6 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockAttractions } from "@/data/attractions";
 import { Attraction } from "@/lib/interfaces/services/attractions";
 import { Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";

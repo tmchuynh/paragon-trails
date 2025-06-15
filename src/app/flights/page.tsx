@@ -25,7 +25,6 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockFlights } from "@/data/flights";
 import { formatToSlug } from "@/lib/utils/format";
 import { Filter, Plane, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
