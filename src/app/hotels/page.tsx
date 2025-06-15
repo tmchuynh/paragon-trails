@@ -1,9 +1,9 @@
 "use client";
 
 import { DateTimePicker } from "@/components/calendar/date-time-picker";
-import { Badge } from "@/components/ui/badge";
+import HotelCard from "@/components/cards/HotelCard";
 import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { Card } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import {
@@ -26,7 +26,6 @@ import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
 import { mockHotels } from "@/data/hotels";
 import { Hotel } from "@/lib/interfaces/services/hotels";
-import { formatToSlug } from "@/lib/utils/format";
 import {
   Bath,
   Bed,
@@ -38,12 +37,10 @@ import {
   MapPin,
   RotateCcw,
   Search,
-  Star,
   Users,
   Utensils,
   Wifi,
 } from "lucide-react";
-import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
@@ -608,99 +605,13 @@ export default function HotelsPage() {
               <>
                 <div className="gap-6 grid grid-cols-1 xl:grid-cols-2">
                   {paginatedHotels.map((hotel) => (
-                    <Card
-                      key={hotel.id}
-                      className="group hover:shadow-xl p-0 transition-all cursor-pointer overflow-hidden"
-                      onClick={() =>
-                        router.push(`/hotels/${formatToSlug(hotel.name)}`)
-                      }
-                    >
-                      <div className="relative h-64">
-                        <Image
-                          src={hotel.images[0]}
-                          alt={hotel.name}
-                          fill
-                          className="transition-transform group-hover:scale-105 object-cover"
-                        />
-                        <div className="top-4 left-4 absolute">
-                          <Badge variant="secondary" className="">
-                            {hotel.type.charAt(0).toUpperCase() +
-                              hotel.type.slice(1)}
-                          </Badge>
-                        </div>
-
-                        <div className="top-4 right-4 absolute bg-white px-3 py-1 rounded-full font-semibold text-black">
-                          {formatPrice(hotel.pricing.priceRange.min)}
-                        </div>
-                      </div>
-
-                      <CardContent className="p-6">
-                        <div className="mb-4">
-                          <h3 className="mb-2 font-bold text-slate-900 text-xl dark:group-hover:text-blue-400 dark:text-white group-hover:text-blue-600 transition-colors">
-                            {hotel.name}
-                          </h3>
-                          <div className="flex items-center gap-2 mb-2">
-                            <MapPin className="w-4 h-4 text-accent" />
-                            <span className="text-slate-600 text-sm dark:text-slate-400">
-                              {hotel.location.city}, {hotel.location.country}
-                            </span>
-                          </div>
-                          <p className="text-slate-600 text-sm dark:text-slate-400 line-clamp-2">
-                            {hotel.description}
-                          </p>
-                        </div>
-
-                        <div className="mb-4">
-                          <div className="flex items-center gap-1 mb-2">
-                            <Star className="w-4 h-4 text-yellow-400 fill-yellow-400" />
-                            <span className="font-medium text-sm">
-                              {hotel.rating}
-                            </span>
-                            <span className="text-slate-600 text-sm dark:text-slate-400">
-                              ({hotel.reviews} reviews)
-                            </span>
-                          </div>
-                        </div>
-
-                        {/* Amenities */}
-                        <div className="mb-4">
-                          <h4 className="mb-2 font-semibold text-sm">
-                            Popular Amenities:
-                          </h4>
-                          <div className="flex flex-wrap gap-2">
-                            {hotel.amenities.general
-                              .slice(0, 4)
-                              .map((amenity, index) => {
-                                const IconComponent = getAmenityIcon(amenity);
-                                return (
-                                  <div
-                                    key={index}
-                                    className="flex items-center gap-1 text-xs"
-                                  >
-                                    <IconComponent className="w-3 h-3" />
-                                    <span>{amenity}</span>
-                                  </div>
-                                );
-                              })}
-                          </div>
-                        </div>
-
-                        {/* Pricing and Actions */}
-                        <div className="flex justify-between items-end">
-                          <div>
-                            <p className="text-slate-600 text-sm dark:text-slate-400">
-                              From
-                            </p>
-                            <span className="font-bold text-2xl">
-                              {formatPrice(hotel.pricing.priceRange.min)}
-                            </span>{" "}
-                            <span className="text-slate-500 text-xs dark:text-slate-400 uppercase">
-                              /per night
-                            </span>
-                          </div>
-                        </div>
-                      </CardContent>
-                    </Card>
+                    <HotelCard
+                      hotel={hotel}
+                      key={hotel.name}
+                      checkInDate={checkInDate}
+                      checkOutDate={checkOutDate}
+                      guests={guests}
+                    />
                   ))}
                 </div>
 
