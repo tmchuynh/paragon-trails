@@ -35,7 +35,6 @@ import { Attraction, mockAttractions } from "@/data/attractions";
 import { Destination, mockDestinations } from "@/data/destinations";
 import { Flight, getMockFlights as mockFlights_async } from "@/data/flights"; // Updated import
 import { Hotel, mockHotels } from "@/data/hotels";
-import { mockTours, Tour } from "@/data/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 
 // Ensure mock data is always an array - handle both sync arrays and async functions
@@ -47,7 +46,6 @@ const safeAttractions: Attraction[] = Array.isArray(mockAttractions)
   : [];
 // safeFlights will be initialized after fetching data
 const safeHotels: Hotel[] = Array.isArray(mockHotels) ? mockHotels : [];
-const safeTours: Tour[] = Array.isArray(mockTours) ? mockTours : [];
 const safeDestinations: Destination[] = Array.isArray(mockDestinations)
   ? mockDestinations
   : [];
@@ -615,42 +613,6 @@ function TripBudgetCalculator() {
                         </div>
                         <Badge variant="secondary" className="text-xs">
                           {attraction.category}
-                        </Badge>
-                      </div>
-                    </div>
-                  ))}
-                </CardContent>
-              </Card>
-
-              {/* Tours */}
-              <Card>
-                <CardHeader>
-                  <CardTitle>Tours</CardTitle>
-                </CardHeader>
-                <CardContent className="space-y-3 max-h-96 overflow-y-auto">
-                  {getFilteredItems(safeTours).map((tour) => (
-                    <div
-                      key={tour.id}
-                      className="flex items-center space-x-2 p-3 border rounded-lg"
-                    >
-                      <Checkbox
-                        checked={selectedItems.some(
-                          (item) => item.id === tour.id
-                        )}
-                        className="data-[state=checked]:bg-accentdata-[state=checked]:bg-accent mt-1 border data-[state=checked]:border-accent border-border data-[state=checked]:text-accent-foreground"
-                        onCheckedChange={() =>
-                          handleItemSelection(tour, "tour")
-                        }
-                      />
-                      <div className="flex-1">
-                        <div className="flex justify-between items-start">
-                          <div className="w-9/10 font-medium">{tour.title}</div>
-                          <div className="text-gray-600 text-sm">
-                            ${tour.pricing.adult}
-                          </div>
-                        </div>
-                        <Badge variant="secondary" className="text-xs">
-                          {tour.category || tour.type}
                         </Badge>
                       </div>
                     </div>
