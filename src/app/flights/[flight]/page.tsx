@@ -14,7 +14,7 @@ import {
 import { Separator } from "@/components/ui/separator";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockFlights } from "@/data/flights";
+import { getMockFlights } from "@/data/flights";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 import { formatToSlug } from "@/lib/utils/format";
 import {
@@ -31,7 +31,7 @@ import {
   Utensils,
 } from "lucide-react";
 import { useParams, useRouter } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { toast } from "sonner";
 
 export default function FlightDetailsPage() {
@@ -44,10 +44,40 @@ export default function FlightDetailsPage() {
   const [departureDate, setDepartureDate] = useState("");
   const [returnDate, setReturnDate] = useState("");
   const [isBooking, setIsBooking] = useState(false);
+  const [flight, setFlight] = useState<any>(null);
+  const [loading, setLoading] = useState(true);
 
   // Find flight by ID
   const flightId = params.flight as string;
-  const flight = mockFlights.find((f) => f.id === flightId);
+
+  useEffect(() => {
+    const fetchFlight = async () => {
+      try {
+        const flights = await getMockFlights();
+        const foundFlight = flights.find((f: any) => f.id === flightId);
+        setFlight(foundFlight);
+      } catch (error) {
+        console.error("Error fetching flight:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchFlight();
+  }, [flightId]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center min-h-screen">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">
+            Loading flight details...
+          </p>
+        </div>
+      </div>
+    );
+  }
 
   if (!flight) {
     return (
@@ -279,12 +309,14 @@ export default function FlightDetailsPage() {
                   <div>
                     <h4 className="mb-3 font-semibold">In-Flight Amenities</h4>
                     <div className="space-y-2">
-                      {flight.amenities.map((amenity, index) => (
-                        <div key={index} className="flex items-center gap-2">
-                          <CheckCircle className="w-4 h-4 text-green-500" />
-                          <span className="text-sm">{amenity}</span>
-                        </div>
-                      ))}
+                      {flight.amenities.map(
+                        (amenity: string, index: number) => (
+                          <div key={index} className="flex items-center gap-2">
+                            <CheckCircle className="w-4 h-4 text-green-500" />
+                            <span className="text-sm">{amenity}</span>
+                          </div>
+                        )
+                      )}
                     </div>
                   </div>
 

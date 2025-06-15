@@ -25,6 +25,8 @@ import {
 import { Slider } from "@/components/ui/slider";
 import { cartHelpers, useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockFlights } from "@/data/flights";
+import { Flight } from "@/lib/interfaces/services/flights";
 import { formatToSlug } from "@/lib/utils/format";
 import { Filter, Plane, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
@@ -33,8 +35,25 @@ import { toast } from "sonner";
 export default function FlightsPage() {
   const { formatPrice } = useCurrency();
   const { state: cartState, dispatch } = useCart();
+  const [flights, setFlights] = useState<Flight[]>([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [flightsData] = await Promise.all([getMockFlights()]);
 
-  const [filteredFlights, setFilteredFlights] = useState(mockFlights);
+        setFlights(flightsData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const [filteredFlights, setFilteredFlights] = useState(flights);
   const [searchQuery, setSearchQuery] = useState("");
   const [fromLocation, setFromLocation] = useState<string>("all");
   const [toLocation, setToLocation] = useState<string>("all");
@@ -55,7 +74,7 @@ export default function FlightsPage() {
 
   // Calculate min and max prices from flights data based on class type
   const getPriceRange = () => {
-    const prices = mockFlights
+    const prices = flights
       .map((flight) => {
         switch (classType) {
           case "business":
@@ -86,28 +105,28 @@ export default function FlightsPage() {
   // Get unique values for filters
   const airlines = [
     { value: "all", label: "All Airlines" },
-    ...Array.from(new Set(mockFlights.map((flight) => flight.airline)))
+    ...Array.from(new Set(flights.map((flight) => flight.airline)))
       .sort()
       .map((airline) => ({ value: airline, label: airline })),
   ];
 
   const durations = [
     { value: "all", label: "All Durations" },
-    ...Array.from(new Set(mockFlights.map((flight) => flight.duration)))
+    ...Array.from(new Set(flights.map((flight) => flight.duration)))
       .sort()
       .map((duration) => ({ value: duration, label: duration })),
   ];
 
   const meals = [
     { value: "all", label: "All Meal Types" },
-    ...Array.from(new Set(mockFlights.map((flight) => flight.meal)))
+    ...Array.from(new Set(flights.map((flight) => flight.meal)))
       .sort()
       .map((meal) => ({ value: meal, label: meal })),
   ];
 
   const amenities = [
     { value: "all", label: "All Amenities" },
-    ...Array.from(new Set(mockFlights.flatMap((flight) => flight.amenities)))
+    ...Array.from(new Set(flights.flatMap((flight) => flight.amenities)))
       .sort()
       .map((amenity) => ({ value: amenity, label: amenity })),
   ];
@@ -127,14 +146,14 @@ export default function FlightsPage() {
     { value: "overnight", label: "Overnight (12:00 AM - 6:00 AM)" },
   ];
 
-  // Extract unique locations from mockFlights
+  // Extract unique locations from flights
   const locations = [
     { value: "all", label: "All Locations" },
     ...Array.from(
       new Set(
         [
-          ...mockFlights.map((flight) => flight.origin),
-          ...mockFlights.map((flight) => flight.destination),
+          ...flights.map((flight) => flight.origin),
+          ...flights.map((flight) => flight.destination),
         ].map((location) => `${location.code}|${location.city}`)
       )
     )
@@ -167,7 +186,7 @@ export default function FlightsPage() {
   };
 
   const handleSearch = () => {
-    let filtered = mockFlights;
+    let filtered = flights;
 
     // Filter by search query
     if (searchQuery) {
