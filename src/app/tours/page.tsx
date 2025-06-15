@@ -24,6 +24,7 @@ import {
 } from "@/components/ui/select";
 import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
+import { getMockTours } from "@/data/tours";
 import { Tour } from "@/lib/interfaces/services/tours";
 import { Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useRouter } from "next/navigation";
@@ -32,8 +33,24 @@ import { useEffect, useState } from "react";
 export default function FindToursPage() {
   const router = useRouter();
   const { formatPrice } = useCurrency();
+  const [tours, setTours] = useState<Tour[]>([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [toursData] = await Promise.all([getMockTours()]);
 
-  const [filteredTours, setFilteredTours] = useState<Tour[]>(mockTours);
+        setTours(toursData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+  const [filteredTours, setFilteredTours] = useState<Tour[]>(tours);
   const [searchQuery, setSearchQuery] = useState("");
   const [selectedCity, setSelectedCity] = useState<string>("all");
   const [selectedCountry, setSelectedCountry] = useState<string>("all");
@@ -43,8 +60,8 @@ export default function FindToursPage() {
   const [tourDate, setTourDate] = useState<Date | undefined>(undefined);
 
   // Calculate min and max prices from tours data
-  const minPrice = Math.min(...mockTours.map((tour) => tour.pricing.adult));
-  const maxPrice = Math.max(...mockTours.map((tour) => tour.pricing.adult));
+  const minPrice = Math.min(...tours.map((tour) => tour.pricing.adult));
+  const maxPrice = Math.max(...tours.map((tour) => tour.pricing.adult));
 
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [sortBy, setSortBy] = useState<string>("name");
@@ -57,41 +74,41 @@ export default function FindToursPage() {
   // Get unique values for filters
   const cities = [
     { value: "all", label: "All Cities" },
-    ...Array.from(new Set(mockTours.map((tour) => tour.location.city)))
+    ...Array.from(new Set(tours.map((tour) => tour.location.city)))
       .sort()
       .map((city) => ({ value: city, label: city })),
   ];
 
   const countries = [
     { value: "all", label: "All Countries" },
-    ...Array.from(new Set(mockTours.map((tour) => tour.location.country)))
+    ...Array.from(new Set(tours.map((tour) => tour.location.country)))
       .sort()
       .map((country) => ({ value: country, label: country })),
   ];
 
   const types = [
     { value: "all", label: "All Types" },
-    ...Array.from(new Set(mockTours.map((tour) => tour.type)))
+    ...Array.from(new Set(tours.map((tour) => tour.type)))
       .sort()
       .map((type) => ({ value: type, label: type })),
   ];
 
   const categories = [
     { value: "all", label: "All Categories" },
-    ...Array.from(new Set(mockTours.map((tour) => tour.category)))
+    ...Array.from(new Set(tours.map((tour) => tour.category)))
       .sort()
       .map((category) => ({ value: category, label: category })),
   ];
 
   const durations = [
     { value: "all", label: "All Durations" },
-    ...Array.from(new Set(mockTours.map((tour) => tour.duration)))
+    ...Array.from(new Set(tours.map((tour) => tour.duration)))
       .sort()
       .map((duration) => ({ value: duration, label: duration })),
   ];
 
   const handleSearch = () => {
-    let filtered = mockTours;
+    let filtered = tours;
 
     // Filter by search query
     if (searchQuery) {
