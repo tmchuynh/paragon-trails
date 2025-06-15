@@ -236,9 +236,11 @@ export class UserService {
         },
         totalSpent: {
           thisYear: Math.floor(Math.random() * 10000),
-          thisMonth: Math.floor(Math.random() * 2000),
-          growth: `${Math.floor(Math.random() * 25)}%`,
+          lastYear: Math.floor(Math.random() * 2000),
         },
+        favoriteDestinations: Math.floor(Math.random() * 10),
+        upcomingTrips: Math.floor(Math.random() * 10),
+        recentActivities: [],
       };
 
       apiCache.set(cacheKey, transformedUser);
