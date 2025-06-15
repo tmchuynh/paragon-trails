@@ -15,7 +15,6 @@ import { useCurrency } from "@/context/CurrencyContext";
 import { Activity, getMockActivities } from "@/data/activities";
 import { Attraction, getMockAttractions } from "@/data/attractions";
 import { Destination, getMockDestinations } from "@/data/destinations";
-import { getMockTours, Tour } from "@/data/tours";
 import { TripItem } from "@/lib/interfaces/trip-planner";
 import { convertToTripItem } from "@/lib/utils/trip-planner";
 import { Clock, MapPin, Search } from "lucide-react";
@@ -40,15 +39,13 @@ export default function ActivityPanel({
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [toursData, destinationsData, attractionsData, activitiesData] =
+        const [destinationsData, attractionsData, activitiesData] =
           await Promise.all([
-            getMockTours(),
             getMockDestinations(),
             getMockAttractions(),
             getMockActivities(),
           ]);
 
-        setTours(toursData);
         setDestinations(destinationsData);
         setAttractions(attractionsData);
         setActivities(activitiesData);
@@ -64,12 +61,10 @@ export default function ActivityPanel({
 
   const [activities, setActivities] = useState<Activity[]>([]);
   const [attractions, setAttractions] = useState<Attraction[]>([]);
-  const [tours, setTours] = useState<Tour[]>([]);
   const [filteredActivities, setFilteredActivities] = useState<TripItem[]>([]);
   const [filteredAttractions, setFilteredAttractions] = useState<TripItem[]>(
     []
   );
-  const [filteredTours, setFilteredTours] = useState<TripItem[]>([]);
 
   // Load items when destination changes
   useEffect(() => {
@@ -91,21 +86,11 @@ export default function ActivityPanel({
         )
         .map((attraction) => convertToTripItem(attraction, "attraction"));
 
-      // Filter and convert tours
-      const filteredTours = tours
-        .filter((tour) => tour.location.city.toLowerCase() === cityName)
-        .map((tour) => convertToTripItem(tour, "tour"));
-
       setFilteredActivities(filteredActivities);
       setFilteredAttractions(filteredAttractions);
-      setFilteredTours(filteredTours);
 
       // Combine all items for the parent component
-      const allItems = [
-        ...filteredActivities,
-        ...filteredAttractions,
-        ...filteredTours,
-      ];
+      const allItems = [...filteredActivities, ...filteredAttractions];
       onItemsLoad(allItems);
     }
   }, [destination, onItemsLoad]);
@@ -206,9 +191,6 @@ export default function ActivityPanel({
             <TabsTrigger value="attractions" className="text-xs">
               Attractions ({filteredAttractions.length})
             </TabsTrigger>
-            <TabsTrigger value="tours" className="text-xs">
-              Tours ({filteredTours.length})
-            </TabsTrigger>
           </TabsList>
 
           <TabsContent value="activities" className="mt-4">
@@ -237,23 +219,6 @@ export default function ActivityPanel({
               ) : (
                 <div className="py-8 text-center text-gray-500">
                   <p className="text-sm">No attractions found</p>
-                  {searchTerm && (
-                    <p className="mt-1 text-xs">Try adjusting your search</p>
-                  )}
-                </div>
-              )}
-            </div>
-          </TabsContent>
-
-          <TabsContent value="tours" className="mt-4">
-            <div className="space-y-3 max-h-[600px] overflow-y-auto">
-              {filterItems(filteredTours).length > 0 ? (
-                filterItems(filteredTours).map((tour) => (
-                  <ItemCard key={tour.id} item={tour} />
-                ))
-              ) : (
-                <div className="py-8 text-center text-gray-500">
-                  <p className="text-sm">No tours found</p>
                   {searchTerm && (
                     <p className="mt-1 text-xs">Try adjusting your search</p>
                   )}
