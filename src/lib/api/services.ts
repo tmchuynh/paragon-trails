@@ -4,9 +4,9 @@ import { adsbService } from "./services/adsbService";
 import { nHTSAService } from "./services/nhtsa";
 
 // Export new geography and destination services
-export * from "./geography";
-export * from "./destinations";
 export * from "./attractions";
+export * from "./destinations";
+export * from "./geography";
 
 // Export services
 export { adsbService, nHTSAService };
