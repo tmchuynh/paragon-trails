@@ -2,8 +2,16 @@
 // https://vpic.nhtsa.dot.gov/api/
 
 export interface NHTSAMake {
+  MakeId: number;
+  MakeName: string;
+  VehicleTypeName: string;
+}
+
+export interface NHTSAModel {
   Make_ID: number;
   Make_Name: string;
+  Model_ID: number;
+  Model_Name: string;
 }
 
 export interface NHTSAMakeResponse {
@@ -11,6 +19,13 @@ export interface NHTSAMakeResponse {
   Message: string;
   SearchCriteria: string;
   Results: NHTSAMake[];
+}
+
+export interface NHTSAModelResponse {
+  Count: number;
+  Message: string;
+  SearchCriteria: string;
+  Results: NHTSAModel[];
 }
 
 export interface NHTSAVariable {
@@ -28,21 +43,23 @@ export interface NHTSAVariableResponse {
 }
 
 class NHTSAService {
-  private baseUrl = 'https://vpic.nhtsa.dot.gov/api';
+  private baseUrl = "https://vpic.nhtsa.dot.gov/api";
 
   /**
    * Get all vehicle makes
    */
   async getAllMakes(): Promise<NHTSAMake[]> {
     try {
-      const response = await fetch(`${this.baseUrl}/vehicles/GetAllMakes?format=json`);
+      const response = await fetch(
+        `${this.baseUrl}/vehicles/GetAllMakes?format=json`
+      );
       if (!response.ok) {
         throw new Error(`HTTP error! status: ${response.status}`);
       }
       const data: NHTSAMakeResponse = await response.json();
       return data.Results || [];
     } catch (error) {
-      console.error('Error fetching vehicle makes:', error);
+      console.error("Error fetching vehicle makes:", error);
       return [];
     }
   }
@@ -62,7 +79,26 @@ class NHTSAService {
       const data: NHTSAMakeResponse = await response.json();
       return data.Results || [];
     } catch (error) {
-      console.error(`Error fetching makes for vehicle type ${vehicleType}:`, error);
+      console.error(
+        `Error fetching makes for vehicle type ${vehicleType}:`,
+        error
+      );
+      return [];
+    }
+  }
+
+  async getModelsForMake(make: string): Promise<NHTSAModel[]> {
+    try {
+      const response = await fetch(
+        `${this.baseUrl}/vehicles/GetModelsForMake/${make}?format=json`
+      );
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data: NHTSAModelResponse = await response.json();
+      return data.Results || [];
+    } catch (error) {
+      console.error(`Error fetching models for make ${make}:`, error);
       return [];
     }
   }
@@ -81,7 +117,26 @@ class NHTSAService {
       const data: NHTSAVariableResponse = await response.json();
       return data.Results || [];
     } catch (error) {
-      console.error('Error fetching vehicle variables:', error);
+      console.error("Error fetching vehicle variables:", error);
+      return [];
+    }
+  }
+
+  /**
+   * Get all available vehicle types
+   */
+  async getVehicleTypes(): Promise<string[]> {
+    try {
+      const response = await fetch(
+        `${this.baseUrl}/vehicles/GetVehicleTypesForMake/toyota?format=json`
+      );
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`);
+      }
+      const data = await response.json();
+      return data.Results?.map((item: any) => item.VehicleTypeName) || [];
+    } catch (error) {
+      console.error("Error fetching vehicle types:", error);
       return [];
     }
   }
@@ -89,45 +144,58 @@ class NHTSAService {
   /**
    * Transform NHTSA makes into our vehicle format
    */
-  transformMakesToVehicles(makes: NHTSAMake[], vehicleType: string = 'car'): any[] {
+  transformMakesToVehicles(
+    makes: NHTSAMake[],
+    vehicleType: string = "car"
+  ): any[] {
     return makes.slice(0, 50).map((make, index) => ({
-      id: `${make.Make_ID}-${vehicleType}`,
-      name: `${make.Make_Name} ${this.getModelName(vehicleType)}`,
+      id: `${make.MakeId || `unknown-${index}`}-${vehicleType}`,
+      name: `${make.MakeName || "Unknown"} ${this.getModelName(vehicleType)}`,
       type: vehicleType as any,
-      brand: make.Make_Name,
+      brand: make.MakeName || "Unknown",
       model: this.getModelName(vehicleType),
       year: 2020 + (index % 5),
       images: [
-        this.getVehicleImage(make.Make_Name, vehicleType),
+        this.getVehicleImage(make.MakeName || "Unknown", vehicleType),
         `https://images.unsplash.com/photo-1550355291-bbee04a92027?w=600&auto=format&fit=crop&q=60`,
         `https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&auto=format&fit=crop&q=60`,
       ],
-      description: `Experience the luxury and performance of the ${make.Make_Name} ${this.getModelName(vehicleType)}. Perfect for your travel adventures with modern amenities and reliable performance.`,
+      description: `Experience the luxury and performance of the ${make.MakeName || "Unknown"} ${this.getModelName(vehicleType)}. Perfect for your travel adventures with modern amenities and reliable performance.`,
       specifications: {
         engine: this.getRandomEngine(vehicleType),
         transmission: Math.random() > 0.3 ? "Automatic" : "Manual",
         fuelType: this.getRandomFuelType(),
         seatingCapacity: this.getSeatingCapacity(vehicleType),
-        doors: vehicleType === 'motorcycle' ? 0 : Math.floor(Math.random() * 3) + 2,
-        luggage: vehicleType === 'motorcycle' ? 1 : Math.floor(Math.random() * 5) + 1,
+        doors:
+          vehicleType === "motorcycle" ? 0 : Math.floor(Math.random() * 3) + 2,
+        luggage:
+          vehicleType === "motorcycle" ? 1 : Math.floor(Math.random() * 5) + 1,
         topSpeed: `${120 + Math.floor(Math.random() * 80)} mph`,
         acceleration: `${3.5 + Math.random() * 4} seconds (0-60 mph)`,
-        fuelEconomy: vehicleType === 'motorcycle' ? `${45 + Math.floor(Math.random() * 20)} mpg` : `${25 + Math.floor(Math.random() * 15)} mpg`,
+        fuelEconomy:
+          vehicleType === "motorcycle"
+            ? `${45 + Math.floor(Math.random() * 20)} mpg`
+            : `${25 + Math.floor(Math.random() * 15)} mpg`,
       },
       features: this.getVehicleFeatures(vehicleType),
       pricing: {
-        daily: this.getDailyPrice(vehicleType, make.Make_Name),
-        weekly: this.getDailyPrice(vehicleType, make.Make_Name) * 6,
-        monthly: this.getDailyPrice(vehicleType, make.Make_Name) * 25,
+        daily: this.getDailyPrice(vehicleType, make.MakeName || ""),
+        weekly: this.getDailyPrice(vehicleType, make.MakeName || "") * 6,
+        monthly: this.getDailyPrice(vehicleType, make.MakeName || "") * 25,
         currency: "USD",
-        deposit: this.getDailyPrice(vehicleType, make.Make_Name) * 5,
-        insurance: Math.floor(this.getDailyPrice(vehicleType, make.Make_Name) * 0.15),
+        deposit: this.getDailyPrice(vehicleType, make.MakeName || "") * 5,
+        insurance: Math.floor(
+          this.getDailyPrice(vehicleType, make.MakeName || "") * 0.15
+        ),
       },
       availability: {
         locations: this.getRandomLocations(),
         isAvailable: Math.random() > 0.1,
-        minimumAge: vehicleType === 'motorcycle' ? 21 : 18,
-        licenseRequired: vehicleType === 'motorcycle' ? ["Motorcycle License"] : ["Driver's License"],
+        minimumAge: vehicleType === "motorcycle" ? 21 : 18,
+        licenseRequired:
+          vehicleType === "motorcycle"
+            ? ["Motorcycle License"]
+            : ["Driver's License"],
       },
       insurance: {
         included: ["Basic Coverage", "Theft Protection"],
@@ -136,7 +204,7 @@ class NHTSAService {
       rating: 3.5 + Math.random() * 1.5,
       reviews: Math.floor(Math.random() * 200) + 10,
       category: this.getCategory(vehicleType),
-      tags: this.getTags(vehicleType, make.Make_Name),
+      tags: this.getTags(vehicleType, make.MakeName || ""),
     }));
   }
 
@@ -144,8 +212,10 @@ class NHTSAService {
     // Return different images based on vehicle type and make
     const imageMap: { [key: string]: string } = {
       car: "https://images.unsplash.com/photo-1550355291-bbee04a92027?w=600&auto=format&fit=crop&q=60",
-      truck: "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&auto=format&fit=crop&q=60",
-      motorcycle: "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop&q=60",
+      truck:
+        "https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=600&auto=format&fit=crop&q=60",
+      motorcycle:
+        "https://images.unsplash.com/photo-1568772585407-9361f9bf3a87?w=600&auto=format&fit=crop&q=60",
       suv: "https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?w=600&auto=format&fit=crop&q=60",
     };
     return imageMap[type] || imageMap.car;
@@ -190,12 +260,32 @@ class NHTSAService {
   }
 
   private getVehicleFeatures(type: string): string[] {
-    const baseFeatures = ["Air Conditioning", "GPS Navigation", "Bluetooth", "USB Charging"];
+    const baseFeatures = [
+      "Air Conditioning",
+      "GPS Navigation",
+      "Bluetooth",
+      "USB Charging",
+    ];
     const typeFeatures: { [key: string]: string[] } = {
-      car: ["Power Windows", "Central Locking", "Backup Camera", "Cruise Control"],
+      car: [
+        "Power Windows",
+        "Central Locking",
+        "Backup Camera",
+        "Cruise Control",
+      ],
       truck: ["Towing Package", "Bed Liner", "4WD", "Heavy Duty Suspension"],
-      motorcycle: ["Anti-lock Brakes", "Traction Control", "Quick Shifter", "Wind Protection"],
-      suv: ["All-Wheel Drive", "Roof Rails", "Third Row Seating", "Power Liftgate"],
+      motorcycle: [
+        "Anti-lock Brakes",
+        "Traction Control",
+        "Quick Shifter",
+        "Wind Protection",
+      ],
+      suv: [
+        "All-Wheel Drive",
+        "Roof Rails",
+        "Third Row Seating",
+        "Power Liftgate",
+      ],
     };
     return [...baseFeatures, ...(typeFeatures[type] || [])];
   }
@@ -207,21 +297,45 @@ class NHTSAService {
       motorcycle: 35,
       suv: 75,
     };
-    
-    const luxuryMakes = ["BMW", "Mercedes-Benz", "Audi", "Lexus", "Porsche", "Ferrari", "Lamborghini"];
-    const isLuxury = luxuryMakes.some(luxury => make.toLowerCase().includes(luxury.toLowerCase()));
-    
+
+    const luxuryMakes = [
+      "BMW",
+      "Mercedes-Benz",
+      "Audi",
+      "Lexus",
+      "Porsche",
+      "Ferrari",
+      "Lamborghini",
+    ];
+    const isLuxury =
+      make &&
+      luxuryMakes.some((luxury) =>
+        make.toLowerCase().includes(luxury.toLowerCase())
+      );
+
     const basePrice = basePrices[type] || basePrices.car;
     const multiplier = isLuxury ? 2.5 : 1;
-    
+
     return Math.floor(basePrice * multiplier + Math.random() * 20);
   }
 
   private getRandomLocations(): string[] {
     const locations = [
-      "New York, NY", "Los Angeles, CA", "Chicago, IL", "Houston, TX", "Phoenix, AZ",
-      "Philadelphia, PA", "San Antonio, TX", "San Diego, CA", "Dallas, TX", "San Jose, CA",
-      "Austin, TX", "Jacksonville, FL", "Fort Worth, TX", "Columbus, OH", "Charlotte, NC"
+      "New York, NY",
+      "Los Angeles, CA",
+      "Chicago, IL",
+      "Houston, TX",
+      "Phoenix, AZ",
+      "Philadelphia, PA",
+      "San Antonio, TX",
+      "San Diego, CA",
+      "Dallas, TX",
+      "San Jose, CA",
+      "Austin, TX",
+      "Jacksonville, FL",
+      "Fort Worth, TX",
+      "Columbus, OH",
+      "Charlotte, NC",
     ];
     const count = Math.floor(Math.random() * 5) + 1;
     return locations.sort(() => 0.5 - Math.random()).slice(0, count);
@@ -245,13 +359,17 @@ class NHTSAService {
       motorcycle: ["adventure", "sport", "touring"],
       suv: ["family", "spacious", "all-terrain"],
     };
-    
+
     const luxuryMakes = ["BMW", "Mercedes-Benz", "Audi", "Lexus", "Porsche"];
-    const isLuxury = luxuryMakes.some(luxury => make.toLowerCase().includes(luxury.toLowerCase()));
-    
+    const isLuxury =
+      make &&
+      luxuryMakes.some((luxury) =>
+        make.toLowerCase().includes(luxury.toLowerCase())
+      );
+
     const tags = [...baseTags, ...(typeTags[type] || [])];
     if (isLuxury) tags.push("luxury", "premium");
-    
+
     return tags;
   }
 }
