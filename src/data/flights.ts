@@ -14,119 +14,152 @@ const generateFlightData = async (): Promise<any[]> => {
 
   return companies.map((company: any, index: number) => ({
     id: `FL${(index + 1).toString().padStart(3, "0")}`,
-    airline: {
-      name: company.name || `Airline ${index + 1}`,
-      code: `A${index + 1}`,
-      logo: `https://via.placeholder.com/100x50?text=AL${index + 1}`,
-    },
-    aircraft: {
-      model: ["Boeing 737", "Airbus A320", "Boeing 777", "Airbus A380"][
-        Math.floor(Math.random() * 4)
+    airline: company.name || `Airline ${index + 1}`,
+    flightNumber: `${["AA", "UA", "DL", "SW", "BA"][Math.floor(Math.random() * 5)]}${Math.floor(Math.random() * 9000) + 1000}`,
+    aircraft: ["Boeing 737", "Airbus A320", "Boeing 777", "Airbus A380"][
+      Math.floor(Math.random() * 4)
+    ],
+    origin: {
+      code: ["JFK", "LAX", "ORD", "DFW", "ATL"][Math.floor(Math.random() * 5)],
+      city: ["New York", "Los Angeles", "Chicago", "Dallas", "Atlanta"][
+        Math.floor(Math.random() * 5)
       ],
-      registration: `N${Math.floor(Math.random() * 10000)
+      airport: "International Airport",
+      terminal: `Terminal ${Math.floor(Math.random() * 5) + 1}`,
+    },
+    destination: {
+      code: ["CDG", "LHR", "NRT", "SYD", "DXB"][Math.floor(Math.random() * 5)],
+      city: ["Paris", "London", "Tokyo", "Sydney", "Dubai"][
+        Math.floor(Math.random() * 5)
+      ],
+      airport: "International Airport",
+      terminal: `Terminal ${Math.floor(Math.random() * 5) + 1}`,
+    },
+    departure: {
+      date: new Date(Date.now() + Math.random() * 30 * 24 * 60 * 60 * 1000)
+        .toISOString()
+        .split("T")[0],
+      time: `${Math.floor(Math.random() * 24)
         .toString()
-        .padStart(4, "0")}`,
+        .padStart(2, "0")}:${Math.floor(Math.random() * 60)
+        .toString()
+        .padStart(2, "0")}`,
+      timezone: "UTC",
     },
-    route: {
-      departure: {
-        airport: {
-          code: ["JFK", "LAX", "ORD", "DFW", "ATL"][
-            Math.floor(Math.random() * 5)
-          ],
-          name: "International Airport",
-          city: "Major City",
-          country: "USA",
-        },
-        terminal: Math.floor(Math.random() * 5) + 1,
-        gate: `${String.fromCharCode(65 + Math.floor(Math.random() * 6))}${Math.floor(Math.random() * 50) + 1}`,
-        datetime: new Date(
-          Date.now() + Math.random() * 30 * 24 * 60 * 60 * 1000
-        ).toISOString(),
-      },
-      arrival: {
-        airport: {
-          code: ["CDG", "LHR", "NRT", "SYD", "DXB"][
-            Math.floor(Math.random() * 5)
-          ],
-          name: "International Airport",
-          city: "Destination City",
-          country: "International",
-        },
-        terminal: Math.floor(Math.random() * 5) + 1,
-        gate: `${String.fromCharCode(65 + Math.floor(Math.random() * 6))}${Math.floor(Math.random() * 50) + 1}`,
-        datetime: new Date(
-          Date.now() + Math.random() * 30 * 24 * 60 * 60 * 1000 + 3600000
-        ).toISOString(),
-      },
-      duration: `${Math.floor(Math.random() * 12) + 2}h ${Math.floor(Math.random() * 60)}m`,
-      distance: Math.floor(Math.random() * 10000) + 500,
-      stops: Math.floor(Math.random() * 3), // 0-2 stops
+    arrival: {
+      date: new Date(
+        Date.now() +
+          Math.random() * 30 * 24 * 60 * 60 * 1000 +
+          8 * 60 * 60 * 1000
+      )
+        .toISOString()
+        .split("T")[0],
+      time: `${Math.floor(Math.random() * 24)
+        .toString()
+        .padStart(2, "0")}:${Math.floor(Math.random() * 60)
+        .toString()
+        .padStart(2, "0")}`,
+      timezone: "UTC",
     },
+    duration: `${Math.floor(Math.random() * 12) + 2}h ${Math.floor(Math.random() * 60)}m`,
     pricing: {
       economy: Math.floor(Math.random() * 800) + 200,
-      premium: Math.floor(Math.random() * 1200) + 600,
       business: Math.floor(Math.random() * 2500) + 1500,
       first: Math.floor(Math.random() * 5000) + 3000,
       currency: "USD",
-      taxes: Math.floor(Math.random() * 100) + 50,
-      fees: Math.floor(Math.random() * 50) + 20,
     },
-    seating: {
-      economy: {
-        available: Math.floor(Math.random() * 50) + 10,
-        total: 180,
-        configuration: "3-3",
-      },
-      premium: {
-        available: Math.floor(Math.random() * 20) + 5,
-        total: 36,
-        configuration: "2-2",
-      },
-      business: {
-        available: Math.floor(Math.random() * 10) + 2,
-        total: 24,
-        configuration: "1-1",
-      },
-      first: {
-        available: Math.floor(Math.random() * 5) + 1,
-        total: 8,
-        configuration: "1-1",
-      },
+    availability: {
+      economy: Math.floor(Math.random() * 150) + 50,
+      business: Math.floor(Math.random() * 30) + 10,
+      first: Math.floor(Math.random() * 8) + 2,
     },
     amenities: [
-      "In-flight entertainment",
-      "WiFi available",
-      "Meal service",
-      "Power outlets",
-      "USB charging",
-    ],
+      "WiFi",
+      "Entertainment",
+      "Meals",
+      "Extra Legroom",
+      "Priority Boarding",
+    ].slice(0, Math.floor(Math.random() * 3) + 2),
     baggage: {
-      carry: { included: 1, weight: 7, dimensions: "55x40x20 cm" },
-      checked: { included: 1, weight: 23, additionalFee: 50 },
+      carryOn: "1 piece (10kg)",
+      checked: "2 pieces (23kg each)",
     },
-    policies: {
-      cancellation: "Cancellation allowed up to 24 hours before departure",
-      changes: "Changes allowed with fee",
-      refund: "Refundable with conditions",
-    },
-    status: "Scheduled",
-    onTime: Math.random() > 0.2, // 80% on time
-    tags: ["Popular", "Direct", "Comfortable"],
+    meal: ["Standard", "Vegetarian", "Kosher", "Halal"][
+      Math.floor(Math.random() * 4)
+    ],
+    entertainment: ["Movies", "TV Shows", "Music", "Games"].slice(
+      0,
+      Math.floor(Math.random() * 2) + 2
+    ),
     rating: Math.floor(Math.random() * 2) + 4, // 4-5 stars
     reviews: Math.floor(Math.random() * 1000) + 50,
+    stops: Math.floor(Math.random() * 3), // 0-2 stops
+    layovers:
+      Math.random() > 0.5
+        ? [
+            {
+              airport: "Transfer Hub",
+              duration: `${Math.floor(Math.random() * 3) + 1}h ${Math.floor(Math.random() * 60)}m`,
+            },
+          ]
+        : undefined,
   }));
 };
 
-// Legacy export for components that still expect mockFlights
-export const getMockFlights = async () => {
-  return await generateFlightData();
+// Mock flights function for backward compatibility
+export const getMockFlights = async (): Promise<any[]> => {
+  try {
+    return await generateFlightData();
+  } catch (error) {
+    console.error("Error generating flight data:", error);
+    // Fallback to simple mock data
+    return Array.from({ length: 20 }, (_, index) => ({
+      id: `FL${(index + 1).toString().padStart(3, "0")}`,
+      airline: `Airline ${index + 1}`,
+      flightNumber: `AA${1000 + index}`,
+      aircraft: "Boeing 737",
+      origin: {
+        code: "JFK",
+        city: "New York",
+        airport: "John F. Kennedy International Airport",
+      },
+      destination: {
+        code: "LAX",
+        city: "Los Angeles",
+        airport: "Los Angeles International Airport",
+      },
+      departure: {
+        date: new Date().toISOString().split("T")[0],
+        time: "10:00",
+        timezone: "UTC",
+      },
+      arrival: {
+        date: new Date().toISOString().split("T")[0],
+        time: "16:00",
+        timezone: "UTC",
+      },
+      duration: "6h 00m",
+      pricing: {
+        economy: 299,
+        business: 899,
+        first: 1999,
+        currency: "USD",
+      },
+      availability: {
+        economy: 100,
+        business: 20,
+        first: 4,
+      },
+      amenities: ["WiFi", "Entertainment"],
+      baggage: {
+        carryOn: "1 piece (10kg)",
+        checked: "2 pieces (23kg each)",
+      },
+      meal: "Standard",
+      entertainment: ["Movies", "TV Shows"],
+      rating: 4,
+      reviews: 100,
+      stops: 0,
+    }));
+  }
 };
-
-// For components that need a single flight
-export const getMockFlight = async (id: string) => {
-  const flights = await getMockFlights();
-  return flights.find((flight) => flight.id === id) || null;
-};
-
-// Backward compatibility exports
-export const mockFlights = [];
