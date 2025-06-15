@@ -12,10 +12,10 @@ import { Input } from "@/components/ui/input";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { useCurrency } from "@/context/CurrencyContext";
 
-import { mockActivities } from "@/data/activities";
-import { mockAttractions } from "@/data/attractions";
-import { mockDestinations } from "@/data/destinations";
-import { mockTours } from "@/data/tours";
+import { Activity, getMockActivities } from "@/data/activities";
+import { Attraction, getMockAttractions } from "@/data/attractions";
+import { Destination, getMockDestinations } from "@/data/destinations";
+import { getMockTours, Tour } from "@/data/tours";
 import { TripItem } from "@/lib/interfaces/trip-planner";
 import { convertToTripItem } from "@/lib/utils/trip-planner";
 import { Clock, MapPin, Search } from "lucide-react";
@@ -35,40 +35,70 @@ export default function ActivityPanel({
   onItemsLoad,
 }: ActivityPanelProps) {
   const [searchTerm, setSearchTerm] = useState("");
-  const [activities, setActivities] = useState<TripItem[]>([]);
-  const [attractions, setAttractions] = useState<TripItem[]>([]);
-  const [tours, setTours] = useState<TripItem[]>([]);
+  const [destinations, setDestinations] = useState<Destination[]>([]);
+  const [loading, setLoading] = useState(true);
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [toursData, destinationsData, attractionsData, activitiesData] =
+          await Promise.all([
+            getMockTours(),
+            getMockDestinations(),
+            getMockAttractions(),
+            getMockActivities(),
+          ]);
+
+        setTours(toursData);
+        setDestinations(destinationsData);
+        setAttractions(attractionsData);
+        setActivities(activitiesData);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  const [activities, setActivities] = useState<Activity[]>([]);
+  const [attractions, setAttractions] = useState<Attraction[]>([]);
+  const [tours, setTours] = useState<Tour[]>([]);
+  const [filteredActivities, setFilteredActivities] = useState<TripItem[]>([]);
+  const [filteredAttractions, setFilteredAttractions] = useState<TripItem[]>(
+    []
+  );
+  const [filteredTours, setFilteredTours] = useState<TripItem[]>([]);
 
   // Load items when destination changes
   useEffect(() => {
     if (destination) {
-      const destinationData = mockDestinations.find(
-        (d) => d.id === destination
-      );
+      const destinationData = destinations.find((d) => d.id === destination);
       if (!destinationData) return;
 
       const cityName = destinationData.name.toLowerCase();
 
       // Filter and convert activities
-      const filteredActivities = mockActivities
+      const filteredActivities = activities
         .filter((activity) => activity.location.city.toLowerCase() === cityName)
         .map((activity) => convertToTripItem(activity, "activity"));
 
       // Filter and convert attractions
-      const filteredAttractions = mockAttractions
+      const filteredAttractions = attractions
         .filter(
           (attraction) => attraction.location.city.toLowerCase() === cityName
         )
         .map((attraction) => convertToTripItem(attraction, "attraction"));
 
       // Filter and convert tours
-      const filteredTours = mockTours
+      const filteredTours = tours
         .filter((tour) => tour.location.city.toLowerCase() === cityName)
         .map((tour) => convertToTripItem(tour, "tour"));
 
-      setActivities(filteredActivities);
-      setAttractions(filteredAttractions);
-      setTours(filteredTours);
+      setFilteredActivities(filteredActivities);
+      setFilteredAttractions(filteredAttractions);
+      setFilteredTours(filteredTours);
 
       // Combine all items for the parent component
       const allItems = [
@@ -171,20 +201,20 @@ export default function ActivityPanel({
         <Tabs defaultValue="activities" className="w-full">
           <TabsList className="grid grid-cols-3 w-full">
             <TabsTrigger value="activities" className="text-xs">
-              Activities ({activities.length})
+              Activities ({filteredActivities.length})
             </TabsTrigger>
             <TabsTrigger value="attractions" className="text-xs">
-              Attractions ({attractions.length})
+              Attractions ({filteredAttractions.length})
             </TabsTrigger>
             <TabsTrigger value="tours" className="text-xs">
-              Tours ({tours.length})
+              Tours ({filteredTours.length})
             </TabsTrigger>
           </TabsList>
 
           <TabsContent value="activities" className="mt-4">
             <div className="space-y-3 max-h-[600px] overflow-y-auto">
-              {filterItems(activities).length > 0 ? (
-                filterItems(activities).map((activity) => (
+              {filterItems(filteredActivities).length > 0 ? (
+                filterItems(filteredActivities).map((activity) => (
                   <ItemCard key={activity.id} item={activity} />
                 ))
               ) : (
@@ -200,8 +230,8 @@ export default function ActivityPanel({
 
           <TabsContent value="attractions" className="mt-4">
             <div className="space-y-3 max-h-[600px] overflow-y-auto">
-              {filterItems(attractions).length > 0 ? (
-                filterItems(attractions).map((attraction) => (
+              {filterItems(filteredAttractions).length > 0 ? (
+                filterItems(filteredAttractions).map((attraction) => (
                   <ItemCard key={attraction.id} item={attraction} />
                 ))
               ) : (
