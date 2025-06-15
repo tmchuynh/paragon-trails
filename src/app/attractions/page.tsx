@@ -21,25 +21,47 @@ import {
   SelectTrigger,
   SelectValue,
 } from "@/components/ui/select";
-import { Slider } from "@/components/ui/slider";
 import { useCurrency } from "@/context/CurrencyContext";
-import { getMockAttractions } from "@/data/attractions";
-import { Attraction } from "@/lib/interfaces/services/attractions";
+// Use the Attraction type from the API services
+import { Attraction, fetchAttractionsList } from "@/lib/api/attractions";
+// Remove lodash import if sortBy from useState is used, or ensure it's correctly used.
+// import { sortBy } from "lodash"; // This was potentially an incorrect auto-import or needs review
 import { Filter, MapPin, RotateCcw, Search } from "lucide-react";
 import { useEffect, useState } from "react";
 
 export default function AttractionsPage() {
   const { formatPrice } = useCurrency();
+  // Ensure this state uses the Attraction type from @/lib/api/attractions
   const [attractions, setAttractions] = useState<Attraction[]>([]);
   const [loading, setLoading] = useState(true);
+
+  const [searchQuery, setSearchQuery] = useState("");
+  const [selectedCountry, setSelectedCountry] = useState<string>("all");
+  const [selectedType, setSelectedType] = useState<string>("all");
+  const [selectedCategory, setSelectedCategory] = useState<string>("all");
+  // const [selectedTimeToVisit, setSelectedTimeToVisit] = useState<string>("all"); // Commented out as data not available
+  // const [accessibilityRequired, setAccessibilityRequired] = useState<string>("all"); // Commented out
+  // const [skipLineAvailable, setSkipLineAvailable] = useState<string>("all"); // Commented out
+
+  // Default price range, adapt if pricing info becomes available
+  const [priceRange, setPriceRange] = useState([0, 1000]);
+  const [minPrice, setMinPrice] = useState(0);
+  const [maxPrice, setMaxPrice] = useState(1000);
+
+  const [ratingFilter, setRatingFilter] = useState([0, 5]); // Default rating filter
+  const [sortBy, setSortBy] = useState<string>("name"); // Default sort
+  const [showFilters, setShowFilters] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage, setItemsPerPage] = useState(8);
+
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const [attractionsData] = await Promise.all([getMockAttractions()]);
-
+        const attractionsData = await fetchAttractionsList();
         setAttractions(attractionsData);
       } catch (error) {
-        console.error("Error fetching data:", error);
+        console.error("Error fetching attractions data:", error);
+        setAttractions([]);
       } finally {
         setLoading(false);
       }
@@ -48,160 +70,104 @@ export default function AttractionsPage() {
     fetchData();
   }, []);
 
-  const [filteredAttractions, setFilteredAttractions] =
-    useState<Attraction[]>(attractions);
-  const [searchQuery, setSearchQuery] = useState("");
-  const [selectedCountry, setSelectedCountry] = useState<string>("all");
-  const [selectedType, setSelectedType] = useState<string>("all");
-  const [selectedCategory, setSelectedCategory] = useState<string>("all");
-  const [selectedTimeToVisit, setSelectedTimeToVisit] = useState<string>("all");
-  const [accessibilityRequired, setAccessibilityRequired] =
-    useState<string>("all");
-  const [skipLineAvailable, setSkipLineAvailable] = useState<string>("all");
-
-  // Calculate min and max prices from attractions data
-  const minPrice = Math.min(
-    ...attractions.map((attraction) => attraction.pricing.adult)
-  );
-  const maxPrice = Math.max(
-    ...attractions.map((attraction) => attraction.pricing.adult)
+  const [filteredAttractions, setFilteredAttractions] = useState<Attraction[]>(
+    []
   );
 
-  const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
-  const [ratingFilter, setRatingFilter] = useState([0, 5]);
-  const [sortBy, setSortBy] = useState<string>("name");
-  const [showFilters, setShowFilters] = useState(false);
+  useEffect(() => {
+    if (attractions.length > 0) {
+      // Placeholder for price calculation if data becomes available
+      // const prices = attractions.map(attr => attr.somePriceField).filter(p => typeof p === 'number');
+      // if (prices.length > 0) {
+      //   const newMinPrice = Math.min(...prices);
+      //   const newMaxPrice = Math.max(...prices);
+      //   setMinPrice(newMinPrice);
+      //   setMaxPrice(newMaxPrice);
+      //   setPriceRange([newMinPrice, newMaxPrice]);
+      // }
+      setFilteredAttractions(attractions);
+    } else {
+      setFilteredAttractions([]);
+    }
+  }, [attractions]);
 
-  // Pagination state
-  const [currentPage, setCurrentPage] = useState(1);
-  const [itemsPerPage, setItemsPerPage] = useState(8);
-
-  // Get unique values for filters
   const countries = [
     { value: "all", label: "All Countries" },
-    ...Array.from(
-      new Set(attractions.map((attraction) => attraction.location.country))
-    )
+    ...Array.from(new Set(attractions.map((attraction) => attraction.country)))
       .sort()
       .map((country) => ({ value: country, label: country })),
   ];
 
   const types = [
     { value: "all", label: "All Types" },
-    ...Array.from(new Set(attractions.map((attraction) => attraction.type)))
+    ...Array.from(
+      new Set(
+        attractions
+          .map((attraction) => attraction.categories[0])
+          .filter(Boolean)
+      )
+    )
       .sort()
-      .map((type) => ({ value: type, label: type })),
+      .map((type) => ({ value: type as string, label: type as string })), // Ensure type is string
   ];
 
   const categories = [
     { value: "all", label: "All Categories" },
-    ...Array.from(new Set(attractions.map((attraction) => attraction.category)))
+    ...Array.from(
+      new Set(attractions.flatMap((attraction) => attraction.categories))
+    )
       .sort()
       .map((category) => ({ value: category, label: category })),
   ];
 
-  const timesToVisit = [
-    { value: "all", label: "All Times" },
-    ...Array.from(
-      new Set(attractions.flatMap((attraction) => attraction.bestTimeToVisit))
-    )
-      .sort()
-      .map((time) => ({ value: time, label: time })),
-  ];
+  // const timesToVisit = [ ... ]; // Commented out
 
   const handleSearch = () => {
-    let filtered = attractions;
+    let filtered = [...attractions];
 
-    // Filter by search query
     if (searchQuery) {
       filtered = filtered.filter(
         (attraction) =>
           attraction.name.toLowerCase().includes(searchQuery.toLowerCase()) ||
-          attraction.location.country
+          attraction.country
             .toLowerCase()
             .includes(searchQuery.toLowerCase()) ||
-          attraction.location.city
-            .toLowerCase()
-            .includes(searchQuery.toLowerCase()) ||
-          attraction.description
-            .toLowerCase()
-            .includes(searchQuery.toLowerCase()) ||
-          attraction.category.toLowerCase().includes(searchQuery.toLowerCase())
+          attraction.city.toLowerCase().includes(searchQuery.toLowerCase()) ||
+          (attraction.description &&
+            attraction.description
+              .toLowerCase()
+              .includes(searchQuery.toLowerCase())) ||
+          attraction.categories.some((cat: string) =>
+            cat.toLowerCase().includes(searchQuery.toLowerCase())
+          )
       );
     }
 
-    // Filter by country
     if (selectedCountry !== "all") {
       filtered = filtered.filter(
-        (attraction) => attraction.location.country === selectedCountry
+        (attraction) => attraction.country === selectedCountry
       );
     }
 
-    // Filter by type
     if (selectedType !== "all") {
       filtered = filtered.filter(
-        (attraction) => attraction.type === selectedType
+        (attraction) => attraction.categories[0] === selectedType
       );
     }
 
-    // Filter by category
     if (selectedCategory !== "all") {
-      filtered = filtered.filter(
-        (attraction) => attraction.category === selectedCategory
-      );
-    }
-
-    // Filter by best time to visit
-    if (selectedTimeToVisit !== "all") {
       filtered = filtered.filter((attraction) =>
-        attraction.bestTimeToVisit.includes(selectedTimeToVisit)
+        attraction.categories.includes(selectedCategory)
       );
     }
 
-    // Filter by accessibility
-    if (accessibilityRequired !== "all") {
-      const isRequired = accessibilityRequired === "true";
-      filtered = filtered.filter(
-        (attraction) =>
-          attraction.accessibility?.wheelchairAccessible === isRequired
-      );
-    }
+    // Filters for data not in Geoapify Place Details (pricing, rating, etc.) are removed/commented
 
-    // Filter by skip line availability
-    if (skipLineAvailable !== "all") {
-      const isAvailable = skipLineAvailable === "true";
-      filtered = filtered.filter(
-        (attraction) => attraction.tickets.skipTheLine === isAvailable
-      );
-    }
-
-    // Filter by price range
-    filtered = filtered.filter(
-      (attraction) =>
-        attraction.pricing.adult >= priceRange[0] &&
-        attraction.pricing.adult <= priceRange[1]
-    );
-
-    // Filter by rating
-    filtered = filtered.filter(
-      (attraction) =>
-        attraction.rating >= ratingFilter[0] &&
-        attraction.rating <= ratingFilter[1]
-    );
-
-    // Sort results
     filtered = filtered.sort((a, b) => {
       switch (sortBy) {
         case "name":
           return a.name.localeCompare(b.name);
-        case "price-low":
-          return a.pricing.adult - b.pricing.adult;
-        case "price-high":
-          return b.pricing.adult - a.pricing.adult;
-        case "rating":
-          return b.rating - a.rating;
-        case "popularity":
-          return b.reviews.totalReviews - a.reviews.totalReviews;
+        // Add other sorting cases if relevant data becomes available
         default:
           return a.name.localeCompare(b.name);
       }
@@ -215,58 +181,50 @@ export default function AttractionsPage() {
     setSelectedCountry("all");
     setSelectedType("all");
     setSelectedCategory("all");
-    setSelectedTimeToVisit("all");
-    setAccessibilityRequired("all");
-    setSkipLineAvailable("all");
-    setPriceRange([minPrice, maxPrice]);
-    setRatingFilter([0, 5]);
+    // Resetting commented out filters:
+    // setSelectedTimeToVisit("all");
+    // setAccessibilityRequired("all");
+    // setSkipLineAvailable("all");
+    // setPriceRange([minPrice, maxPrice]); // Adapt if pricing is added
+    // setRatingFilter([0, 5]); // Adapt if rating is added
+    // Trigger a search to apply reset filters
+    handleSearch();
   };
 
-  // Auto-filter when any filter changes
   useEffect(() => {
     handleSearch();
-    // Reset to page 1 when filters change
     setCurrentPage(1);
   }, [
     searchQuery,
     selectedCountry,
     selectedType,
     selectedCategory,
-    selectedTimeToVisit,
-    accessibilityRequired,
-    skipLineAvailable,
-    priceRange,
-    ratingFilter,
+    // selectedTimeToVisit, // Commented out
+    // accessibilityRequired, // Commented out
+    // skipLineAvailable, // Commented out
+    // priceRange, // Commented out - or adapt if used
+    // ratingFilter, // Commented out - or adapt if used
     sortBy,
+    attractions,
   ]);
 
-  // Reset to page 1 when items per page changes
   useEffect(() => {
     setCurrentPage(1);
   }, [itemsPerPage]);
 
-  // Set responsive filter visibility
   useEffect(() => {
     const handleResize = () => {
-      // Show filters by default on large screens (lg breakpoint is 1024px)
       if (window.innerWidth >= 1024) {
         setShowFilters(true);
       } else {
         setShowFilters(false);
       }
     };
-
-    // Set initial state
     handleResize();
-
-    // Add event listener
     window.addEventListener("resize", handleResize);
-
-    // Cleanup
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Calculate pagination
   const totalPages = Math.ceil(filteredAttractions.length / itemsPerPage);
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
@@ -274,7 +232,6 @@ export default function AttractionsPage() {
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    // Scroll to top of results
     window.scrollTo({ top: 0, behavior: "smooth" });
   };
 
@@ -424,124 +381,20 @@ export default function AttractionsPage() {
                       </div>
                     </div>
 
-                    {/* Best Time to Visit */}
-                    <div className="space-y-2">
-                      <Label>Best Time to Visit</Label>
-                      <Select
-                        value={selectedTimeToVisit}
-                        onValueChange={setSelectedTimeToVisit}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Select time" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          {timesToVisit.map((time) => (
-                            <SelectItem
-                              key={time.value}
-                              value={time.value}
-                              variant="classic"
-                            >
-                              {time.label}
-                            </SelectItem>
-                          ))}
-                        </SelectContent>
-                      </Select>
-                    </div>
+                    {/* Best Time to Visit - REMOVE OR ADAPT (Commented out) */}
+                    {/* <div className="space-y-2"> ... </div> */}
 
-                    {/* Accessibility */}
-                    <div className="space-y-2">
-                      <Label>Wheelchair Accessible</Label>
-                      <Select
-                        value={accessibilityRequired}
-                        onValueChange={setAccessibilityRequired}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Accessibility" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          <SelectItem value="all" variant="classic">
-                            Any
-                          </SelectItem>
-                          <SelectItem value="true" variant="classic">
-                            Accessible
-                          </SelectItem>
-                          <SelectItem value="false" variant="classic">
-                            Not Required
-                          </SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
+                    {/* Accessibility - REMOVE OR ADAPT (Commented out) */}
+                    {/* <div className="space-y-2"> ... </div> */}
 
-                    {/* Skip Line Available */}
-                    <div className="space-y-2">
-                      <Label>Skip Line Available</Label>
-                      <Select
-                        value={skipLineAvailable}
-                        onValueChange={setSkipLineAvailable}
-                      >
-                        <SelectTrigger className="border border-border w-full">
-                          <SelectValue placeholder="Skip line" />
-                        </SelectTrigger>
-                        <SelectContent
-                          className="w-full max-h-60"
-                          variant="professional"
-                        >
-                          <SelectItem value="all" variant="classic">
-                            Any
-                          </SelectItem>
-                          <SelectItem value="true" variant="classic">
-                            Available
-                          </SelectItem>
-                          <SelectItem value="false" variant="classic">
-                            Not Available
-                          </SelectItem>
-                        </SelectContent>
-                      </Select>
-                    </div>
+                    {/* Skip Line Available - REMOVE OR ADAPT (Commented out) */}
+                    {/* <div className="space-y-2"> ... </div> */}
 
-                    {/* Price Range */}
-                    <div className="space-y-2">
-                      <Label>Price Range (Adult)</Label>
-                      <div className="px-2 py-4">
-                        <Slider
-                          value={priceRange}
-                          onValueChange={setPriceRange}
-                          max={maxPrice}
-                          min={minPrice}
-                          step={5}
-                          className="w-full"
-                        />
-                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                          <span>{formatPrice(priceRange[0])}</span>
-                          <span>{formatPrice(priceRange[1])}</span>
-                        </div>
-                      </div>
-                    </div>
+                    {/* Price Range - REMOVE OR ADAPT (Commented out) */}
+                    {/* <div className="space-y-2"> ... </div> */}
 
-                    {/* Rating Filter */}
-                    <div className="space-y-2">
-                      <Label>Minimum Rating</Label>
-                      <div className="px-2 py-4">
-                        <Slider
-                          value={ratingFilter}
-                          onValueChange={setRatingFilter}
-                          max={5}
-                          min={0}
-                          step={0.5}
-                          className="w-full"
-                        />
-                        <div className="flex justify-between mt-2 text-slate-600 text-sm dark:text-slate-400">
-                          <span>{ratingFilter[0]} ⭐</span>
-                          <span>{ratingFilter[1]} ⭐</span>
-                        </div>
-                      </div>
-                    </div>
+                    {/* Rating Filter - REMOVE OR ADAPT (Commented out) */}
+                    {/* <div className="space-y-2"> ... </div> */}
 
                     {/* Reset Filters Button */}
                     <Button
@@ -621,18 +474,7 @@ export default function AttractionsPage() {
                       <SelectItem value="name" variant="classic">
                         Name (A-Z)
                       </SelectItem>
-                      <SelectItem value="price-low" variant="classic">
-                        Price: Low to High
-                      </SelectItem>
-                      <SelectItem value="price-high" variant="classic">
-                        Price: High to Low
-                      </SelectItem>
-                      <SelectItem value="rating" variant="classic">
-                        Highest Rated
-                      </SelectItem>
-                      <SelectItem value="popularity" variant="classic">
-                        Most Popular
-                      </SelectItem>
+                      {/* Other sort options commented out */}
                     </SelectContent>
                   </Select>
                 </div>
@@ -650,15 +492,22 @@ export default function AttractionsPage() {
               </div>
             </div>
 
-            {filteredAttractions.length === 0 ? (
+            {loading ? (
+              <Card className="p-12 text-center">
+                <p className="text-slate-600 dark:text-slate-400">
+                  Loading attractions...
+                </p>
+              </Card>
+            ) : filteredAttractions.length === 0 ? (
               <Card className="p-12 text-center">
                 <MapPin className="mx-auto mb-4 w-12 h-12 text-slate-400" />
                 <h3 className="mb-2 font-semibold text-slate-900 text-xl dark:text-white">
                   No attractions found
                 </h3>
                 <p className="text-slate-600 dark:text-slate-400">
-                  Try adjusting your search criteria or filters to find
-                  available attractions.
+                  Try adjusting your search criteria or filters, or check back
+                  later. (Note: Attraction list fetching is currently a
+                  placeholder.)
                 </p>
               </Card>
             ) : (
@@ -764,7 +613,6 @@ export default function AttractionsPage() {
                       </PaginationContent>
                     </Pagination>
 
-                    {/* Page info and quick jump (only show if more than 5 pages) */}
                     {totalPages > 5 && (
                       <div className="flex items-center gap-3 text-slate-600 text-sm dark:text-slate-400">
                         <span>
