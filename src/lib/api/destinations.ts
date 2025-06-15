@@ -1,5 +1,6 @@
 import {
   Attraction,
+  fetchAccommodationList,
   fetchAttractionsByCity,
   fetchAttractionsByCountry,
   fetchPopularDestinations,
@@ -82,7 +83,7 @@ export async function getDestinationCountriesByRegion(): Promise<
  */
 export async function getDestinationCities({
   countryISO2,
-  limit = 50,
+  limit = 200,
 }: {
   countryISO2: string;
   limit?: number;
@@ -218,7 +219,7 @@ export async function getPopularDestinations({
 export async function searchDestinations({
   query,
   type = "both", // "countries", "cities", or "both"
-  limit = 25,
+  limit = 50,
 }: {
   query: string;
   type?: "countries" | "cities" | "both";
@@ -292,7 +293,7 @@ export async function searchDestinations({
       try {
         const [country, cities] = await Promise.all([
           fetchCountryByISO2(countryCode),
-          fetchAllCitiesByCountry({ countryCode, limit: 100 }),
+          fetchAllCitiesByCountry({ countryCode, limit: 150 }),
         ]);
 
         if (!country) return [];
@@ -312,6 +313,59 @@ export async function searchDestinations({
   }
 
   return results;
+}
+
+/**
+ * Get accommodation (places to stay) for a specific city
+ */
+export async function getCityAccommodation({
+  cityName,
+  countryISO2,
+  limit = 60,
+}: {
+  cityName: string;
+  countryISO2: string;
+  limit?: number;
+}): Promise<{ city: City | null; accommodations: Attraction[] }> {
+  const cacheKey = `city_accommodation_${cityName}_${countryISO2}_${limit}`;
+  const cachedData = apiCache.get(cacheKey) as
+    | { city: City | null; accommodations: Attraction[] }
+    | undefined;
+
+  if (cachedData) {
+    return cachedData;
+  }
+
+  // Get the specific city information
+  const cities = await fetchAllCitiesByCountry({
+    countryCode: countryISO2,
+    limit: 100,
+  });
+
+  const city = cities.find(
+    (c) => c.name.toLowerCase() === cityName.toLowerCase()
+  );
+
+  if (!city) {
+    const result = { city: null, accommodations: [] };
+    // Cache for 1 hour even if city not found
+    apiCache.set(cacheKey, result, 3600);
+    return result;
+  }
+
+  // Fetch accommodations for this specific city
+  const accommodations = await fetchAccommodationList({
+    city: city.name,
+    latitude: city.latitude,
+    longitude: city.longitude,
+    limit,
+  });
+
+  const result = { city, accommodations };
+
+  // Cache for 6 hours
+  apiCache.set(cacheKey, result, 21600);
+  return result;
 }
 
 // Export types for use in components

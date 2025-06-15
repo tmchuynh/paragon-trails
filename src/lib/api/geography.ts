@@ -120,7 +120,7 @@ async function executeGraphQLQuery<T>(
  * Fetch all countries with pagination support
  */
 export async function fetchCountries({
-  first = 250,
+  first = 100,
   after,
   filter,
 }: {
@@ -188,7 +188,7 @@ export async function fetchAllCountries(filter?: {
 
   while (hasNextPage) {
     const result = await fetchCountries({
-      first: 250, // Fetch larger batches
+      first: 100, // Fetch larger batches
       after,
       filter,
     });
@@ -207,7 +207,7 @@ export async function fetchAllCountries(filter?: {
 export async function fetchCitiesByCountry({
   countryCode,
   stateId,
-  first = 150,
+  first = 100,
   after,
 }: {
   countryCode: string;
@@ -271,7 +271,7 @@ export async function fetchAllCitiesByCountry({
   let fetched = 0;
 
   while (hasNextPage && (!limit || fetched < limit)) {
-    const batchSize = limit ? Math.min(250, limit - fetched) : 250;
+    const batchSize = limit ? Math.min(100, limit - fetched) : 100;
 
     const result = await fetchCitiesByCountry({
       countryCode,
@@ -356,7 +356,7 @@ export async function fetchCountriesByRegion(): Promise<
 export async function searchCities({
   name,
   countryCode,
-  limit = 100,
+  limit = 50,
 }: {
   name: string;
   countryCode?: string;

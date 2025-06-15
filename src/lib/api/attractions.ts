@@ -400,6 +400,98 @@ export async function fetchAttractionDetailsByCoords(
   return null;
 }
 
+// --- ACCOMMODATION FUNCTIONS ---
+
+// Fetch a list of accommodations (places to stay) using Geoapify Places API
+export async function fetchAccommodationList({
+  city = "Paris",
+  placeId = "514954cdaa718f024059852f0219f06d4840f00101f901141d000000000000c00205", // Default place_id for Paris
+  latitude,
+  longitude,
+  conditions,
+  limit = 60,
+  offset = 0,
+  lang,
+}: {
+  city?: string; // City name for geocoding
+  placeId?: string; // Direct Geoapify place_id for the area
+  latitude?: number; // For proximity bias
+  longitude?: number; // For proximity bias
+  conditions?: string; // e.g., "wheelchair" or "wheelchair.yes"
+  limit?: number;
+  offset?: number;
+  lang?: string;
+}): Promise<Attraction[]> {
+  if (!NEXT_PUBLIC_GEOAPIFY_API_KEY || !NEXT_PUBLIC_GEOAPIFY_API_BASE_URL) {
+    console.error("Geoapify API configuration missing");
+    return [];
+  }
+
+  let effectivePlaceId: string | undefined | null = placeId;
+  if (city && !effectivePlaceId) {
+    effectivePlaceId = await getCityPlaceId(city);
+    if (!effectivePlaceId) {
+      console.warn(`Could not get place_id for city "${city}"`);
+      return [];
+    }
+  }
+
+  const params = new URLSearchParams({
+    categories: "accommodation", // Specific category for places to stay
+    limit: limit.toString(),
+    offset: offset.toString(),
+    apiKey: NEXT_PUBLIC_GEOAPIFY_API_KEY,
+  });
+
+  let locationFilterApplied = false;
+  if (effectivePlaceId) {
+    params.append("filter", `place:${effectivePlaceId}`);
+    locationFilterApplied = true;
+  } else if (latitude !== undefined && longitude !== undefined) {
+    params.append("bias", `proximity:${longitude},${latitude}`);
+    locationFilterApplied = true;
+  }
+
+  // Geoapify Places API requires either 'filter' or 'bias'
+  if (!locationFilterApplied) {
+    console.warn("No location filter or bias applied for accommodation search");
+    return [];
+  }
+
+  if (conditions) params.append("conditions", conditions);
+  if (lang) params.append("lang", lang);
+
+  const url = `${NEXT_PUBLIC_GEOAPIFY_API_BASE_URL}${NEXT_PUBLIC_GEOAPIFY_PLACES_ENDPOINT}?${params.toString()}`;
+  console.log("Fetching accommodation list from Geoapify:", url);
+  const cacheKey = `geoapify_accommodation_list_${url}`; // Simple cache key based on full URL
+
+  const cachedData = apiCache.get(cacheKey) as Attraction[] | undefined;
+  if (cachedData) {
+    console.log("Returning cached accommodation data");
+    return cachedData;
+  }
+
+  try {
+    const response = await fetchAPI<{ features: GeoapifyFeature[] }>(url);
+
+    if (!response.features || response.features.length === 0) {
+      console.warn("No accommodation features returned from Geoapify");
+      return [];
+    }
+
+    const accommodations = response.features.map(transformGeoapifyToAttraction);
+
+    // Cache for 2 hours (accommodation data changes less frequently than attractions)
+    apiCache.set(cacheKey, accommodations, 7200);
+
+    console.log(`Successfully fetched ${accommodations.length} accommodations`);
+    return accommodations;
+  } catch (error) {
+    console.error("Error fetching accommodation list:", error);
+    return [];
+  }
+}
+
 // --- GEOGRAPHY INTEGRATION FUNCTIONS ---
 
 /**
