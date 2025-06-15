@@ -7,6 +7,11 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
 import { Separator } from "@/components/ui/separator";
+import {
+  HoverCard,
+  HoverCardContent,
+  HoverCardTrigger,
+} from "@/components/ui/hover-card";
 import { useCart } from "@/context/CartContext";
 import { useCurrency } from "@/context/CurrencyContext";
 import {
@@ -20,34 +25,121 @@ import {
   Shield,
   Star,
   Users,
+  Info,
+  Percent,
+  TestTube,
 } from "lucide-react";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 
 const travelDiscounts = [
-  // Hotels
-  { code: "htl_gen_4", discount: 0.04 },
-  { code: "htl_last_8", discount: 0.08 },
-  { code: "htl_summer_10", discount: 0.1 },
-  { code: "htl_early_30", discount: 0.3 },
-  { code: "htl_special_40", discount: 0.4 },
-  { code: "htl_vip_50", discount: 0.5 },
+  // Hotels - General
+  {
+    code: "htl_gen_4",
+    discount: 0.04,
+    description: "4% off all hotel bookings",
+    qualification: "any",
+  },
+  {
+    code: "htl_last_8",
+    discount: 0.08,
+    description: "8% off last-minute hotel deals",
+    qualification: "any",
+  },
+  {
+    code: "htl_summer_10",
+    discount: 0.1,
+    description: "10% off summer hotel stays",
+    qualification: "any",
+  },
+  {
+    code: "htl_early_30",
+    discount: 0.3,
+    description: "30% off early bird hotel bookings",
+    qualification: "any",
+  },
+  {
+    code: "htl_special_40",
+    discount: 0.4,
+    description: "40% off special hotel promotions",
+    qualification: "any",
+  },
+
+  // Hotels - VIP (requires executive/presidential rooms)
+  {
+    code: "htl_vip_50",
+    discount: 0.5,
+    description: "50% off VIP hotel suites",
+    qualification: "vip_hotel",
+  },
 
   // Car Rentals
-  { code: "car_budget_35", discount: 0.35 },
-  { code: "car_avis_15_175", discount: 0.056 },
+  {
+    code: "car_budget_35",
+    discount: 0.35,
+    description: "35% off budget car rentals",
+    qualification: "any",
+  },
+  {
+    code: "car_avis_15_175",
+    discount: 0.056,
+    description: "5.6% off Avis car rentals",
+    qualification: "any",
+  },
 
-  // Flights
-  { code: "flt_app_15", discount: 0.03 },
-  { code: "flt_fd_30", discount: 0.05 },
-  { code: "flt_last_10", discount: 0.1 },
-  { code: "flt_vip_50", discount: 0.5 },
-  { code: "flt_special_25", discount: 0.25 },
+  // Flights - General
+  {
+    code: "flt_app_15",
+    discount: 0.03,
+    description: "3% off app-exclusive flight deals",
+    qualification: "any",
+  },
+  {
+    code: "flt_fd_30",
+    discount: 0.05,
+    description: "5% off flexible date flights",
+    qualification: "any",
+  },
+  {
+    code: "flt_last_10",
+    discount: 0.1,
+    description: "10% off last-minute flights",
+    qualification: "any",
+  },
+  {
+    code: "flt_special_25",
+    discount: 0.25,
+    description: "25% off special flight offers",
+    qualification: "any",
+  },
+
+  // Flights - VIP (requires first class)
+  {
+    code: "flt_vip_50",
+    discount: 0.5,
+    description: "50% off VIP first-class flights",
+    qualification: "vip_flight",
+  },
 
   // Bundles / Tours
-  { code: "bndl_prc_15", discount: 0.15 },
-  { code: "bndl_pkg_50", discount: 0.1 },
-  { code: "bndl_bkg_20", discount: 0.2 },
+  {
+    code: "bndl_prc_15",
+    discount: 0.15,
+    description: "15% off tour packages",
+    qualification: "any",
+  },
+  {
+    code: "bndl_pkg_50",
+    discount: 0.1,
+    description: "10% off package deals",
+    qualification: "any",
+  },
+  {
+    code: "bndl_bkg_20",
+    discount: 0.2,
+    description: "20% off booking bundles",
+    qualification: "any",
+  },
 ];
 
 export default function CartSummaryPage() {
@@ -61,25 +153,113 @@ export default function CartSummaryPage() {
   const [confirmationNumber, setConfirmationNumber] = useState("");
   const [discountCode, setDiscountCode] = useState("");
   const [isApplyingDiscount, setIsApplyingDiscount] = useState(false);
+  const [discountError, setDiscountError] = useState("");
+
+  // Form fields state
+  const [formFields, setFormFields] = useState({
+    firstName: "",
+    lastName: "",
+    cardNumber: "",
+    expiry: "",
+    cvv: "",
+    address: "",
+    city: "",
+    zip: "",
+  });
+
+  // Fill dummy data function
+  const fillDummyData = () => {
+    setFormFields({
+      firstName: "John",
+      lastName: "Doe",
+      cardNumber: "4532 1234 5678 9012",
+      expiry: "12/26",
+      cvv: "123",
+      address: "123 Main Street",
+      city: "New York",
+      zip: "10001",
+    });
+  };
+
+  // Check if items qualify for VIP discounts
+  const checkVipQualification = (qualification: string) => {
+    if (qualification === "any") return true;
+
+    if (qualification === "vip_hotel") {
+      return state.items.some(
+        (item) =>
+          item.type === "hotel" &&
+          (item.name.toLowerCase().includes("executive") ||
+            item.name.toLowerCase().includes("presidential") ||
+            item.name.toLowerCase().includes("suite"))
+      );
+    }
+
+    if (qualification === "vip_flight") {
+      return state.items.some(
+        (item) =>
+          item.type === "flight" &&
+          (item.name.toLowerCase().includes("first class") ||
+            item.description.toLowerCase().includes("first class"))
+      );
+    }
+
+    return false;
+  };
+
+  const [formFields, setFormFields] = useState({
+    firstName: "",
+    lastName: "",
+    cardNumber: "",
+    expiry: "",
+    cvv: "",
+    address: "",
+    city: "",
+    zip: "",
+  });
 
   const handleApplyDiscount = async () => {
     if (!discountCode.trim()) return;
 
     setIsApplyingDiscount(true);
+    setDiscountError("");
+
     // Simulate API call
     await new Promise((resolve) => setTimeout(resolve, 1000));
 
-    // Mock discount logic
-    const discountAmount =
-      discountCode.toLowerCase() === "welcome10" ? state.subtotal * 0.1 : 0;
-    if (discountAmount > 0) {
-      dispatch({
-        type: "APPLY_DISCOUNT",
-        payload: { code: discountCode, amount: discountAmount },
-      });
-      setDiscountCode("");
+    // Find the discount in our array
+    const foundDiscount = travelDiscounts.find(
+      (discount) => discount.code.toLowerCase() === discountCode.toLowerCase()
+    );
+
+    if (!foundDiscount) {
+      setDiscountError(
+        "Invalid discount code. Please check the code and try again."
+      );
+      setIsApplyingDiscount(false);
+      return;
     }
 
+    // Check if items qualify for this discount
+    if (!checkVipQualification(foundDiscount.qualification)) {
+      setDiscountError(
+        foundDiscount.qualification === "vip_hotel"
+          ? "This VIP discount requires an Executive or Presidential hotel suite in your cart."
+          : foundDiscount.qualification === "vip_flight"
+            ? "This VIP discount requires a First Class flight ticket in your cart."
+            : "Your items don't qualify for this discount."
+      );
+      setIsApplyingDiscount(false);
+      return;
+    }
+
+    // Apply the discount
+    const discountAmount = state.subtotal * foundDiscount.discount;
+    dispatch({
+      type: "APPLY_DISCOUNT",
+      payload: { code: discountCode, amount: discountAmount },
+    });
+    setDiscountCode("");
     setIsApplyingDiscount(false);
   };
 
@@ -320,6 +500,31 @@ export default function CartSummaryPage() {
 
                 {paymentMethod === "card" && (
                   <div className="space-y-4 mt-4">
+                    {/* Dummy Data Button */}
+                    <div className="flex justify-between items-center bg-amber-50 dark:bg-amber-950/20 p-3 border border-amber-200 dark:border-amber-800 rounded-lg">
+                      <div className="flex items-center gap-2">
+                        <TestTube className="w-4 h-4 text-amber-600 dark:text-amber-400" />
+                        <div>
+                          <p className="font-medium text-amber-700 text-sm dark:text-amber-300">
+                            Demo Mode
+                          </p>
+                          <p className="text-amber-600 text-xs dark:text-amber-400">
+                            No real payment data is collected - for simulation
+                            only
+                          </p>
+                        </div>
+                      </div>
+                      <Button
+                        type="button"
+                        variant="outline"
+                        size="sm"
+                        onClick={fillDummyData}
+                        className="hover:bg-amber-100 dark:hover:bg-amber-900/20 border-amber-300 dark:border-amber-700 text-amber-700 dark:text-amber-300"
+                      >
+                        Fill Test Data
+                      </Button>
+                    </div>
+
                     <div className="gap-4 grid grid-cols-2">
                       <div>
                         <Label htmlFor="firstName">First Name</Label>
@@ -327,6 +532,13 @@ export default function CartSummaryPage() {
                           id="firstName"
                           placeholder="John"
                           className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                          value={formFields.firstName}
+                          onChange={(e) =>
+                            setFormFields({
+                              ...formFields,
+                              firstName: e.target.value,
+                            })
+                          }
                         />
                       </div>
                       <div>
@@ -335,6 +547,13 @@ export default function CartSummaryPage() {
                           id="lastName"
                           placeholder="Doe"
                           className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                          value={formFields.lastName}
+                          onChange={(e) =>
+                            setFormFields({
+                              ...formFields,
+                              lastName: e.target.value,
+                            })
+                          }
                         />
                       </div>
                     </div>
@@ -345,6 +564,13 @@ export default function CartSummaryPage() {
                         id="cardNumber"
                         placeholder="1234 5678 9012 3456"
                         className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                        value={formFields.cardNumber}
+                        onChange={(e) =>
+                          setFormFields({
+                            ...formFields,
+                            cardNumber: e.target.value,
+                          })
+                        }
                       />
                     </div>
 
@@ -355,6 +581,13 @@ export default function CartSummaryPage() {
                           id="expiry"
                           placeholder="MM/YY"
                           className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                          value={formFields.expiry}
+                          onChange={(e) =>
+                            setFormFields({
+                              ...formFields,
+                              expiry: e.target.value,
+                            })
+                          }
                         />
                       </div>
                       <div>
@@ -363,6 +596,13 @@ export default function CartSummaryPage() {
                           id="cvv"
                           placeholder="123"
                           className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                          value={formFields.cvv}
+                          onChange={(e) =>
+                            setFormFields({
+                              ...formFields,
+                              cvv: e.target.value,
+                            })
+                          }
                         />
                       </div>
                     </div>
@@ -373,6 +613,13 @@ export default function CartSummaryPage() {
                         id="address"
                         placeholder="123 Main Street"
                         className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                        value={formFields.address}
+                        onChange={(e) =>
+                          setFormFields({
+                            ...formFields,
+                            address: e.target.value,
+                          })
+                        }
                       />
                     </div>
 
@@ -383,6 +630,13 @@ export default function CartSummaryPage() {
                           id="city"
                           placeholder="New York"
                           className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                          value={formFields.city}
+                          onChange={(e) =>
+                            setFormFields({
+                              ...formFields,
+                              city: e.target.value,
+                            })
+                          }
                         />
                       </div>
                       <div>
@@ -391,6 +645,13 @@ export default function CartSummaryPage() {
                           id="zip"
                           placeholder="10001"
                           className="focus:border-muted border-border focus:ring-muted/20 h-8"
+                          value={formFields.zip}
+                          onChange={(e) =>
+                            setFormFields({
+                              ...formFields,
+                              zip: e.target.value,
+                            })
+                          }
                         />
                       </div>
                     </div>
@@ -473,6 +734,100 @@ export default function CartSummaryPage() {
                     <span>Total</span>
                     <span>{formatPrice(state.total)}</span>
                   </div>
+                </div>
+
+                {/* Discount Code Section */}
+                <div className="space-y-3">
+                  <div className="flex items-center gap-2">
+                    <Percent className="w-4 h-4" />
+                    <Label htmlFor="discountCode">Discount Code</Label>
+                    <HoverCard>
+                      <HoverCardTrigger asChild>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="p-1 h-auto"
+                        >
+                          <Info className="w-4 h-4 text-muted-foreground" />
+                        </Button>
+                      </HoverCardTrigger>
+                      <HoverCardContent className="w-80">
+                        <div className="space-y-3">
+                          <h4 className="font-semibold">
+                            Available Discount Codes
+                          </h4>
+                          <div className="space-y-2 max-h-64 overflow-y-auto">
+                            {travelDiscounts.map((discount) => (
+                              <div
+                                key={discount.code}
+                                className="bg-slate-50 hover:bg-slate-100 dark:bg-slate-800 dark:hover:bg-slate-700 p-2 rounded text-xs transition-colors cursor-pointer"
+                                onClick={() => {
+                                  setDiscountCode(discount.code);
+                                  setDiscountError("");
+                                }}
+                              >
+                                <div className="flex justify-between items-center mb-1">
+                                  <code className="font-mono text-primary">
+                                    {discount.code}
+                                  </code>
+                                  <span className="font-semibold text-green-600 dark:text-green-400">
+                                    {Math.round(discount.discount * 100)}% off
+                                  </span>
+                                </div>
+                                <p className="text-slate-600 dark:text-slate-400">
+                                  {discount.description}
+                                </p>
+                                {discount.qualification !== "any" && (
+                                  <p className="mt-1 text-amber-600 dark:text-amber-400">
+                                    *{" "}
+                                    {discount.qualification === "vip_hotel"
+                                      ? "Requires Executive/Presidential suite"
+                                      : discount.qualification === "vip_flight"
+                                        ? "Requires First Class ticket"
+                                        : "Special requirements"}
+                                  </p>
+                                )}
+                              </div>
+                            ))}
+                          </div>
+                          <div className="pt-2 border-t text-muted-foreground text-xs">
+                            Click on a code to apply it automatically
+                          </div>
+                        </div>
+                      </HoverCardContent>
+                    </HoverCard>
+                  </div>
+
+                  <div className="flex gap-2">
+                    <Input
+                      id="discountCode"
+                      value={discountCode}
+                      onChange={(e) => {
+                        setDiscountCode(e.target.value);
+                        setDiscountError("");
+                      }}
+                      placeholder="Enter discount code"
+                      className="flex-1"
+                    />
+                    <Button
+                      onClick={handleApplyDiscount}
+                      disabled={!discountCode.trim() || isApplyingDiscount}
+                      variant="outline"
+                    >
+                      {isApplyingDiscount ? (
+                        <div className="mr-2 border-2 border-current border-t-transparent rounded-full w-4 h-4 animate-spin" />
+                      ) : (
+                        "Apply"
+                      )}
+                    </Button>
+                  </div>
+
+                  {discountError && (
+                    <div className="flex items-center gap-2 bg-red-50 dark:bg-red-950/20 p-2 border border-red-200 dark:border-red-800 rounded text-red-600 text-sm dark:text-red-400">
+                      <AlertCircle className="w-4 h-4" />
+                      {discountError}
+                    </div>
+                  )}
                 </div>
 
                 {/* Security Notice */}
