@@ -6,6 +6,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { MdFlightTakeoff } from "react-icons/md";
 
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import {
   CalendarDays,
   MapPin,
@@ -49,11 +50,21 @@ export default function DashboardPage() {
               <UserCircle className="w-4 h-4 text-muted-foreground" />
               <CardTitle className="font-medium text-sm">Profile</CardTitle>
             </CardHeader>
-            <CardContent>
-              <div className="font-bold text-2xl">
-                {user.firstName} {user.lastName}
+            <CardContent className="flex items-center gap-4">
+              <Avatar className="mb-4 w-20 h-20">
+                <AvatarImage
+                  className="object-cover object-center"
+                  src={user.avatar || "https://via.placeholder.com/150"}
+                  alt={`${user.firstName} ${user.lastName}`}
+                />
+                <AvatarFallback>CN</AvatarFallback>
+              </Avatar>
+              <div className="mb-4">
+                <div className="font-bold text-2xl">
+                  {user.firstName} {user.lastName}
+                </div>
+                <p className="text-muted-foreground text-xs">{user.email}</p>
               </div>
-              <p className="text-muted-foreground text-xs">{user.email}</p>
               <Badge variant="secondary" className="top-3 right-3 absolute">
                 Verified Member
               </Badge>
@@ -68,11 +79,17 @@ export default function DashboardPage() {
                 Total Bookings
               </CardTitle>
             </CardHeader>
-            <CardContent>
-              <div className="font-bold text-2xl">12</div>
-              <p className="text-muted-foreground text-xs">
-                +2 from last month
-              </p>
+            <CardContent className="gap-4 grid grid-cols-1 sm:grid-cols-2">
+              <div>
+                <div className="font-bold text-2xl">1</div>
+                <p className="text-muted-foreground text-xs">this month</p>
+                <p className="text-green-400 text-xs">+1 from last month</p>
+              </div>
+              <div>
+                <div className="font-bold text-2xl">5</div>
+                <p className="text-muted-foreground text-xs">this year</p>
+                <p className="text-green-400 text-xs">+2 from last year</p>
+              </div>
             </CardContent>
           </Card>
 
