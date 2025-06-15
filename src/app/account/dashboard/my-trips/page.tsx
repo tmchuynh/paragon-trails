@@ -3,10 +3,94 @@
 import { Badge } from "@/components/ui/badge";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
+import { getBudgetsByUser, getTripsByUser } from "@/data/users";
 import { Calendar, DollarSign, MapPin, Plane, Target } from "lucide-react";
+import { useEffect, useState } from "react";
 
 export default function MyTripsPage() {
   const { user } = useAuth();
+  const [tripStats, setTripStats] = useState({
+    total: 0,
+    upcoming: 0,
+    completed: 0,
+    totalSpent: 0,
+  });
+  const [budgetStats, setBudgetStats] = useState({
+    total: 0,
+    active: 0,
+    achieved: 0,
+    totalBudget: 0,
+  });
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchStats = async () => {
+      if (!user) {
+        setLoading(false);
+        return;
+      }
+
+      try {
+        const [trips, budgets] = await Promise.all([
+          getTripsByUser(user.id),
+          getBudgetsByUser(user.id),
+        ]);
+
+        // Calculate trip stats
+        const completedTrips = trips.filter(
+          (trip: any) => trip.status === "completed"
+        );
+        const upcomingTrips = trips.filter(
+          (trip: any) => trip.status === "upcoming"
+        );
+        const totalSpent = completedTrips.reduce(
+          (sum: number, trip: any) => sum + (trip.totalCost || 0),
+          0
+        );
+
+        setTripStats({
+          total: trips.length,
+          upcoming: upcomingTrips.length,
+          completed: completedTrips.length,
+          totalSpent,
+        });
+
+        // Calculate budget stats
+        const activeBudgets = budgets.filter((budget: any) => budget.isActive);
+        const achievedBudgets = budgets.filter(
+          (budget: any) => budget.currentAmount / budget.targetAmount >= 1
+        );
+        const totalBudget = budgets.reduce(
+          (sum: number, budget: any) => sum + (budget.targetAmount || 0),
+          0
+        );
+
+        setBudgetStats({
+          total: budgets.length,
+          active: activeBudgets.length,
+          achieved: achievedBudgets.length,
+          totalBudget,
+        });
+      } catch (error) {
+        console.error("Error fetching stats:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchStats();
+  }, [user]);
+
+  if (loading) {
+    return (
+      <div className="flex justify-center items-center h-64">
+        <div className="text-center">
+          <div className="mx-auto border-gray-900 border-b-2 rounded-full w-12 h-12 animate-spin"></div>
+          <p className="mt-4 text-muted-foreground">Loading your trips...</p>
+        </div>
+      </div>
+    );
+  }
 
   if (!user) {
     return (
@@ -15,9 +99,6 @@ export default function MyTripsPage() {
       </div>
     );
   }
-
-  const tripStats = getTripStats(user.id);
-  const budgetStats = getBudgetStats(user.id);
 
   return (
     <div className="space-y-6">
@@ -43,7 +124,7 @@ export default function MyTripsPage() {
           <CardContent>
             <div className="font-bold text-2xl">{tripStats.total}</div>
             <p className="text-muted-foreground text-xs">
-              {tripStats.destinations} destinations visited
+              {tripStats.completed} completed trips
             </p>
           </CardContent>
         </Card>
@@ -57,11 +138,7 @@ export default function MyTripsPage() {
           </CardHeader>
           <CardContent>
             <div className="font-bold text-2xl">{tripStats.upcoming}</div>
-            <p className="text-muted-foreground text-xs">
-              {tripStats.ongoing > 0
-                ? `${tripStats.ongoing} ongoing`
-                : "Ready to travel"}
-            </p>
+            <p className="text-muted-foreground text-xs">Ready to travel</p>
           </CardContent>
         </Card>
 
@@ -75,7 +152,13 @@ export default function MyTripsPage() {
               ${tripStats.totalSpent.toLocaleString()}
             </div>
             <p className="text-muted-foreground text-xs">
-              ${Math.round(tripStats.avgTripCost).toLocaleString()} avg per trip
+              $
+              {tripStats.completed > 0
+                ? Math.round(
+                    tripStats.totalSpent / tripStats.completed
+                  ).toLocaleString()
+                : 0}{" "}
+              avg per trip
             </p>
           </CardContent>
         </Card>
@@ -88,12 +171,9 @@ export default function MyTripsPage() {
             <Target className="w-4 h-4 text-muted-foreground" />
           </CardHeader>
           <CardContent>
-            <div className="font-bold text-2xl">
-              {Math.round(budgetStats.progress)}%
-            </div>
+            <div className="font-bold text-2xl">{budgetStats.achieved}</div>
             <p className="text-muted-foreground text-xs">
-              ${budgetStats.totalSaved.toLocaleString()} of $
-              {budgetStats.totalTarget.toLocaleString()}
+              {budgetStats.achieved} of {budgetStats.total} budgets achieved
             </p>
           </CardContent>
         </Card>
