@@ -33,7 +33,7 @@ import { RiHotelFill } from "react-icons/ri";
 import { Activity, mockActivities } from "@/data/activities";
 import { Attraction, mockAttractions } from "@/data/attractions";
 import { Destination, mockDestinations } from "@/data/destinations";
-import { Flight, mockFlights } from "@/data/flights";
+import { Flight } from "@/data/flights";
 import { Hotel, mockHotels } from "@/data/hotels";
 import { mockTours, Tour } from "@/data/tours";
 import { displayRatingStars } from "@/lib/utils/displayRatingStars";
@@ -41,7 +41,7 @@ import { displayRatingStars } from "@/lib/utils/displayRatingStars";
 // Ensure mock data is always an array - handle both sync arrays and async functions
 const safeActivities: Activity[] = Array.isArray(mockActivities) ? mockActivities : [];
 const safeAttractions: Attraction[] = Array.isArray(mockAttractions) ? mockAttractions : [];
-const safeFlights: Flight[] = Array.isArray(mockFlights) ? mockFlights : [];
+const safeFlights: Flight[] = Array.isArray([mockFlights]) ? mockFlights : [];
 const safeHotels: Hotel[] = Array.isArray(mockHotels) ? mockHotels : [];
 const safeTours: Tour[] = Array.isArray(mockTours) ? mockTours : [];
 const safeDestinations: Destination[] = Array.isArray(mockDestinations)
