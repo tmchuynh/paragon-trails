@@ -1,5 +1,6 @@
 "use client";
 
+import { DateTimePicker } from "@/components/calendar/date-time-picker";
 import TourCard from "@/components/cards/TourCard";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -40,6 +41,7 @@ export default function FindToursPage() {
   const [selectedType, setSelectedType] = useState<string>("all");
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [selectedDuration, setSelectedDuration] = useState<string>("all");
+  const [tourDate, setTourDate] = useState<Date | undefined>(undefined);
 
   // Calculate min and max prices from tours data
   const minPrice = Math.min(...mockTours.map((tour) => tour.pricing.adult));
@@ -169,6 +171,7 @@ export default function FindToursPage() {
     setSelectedType("all");
     setSelectedCategory("all");
     setSelectedDuration("all");
+    setTourDate(undefined);
     setPriceRange([minPrice, maxPrice]);
   };
 
@@ -184,6 +187,7 @@ export default function FindToursPage() {
     selectedType,
     selectedCategory,
     selectedDuration,
+    tourDate,
     priceRange,
     sortBy,
   ]);
@@ -244,7 +248,7 @@ export default function FindToursPage() {
         {/* Top Filters */}
         <Card className="mb-8">
           <div className="p-6">
-            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
+            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5">
               {/* City */}
               <div className="space-y-2">
                 <Label htmlFor="city">City</Label>
@@ -324,6 +328,18 @@ export default function FindToursPage() {
                     ))}
                   </SelectContent>
                 </Select>
+              </div>
+
+              {/* Tour Date */}
+              <div className="space-y-2">
+                <Label htmlFor="tour-date">Tour Date</Label>
+                <DateTimePicker
+                  value={tourDate}
+                  onChange={setTourDate}
+                  placeholder="Select tour date"
+                  minDate={new Date()}
+                  className="w-full"
+                />
               </div>
 
               {/* Reset Filters Button */}

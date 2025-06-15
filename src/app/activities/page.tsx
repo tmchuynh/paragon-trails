@@ -1,7 +1,6 @@
 "use client";
 
-"use client";
-
+import { DateTimePicker } from "@/components/calendar/date-time-picker";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
@@ -54,6 +53,7 @@ export default function ActivitiesPage() {
   const [selectedCategory, setSelectedCategory] = useState<string>("all");
   const [selectedDifficulty, setSelectedDifficulty] = useState<string>("all");
   const [selectedDuration, setSelectedDuration] = useState<string>("all");
+  const [activityDate, setActivityDate] = useState<Date | undefined>(undefined);
 
   // Calculate min and max prices from activities data
   const minPrice = Math.min(
@@ -212,6 +212,7 @@ export default function ActivitiesPage() {
     setSelectedCategory("all");
     setSelectedDifficulty("all");
     setSelectedDuration("all");
+    setActivityDate(undefined);
     setPriceRange([minPrice, maxPrice]);
   };
 
@@ -227,6 +228,7 @@ export default function ActivitiesPage() {
     selectedCategory,
     selectedDifficulty,
     selectedDuration,
+    activityDate,
     priceRange,
     sortBy,
   ]);
@@ -301,7 +303,7 @@ export default function ActivitiesPage() {
         {/* Top Filters */}
         <Card className="mb-8">
           <div className="p-6">
-            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
+            <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-5">
               {/* City */}
               <div className="space-y-2">
                 <Label htmlFor="city">City</Label>
@@ -384,6 +386,18 @@ export default function ActivitiesPage() {
                     ))}
                   </SelectContent>
                 </Select>
+              </div>
+
+              {/* Activity Date */}
+              <div className="space-y-2">
+                <Label htmlFor="activity-date">Activity Date</Label>
+                <DateTimePicker
+                  value={activityDate}
+                  onChange={setActivityDate}
+                  placeholder="Select activity date"
+                  minDate={new Date()}
+                  className="w-full"
+                />
               </div>
 
               {/* Reset Filters Button */}

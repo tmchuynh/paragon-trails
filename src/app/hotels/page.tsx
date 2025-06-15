@@ -1,5 +1,6 @@
 "use client";
 
+import { DateTimePicker } from "@/components/calendar/date-time-picker";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -53,8 +54,8 @@ export default function HotelsPage() {
   const [filteredHotels, setFilteredHotels] = useState<Hotel[]>(mockHotels);
   const [searchQuery, setSearchQuery] = useState("");
   const [destination, setDestination] = useState("all");
-  const [checkInDate, setCheckInDate] = useState("");
-  const [checkOutDate, setCheckOutDate] = useState("");
+  const [checkInDate, setCheckInDate] = useState<Date | undefined>(undefined);
+  const [checkOutDate, setCheckOutDate] = useState<Date | undefined>(undefined);
   const [guests, setGuests] = useState({ adults: 2, children: 1 });
   const [starRating, setStarRating] = useState("4");
   const [hotelType, setHotelType] = useState("all");
@@ -210,8 +211,8 @@ export default function HotelsPage() {
   const resetFilters = () => {
     setSearchQuery("");
     setDestination("all");
-    setCheckInDate("");
-    setCheckOutDate("");
+    setCheckInDate(undefined);
+    setCheckOutDate(undefined);
     setGuests({ adults: 2, children: 0 });
     setStarRating("1");
     setHotelType("all");
@@ -221,9 +222,7 @@ export default function HotelsPage() {
 
   const calculateNights = () => {
     if (!checkInDate || !checkOutDate) return 1;
-    const checkIn = new Date(checkInDate);
-    const checkOut = new Date(checkOutDate);
-    const diffTime = Math.abs(checkOut.getTime() - checkIn.getTime());
+    const diffTime = Math.abs(checkOutDate.getTime() - checkInDate.getTime());
     const diffDays = Math.ceil(diffTime / (1000 * 60 * 60 * 24));
     return Math.max(1, diffDays);
   };
@@ -305,26 +304,24 @@ export default function HotelsPage() {
               {/* Check-in Date */}
               <div className="space-y-2">
                 <Label htmlFor="checkin">Check-in Date</Label>
-                <Input
-                  className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
-                  id="checkin"
-                  type="date"
+                <DateTimePicker
                   value={checkInDate}
-                  onChange={(e) => setCheckInDate(e.target.value)}
-                  min={new Date().toISOString().split("T")[0]}
+                  onChange={setCheckInDate}
+                  placeholder="Check-in date"
+                  minDate={new Date()}
+                  className="w-full"
                 />
               </div>
 
               {/* Check-out Date */}
               <div className="space-y-2">
                 <Label htmlFor="checkout">Check-out Date</Label>
-                <Input
-                  className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
-                  id="checkout"
-                  type="date"
+                <DateTimePicker
                   value={checkOutDate}
-                  onChange={(e) => setCheckOutDate(e.target.value)}
-                  min={checkInDate || new Date().toISOString().split("T")[0]}
+                  onChange={setCheckOutDate}
+                  placeholder="Check-out date"
+                  minDate={checkInDate || new Date()}
+                  className="w-full"
                 />
               </div>
 

@@ -1,5 +1,6 @@
 "use client";
 
+import { DateTimePicker } from "@/components/calendar/date-time-picker";
 import VehicleCard from "@/components/cards/VehicleCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
@@ -51,8 +52,8 @@ export default function VehiclesPage() {
 
   const [priceRange, setPriceRange] = useState([minPrice, maxPrice]);
   const [selectedLocation, setSelectedLocation] = useState<string>("all");
-  const [pickupDate, setPickupDate] = useState("");
-  const [returnDate, setReturnDate] = useState("");
+  const [pickupDate, setPickupDate] = useState<Date | undefined>(undefined);
+  const [returnDate, setReturnDate] = useState<Date | undefined>(undefined);
   const [sortBy, setSortBy] = useState<string>("price-low");
   const [showFilters, setShowFilters] = useState(false);
 
@@ -266,8 +267,8 @@ export default function VehiclesPage() {
     setSelectedSeatingCapacity("all");
     setPriceRange([minPrice, maxPrice]);
     setSelectedLocation("all");
-    setPickupDate("");
-    setReturnDate("");
+    setPickupDate(undefined);
+    setReturnDate(undefined);
   };
 
   // Handle cascading filter resets
@@ -402,29 +403,25 @@ export default function VehiclesPage() {
               {/* Pickup Date */}
               <div className="space-y-2">
                 <Label htmlFor="pickup-date">Pickup Date</Label>
-                <div className="relative">
-                  <Input
-                    id="pickup-date"
-                    type="date"
-                    value={pickupDate}
-                    onChange={(e) => setPickupDate(e.target.value)}
-                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
-                  />
-                </div>
+                <DateTimePicker
+                  value={pickupDate}
+                  onChange={setPickupDate}
+                  placeholder="Pickup date"
+                  minDate={new Date()}
+                  className="w-full"
+                />
               </div>
 
               {/* Return Date */}
               <div className="space-y-2">
                 <Label htmlFor="return-date">Return Date</Label>
-                <div className="relative">
-                  <Input
-                    id="return-date"
-                    type="date"
-                    value={returnDate}
-                    onChange={(e) => setReturnDate(e.target.value)}
-                    className="flex flex-col justify-center mt-0.25 border focus:border-muted border-border focus:ring-muted/20"
-                  />
-                </div>
+                <DateTimePicker
+                  value={returnDate}
+                  onChange={setReturnDate}
+                  placeholder="Return date"
+                  minDate={pickupDate || new Date()}
+                  className="w-full"
+                />
               </div>
 
               {/* Reset Filters Button */}
@@ -770,8 +767,8 @@ export default function VehiclesPage() {
                     <VehicleCard
                       key={vehicle.id}
                       vehicle={vehicle}
-                      pickupDate={pickupDate}
-                      returnDate={returnDate}
+                      pickupDate={pickupDate?.toISOString().split("T")[0]}
+                      returnDate={returnDate?.toISOString().split("T")[0]}
                       location={selectedLocation}
                     />
                   ))}
