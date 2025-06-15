@@ -3,22 +3,60 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { useAuth } from "@/context/AuthContext";
 import { useCurrency } from "@/context/CurrencyContext";
-import { mockActivities } from "@/data/activities";
-import { mockUserData } from "@/data/users";
+import { getMockActivities } from "@/data/activities";
+import { getMockUserData } from "@/data/users";
 import { Clock, MapPin, Star } from "lucide-react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
+import { useEffect, useState } from "react";
 
 export default function MySavedActivitiesPage() {
   const { user } = useAuth();
   const { formatPrice } = useCurrency();
   const router = useRouter();
+  
+  const [activities, setActivities] = useState<any[]>([]);
+  const [users, setUsers] = useState<any[]>([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const [activitiesData, usersData] = await Promise.all([
+          getMockActivities(),
+          getMockUserData()
+        ]);
+        setActivities(activitiesData);
+        setUsers(usersData);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    fetchData();
+  }, []);
+
+  if (loading) {
+    return (
+      <Card>
+        <CardHeader>
+          <CardTitle>Saved Activities</CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p className="py-8 text-center text-muted-foreground">
+            Loading saved activities...
+          </p>
+        </CardContent>
+      </Card>
+    );
+  }
 
   // Get current user data
-  const currentUser =
-    mockUserData.find((u) => u.email === user?.email) || mockUserData[0];
-  const favoriteActivities = currentUser.favorites?.activities
-    ? mockActivities.filter((activity) =>
+  const currentUser = users.find((u) => u.email === user?.email) || users[0];
+  const favoriteActivities = currentUser?.favorites?.activities
+    ? activities.filter((activity) =>
         currentUser.favorites?.activities?.includes(activity.id)
       )
     : [];
