@@ -365,7 +365,7 @@ export default function VehiclesPage() {
 
         {/* Search and Filters */}
         <Card className="mb-8">
-          <CardContent className="p-6">
+          <CardContent className="-mt-5 p-6">
             <div className="gap-6 grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-4">
               {/* Pickup Location */}
               <div className="space-y-2">
@@ -446,7 +446,7 @@ export default function VehiclesPage() {
           {showFilters && (
             <div className="space-y-6 lg:col-span-1">
               <Card className="p-0">
-                <CardContent className="p-6">
+                <CardContent className="-mt-5 p-6">
                   <div className="flex items-center gap-2 mb-4">
                     <Filter className="w-5 h-5" />
                     <h3 className="font-semibold text-lg">Filters</h3>
